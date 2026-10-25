@@ -566,8 +566,24 @@ content:
     - name: fa
       label: فارسی
       type: string
+  - name: photo
+    label: عکس من (عمودی)
+    type: image
+  - name: avatar
+    label: عکس کوچک دایره‌ای (صورت)
+    type: image
   - name: intro
     label: معرفی
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: rich-text
+    - name: fa
+      label: فارسی
+      type: rich-text
+  - name: outside
+    label: بیرون از کار (علاقه‌ها)
     type: object
     fields:
     - name: en

@@ -392,6 +392,14 @@ main{min-height:60vh}
 footer.site a{min-width:var(--tap);justify-content:center}
 .mark{min-height:var(--tap)}
 .about-strip h2{font-size:var(--t-md);line-height:1.2;color:var(--muted)}
+
+.about-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,320px);gap:clamp(24px,5vw,72px);align-items:end}
+.portrait{margin:0;border-radius:var(--r);overflow:hidden;aspect-ratio:4/5;max-width:100%;background:var(--panel);box-shadow:0 30px 80px -30px var(--shadow),0 0 0 1px color-mix(in srgb,var(--ink) 7%,transparent)}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(var(--img-dim))}
+@media (max-width:760px){.about-head{grid-template-columns:1fr}.portrait{max-width:240px;order:-1}}
+.about-id{display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.avatar{width:72px;height:72px;border-radius:50%;overflow:hidden;display:block;box-shadow:0 0 0 1px var(--line)}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
 </style>
 </head>
 <body>
@@ -483,8 +491,8 @@ const img = (k,alt) => `<img src="/${String(k||"").replace(/^\//,"")}" alt="${al
 const shot = (c,alt) => `<div class="shot-wrap"><div class="shot" data-tilt>${img(c.cover,alt)}<span class="glare" aria-hidden="true"></span></div></div>`;
 
 /* =============================== VIEWS (content comes from /content/*.json) =============================== */
-const COPY = { en:{copy:"Copy email", copied:"Copied.", resumeBtn:"See my résumé", why:"Why: ", decision:"Decision ", breadcrumb:"Breadcrumb", toc:"On this page", more:"More case studies", screens:" — product screens", overview:" — overview of the main screens", experience:"Experience", education:"Education", skills:"Skills", howIWork:"How I work", habit:"A habit, not a rule", inShort:"In short", leadership:"Leadership", leadLabel:"Lead, owner, contributor", tools:"Tools and languages", fromResume:"From my résumé", caseStudies:"Case studies", projects:n=>`${n} projects`, alsoAt:"More work", alsoSub:"Other projects, without a full write-up yet", email:"Email", openMail:"Open mail app", viewProfile:"View profile", location:"Location", pdf:"Résumé PDF", pdfNote:"Add the PDF in the editor (Settings → Résumé PDF). Everything in it is also on this page.", linkedinMissing:"LinkedIn URL" },
-               fa:{copy:"کپی ایمیل", copied:"کپی شد.", resumeBtn:"دیدن رزومه", why:"چرا: ", decision:"تصمیم ", breadcrumb:"مسیر", toc:"در این صفحه", more:"کیس‌استادی‌های دیگر", screens:" — صفحه‌های محصول", overview:" — نمای کلی صفحه‌های اصلی", experience:"سوابق کاری", education:"تحصیلات", skills:"مهارت‌ها", howIWork:"چطور کار می‌کنم", habit:"یک عادت، نه قانون", inShort:"به‌طور خلاصه", leadership:"رهبری", leadLabel:"لید، مالک، مشارکت‌کننده", tools:"ابزارها و زبان‌ها", fromResume:"مطابق رزومه", caseStudies:"کیس‌استادی‌ها", projects:n=>`${nn(n)} پروژه`, alsoAt:"کارهای دیگر", alsoSub:"پروژه‌های دیگر، بدون شرح کامل", email:"ایمیل", openMail:"باز کردن ایمیل", viewProfile:"دیدن پروفایل", location:"موقعیت", pdf:"فایل PDF رزومه", pdfNote:"فایل PDF را در پنل (تنظیمات ← فایل رزومه) اضافه کنید. همه محتوای آن در همین صفحه هم هست.", linkedinMissing:"آدرس لینکدین" } };
+const COPY = { en:{copy:"Copy email", copied:"Copied.", resumeBtn:"See my résumé", why:"Why: ", decision:"Decision ", breadcrumb:"Breadcrumb", toc:"On this page", more:"More case studies", screens:" — product screens", overview:" — overview of the main screens", experience:"Experience", education:"Education", skills:"Skills", howIWork:"How I work", habit:"A habit, not a rule", inShort:"In short", outside:"Beyond work", leadership:"Leadership", leadLabel:"Lead, owner, contributor", tools:"Tools and languages", fromResume:"From my résumé", caseStudies:"Case studies", projects:n=>`${n} projects`, alsoAt:"More work", alsoSub:"Other projects, without a full write-up yet", email:"Email", openMail:"Open mail app", viewProfile:"View profile", location:"Location", pdf:"Résumé PDF", pdfNote:"Add the PDF in the editor (Settings → Résumé PDF). Everything in it is also on this page.", linkedinMissing:"LinkedIn URL" },
+               fa:{copy:"کپی ایمیل", copied:"کپی شد.", resumeBtn:"دیدن رزومه", why:"چرا: ", decision:"تصمیم ", breadcrumb:"مسیر", toc:"در این صفحه", more:"کیس‌استادی‌های دیگر", screens:" — صفحه‌های محصول", overview:" — نمای کلی صفحه‌های اصلی", experience:"سوابق کاری", education:"تحصیلات", skills:"مهارت‌ها", howIWork:"چطور کار می‌کنم", habit:"یک عادت، نه قانون", inShort:"به‌طور خلاصه", outside:"بیرون از کار", leadership:"رهبری", leadLabel:"لید، مالک، مشارکت‌کننده", tools:"ابزارها و زبان‌ها", fromResume:"مطابق رزومه", caseStudies:"کیس‌استادی‌ها", projects:n=>`${nn(n)} پروژه`, alsoAt:"کارهای دیگر", alsoSub:"پروژه‌های دیگر، بدون شرح کامل", email:"ایمیل", openMail:"باز کردن ایمیل", viewProfile:"دیدن پروفایل", location:"موقعیت", pdf:"فایل PDF رزومه", pdfNote:"فایل PDF را در پنل (تنظیمات ← فایل رزومه) اضافه کنید. همه محتوای آن در همین صفحه هم هست.", linkedinMissing:"آدرس لینکدین" } };
 const K = () => COPY[lang];
 const has = o => !!(o && L(o) && String(L(o)).trim());
 const findCh = (c,id) => (c.chapters||[]).find(x=>x.id===id);
@@ -543,7 +551,7 @@ function pageHome(){
     ${timeline()}
   </section></div>
   <div class="wrap"><section class="about-strip">
-    <h2>${L(h.about_title)}</h2>
+    <div class="about-id">${(ABOUT.avatar||ABOUT.photo)?`<span class="avatar">${img(ABOUT.avatar||ABOUT.photo,"")}</span>`:""}<h2>${L(h.about_title)}</h2></div>
     <div><p>${L(h.about_text)}</p><div class="btns"><a class="textlink" href="#about">${L(h.about_link)} ${arrow}</a></div></div>
   </section></div>
   <div class="wrap"><section>
@@ -602,8 +610,9 @@ function pageCase(c){
 function pageAbout(){
   const A=ABOUT;
   return `<div class="wrap">
-   <div class="phead"><span class="label">${u().nav.about}</span><h1 id="pageTitle" tabindex="-1">${L(A.title)}</h1></div>
-   <section style="padding-top:0"><div class="two"><span class="label">${K().inShort}</span><div class="prose">${L(A.intro)}</div></div></section>
+   <div class="phead about-head"><div><span class="label">${u().nav.about}</span><h1 id="pageTitle" tabindex="-1">${L(A.title)}</h1></div>${A.photo?`<figure class="portrait">${img(A.photo,en()?"Mohadese Danaie":"محدثه دانائی")}</figure>`:""}</div>
+   <section style="padding-top:0"><div class="two"><span class="label">${K().inShort}</span><div class="prose">${L(A.intro)}</div></div>
+   ${has(A.outside)?`<div class="two" style="margin-top:56px"><span class="label">${K().outside}</span><div class="prose">${L(A.outside)}</div></div>`:""}</section>
    <section><div class="sec-head"><h2>${K().howIWork}</h2><span class="label">${K().habit}</span></div>
     <div class="process">${(A.process||[]).map((p,i)=>`<div><span class="tag">${nn(i+1)}</span><b>${L(p.title)}</b><span>${L(p.text)}</span></div>`).join("")}</div>
     <div class="prose" style="margin-top:48px">${L(A.principles)}</div></section>

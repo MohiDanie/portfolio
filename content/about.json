@@ -3,9 +3,15 @@
     "en": "From engineering to design, and from design to product.",
     "fa": "از مهندسی به طراحی، و از طراحی به محصول."
   },
+  "photo": "/images/me.webp",
+  "avatar": "/images/me-face.webp",
   "intro": {
     "en": "<p>I studied computer engineering with a focus on AI and started designing interfaces in 2019. Since then I’ve worked on education, recruiting, data, logistics and publishing products, including six months with a Berlin software company.</p><p>At Duniar I moved from Senior UI/UX Designer to Product Manager. Owning priorities changed how I design: I start from what a release needs to prove, and I involve engineers early.</p>",
     "fa": "<p>مهندسی کامپیوتر با گرایش هوش مصنوعی خواندم و از ۱۳۹۷ طراحی رابط کاربری را شروع کردم. از آن زمان روی محصولات آموزش، استخدام، داده، لجستیک و نشر کار کرده‌ام؛ از جمله شش ماه با یک شرکت نرم‌افزاری در برلین.</p><p>در دونیار از طراح ارشد UI/UX به مدیر محصول رسیدم. مسئولیت اولویت‌ها نوع طراحی‌ام را تغییر داد: از این شروع می‌کنم که هر نسخه باید چه چیزی را ثابت کند و مهندس‌ها را از ابتدا درگیر می‌کنم.</p>"
+  },
+  "outside": {
+    "en": "<p>I enjoy learning, and my path shows it: from metallurgical engineering to computer engineering, and from design to product management. That habit helps on products in fields I don’t know yet: I learn the domain before I design for it.</p><p>Outside work I compete in show jumping, ski in winter and play tennis.</p>",
+    "fa": "<p>یادگیری را دوست دارم و مسیرم هم همین را نشان می‌دهد: از مهندسی متالورژی به مهندسی کامپیوتر، و از طراحی به مدیریت محصول. این عادت در محصولاتی که حوزه‌شان برایم تازه است کمک می‌کند: اول حوزه را یاد می‌گیرم، بعد برایش طراحی می‌کنم.</p><p>بیرون از کار، پرش با اسب را به‌صورت حرفه‌ای دنبال می‌کنم، زمستان‌ها اسکی می‌کنم و تنیس بازی می‌کنم.</p>"
   },
   "process": [
     {
