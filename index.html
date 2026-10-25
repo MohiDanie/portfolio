@@ -498,7 +498,7 @@ const selected = () => CASES.filter(c=>!c.secondary);
 const archiveItem = a => `<div class="item">${img(a.image,L(a.title))}<b>${L(a.title)}</b><span>${L(a.text)}</span></div>`;
 const archiveItems = () => CASES.filter(c=>c.secondary).map(c=>`<a class="item" href="#${c.slug}">${img(c.cover,L(c.title))}<b>${L(c.title)} ${arrow}</b><span>${L(c.teaser)}</span></a>`).join("") + (ARCH.items||[]).map(archiveItem).join("");
 const timeline = () => `<ol class="tl">${(EXP.jobs||[]).map(j=>`<li ${j.hide_when_published?"data-draft":""}><span class="when">${L(j.when)}</span><span class="what"><b>${L(j.title)}</b><span>${L(j.org)}</span></span><span class="sum">${L(j.summary)}</span></li>`).join("")}</ol>`;
-const headline = s => String(s||"").split(/\s+/).filter(Boolean).map((w,i)=>{ const em=/^\*.*\*$/.test(w)||/^\*/.test(w)||/\*$/.test(w); return `<span class="w" style="--d:${i}">${em?`<em>${w.replace(/\*/g,"")}</em>`:w}</span>`; }).join(" ");
+const headline = s => { let on=false; return String(s||"").split(/\s+/).filter(Boolean).map((w,i)=>{ const st=w.startsWith("*"), en2=w.endsWith("*")&&(w.length>1||on); const em=on||st; if(st&&!(w.length>1&&w.endsWith("*"))) on=true; if(en2) on=false; return `<span class="w" style="--d:${i}">${em?`<em>${w.replace(/\*/g,"")}</em>`:w}</span>`; }).join(" "); };
 
 function pageHome(){
   const h=HOMEd, sel=selected();

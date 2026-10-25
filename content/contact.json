@@ -1,11 +1,11 @@
 {
   "title": {
-    "en": "Let’s talk about your product.",
-    "fa": "بیایید درباره محصولتان صحبت کنیم."
+    "en": "Let’s talk.",
+    "fa": "در تماس باشیم."
   },
   "intro": {
     "en": "Recruiters, hiring managers and design leads: email is the fastest way to reach me.",
-    "fa": "کارشناسان استخدام، مدیران و لیدهای طراحی: ایمیل سریع‌ترین راه ارتباط با من است."
+    "fa": "برای فرصت شغلی یا همکاری، سریع‌ترین راه ایمیل است."
   },
   "location": {
     "en": "Tehran, Iran",
@@ -14,6 +14,6 @@
   "timezone": "UTC+3:30",
   "availability": {
     "en": "{?Open to Product Designer roles, remote or with relocation.?}",
-    "fa": "{?آماده همکاری در نقش طراح محصول، دورکاری یا با مهاجرت.?}"
+    "fa": "{?آماده همکاری به‌عنوان طراح محصول، دورکاری یا با مهاجرت.?}"
   }
 }

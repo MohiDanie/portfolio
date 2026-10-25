@@ -14,15 +14,15 @@
     }
   ],
   "headline": {
-    "en": "Product designer with a *product manager’s* habits.",
-    "fa": "طراح محصول، با عادت‌های یک *مدیر محصول.*"
+    "en": "Product designer with a *product manager’s* mindset.",
+    "fa": "طراح محصول با *نگاه مدیر محصول.*"
   },
   "lede": {
-    "en": "I’m <strong>Mohadese Danaie</strong>. Since 2019 I’ve designed web and mobile products for recruiting, data analytics, education and logistics. Since March 2025 I’ve also been <strong>Product Manager</strong> at Duniar, so I make design decisions with scope, cost and delivery in mind.",
-    "fa": "من <strong>محدثه دانائی</strong> هستم. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، تحلیل داده، آموزش و لجستیک طراحی کرده‌ام. از اسفند ۱۴۰۳ <strong>مدیر محصول</strong> دونیار هم هستم؛ برای همین تصمیم‌های طراحی را با در نظر گرفتن دامنه، هزینه و زمان تحویل می‌گیرم."
+    "en": "I’m <strong>Mohadese Danaie</strong>. I’ve designed web and mobile products since 2019, in recruiting, data, education and logistics. Since 2025 I’m also <strong>Product Manager</strong> at Duniar, so my design decisions account for scope, cost and delivery.",
+    "fa": "<strong>محدثه دانائی</strong> هستم. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، داده، آموزش و لجستیک طراحی می‌کنم. از ۱۴۰۳ <strong>مدیر محصول</strong> دونیار هم هستم؛ برای همین در تصمیم‌های طراحی، دامنه، هزینه و زمان تحویل را هم می‌سنجم."
   },
   "cta_work": {
-    "en": "View selected work",
+    "en": "View work",
     "fa": "دیدن نمونه‌کارها"
   },
   "cta_resume": {
@@ -34,27 +34,27 @@
     "fa": "نمونه‌کارهای منتخب"
   },
   "work_subtitle": {
-    "en": "Three projects, chosen for how much of the thinking they show.",
-    "fa": "سه پروژه، انتخاب‌شده بر اساس این‌که چقدر از فرایند فکری را نشان می‌دهند."
+    "en": "Three projects that show how I think.",
+    "fa": "سه پروژه که نشان می‌دهد چطور فکر می‌کنم."
   },
   "capabilities_title": {
-    "en": "Capabilities",
-    "fa": "توانمندی‌ها"
+    "en": "What I do",
+    "fa": "کارهایی که انجام می‌دهم"
   },
   "capabilities_subtitle": {
-    "en": "Each one points to where you can see it.",
-    "fa": "هر مورد نشان می‌دهد کجا می‌توانید آن را ببینید."
+    "en": "And where you can see it.",
+    "fa": "و جایی که می‌توانید ببینید."
   },
   "capabilities": [
     {
       "icon": "compass",
       "title": {
-        "en": "Product strategy and prioritisation",
-        "fa": "استراتژی و اولویت‌بندی محصول"
+        "en": "Product strategy",
+        "fa": "استراتژی محصول"
       },
       "text": {
-        "en": "Setting priorities and planning releases as Product Manager at Duniar.",
-        "fa": "تعیین اولویت‌ها و برنامه‌ریزی انتشار به‌عنوان مدیر محصول دونیار."
+        "en": "Setting priorities and planning releases as Product Manager.",
+        "fa": "اولویت‌بندی و برنامه‌ریزی انتشار به‌عنوان مدیر محصول."
       },
       "where": {
         "en": "Résumé · Duniar",
@@ -65,11 +65,11 @@
       "icon": "layers",
       "title": {
         "en": "Problem framing",
-        "fa": "قاب‌بندی مسئله"
+        "fa": "تعریف مسئله"
       },
       "text": {
-        "en": "Turning complex structures into flows people can follow: nested builders, data analysis, multi-role apps.",
-        "fa": "تبدیل ساختارهای پیچیده به فرایندهایی که کاربر بتواند دنبال کند: سازنده‌های تودرتو، تحلیل داده، اپ‌های چندنقشی."
+        "en": "Turning complex structures into flows people can follow.",
+        "fa": "تبدیل ساختارهای پیچیده به مسیرهایی که کاربر راحت دنبال می‌کند."
       },
       "where": {
         "en": "Puzzlelity · PIAI · Kanoon",
@@ -79,12 +79,12 @@
     {
       "icon": "grid",
       "title": {
-        "en": "Interaction and interface design",
+        "en": "Interaction and UI design",
         "fa": "طراحی تعامل و رابط کاربری"
       },
       "text": {
-        "en": "Flows, screens and states for web and mobile, from wireframes to final UI.",
-        "fa": "فرایندها، صفحه‌ها و حالت‌ها برای وب و موبایل، از وایرفریم تا رابط نهایی."
+        "en": "Flows, screens and states for web and mobile, from wireframe to final UI.",
+        "fa": "فرایند، صفحه و حالت‌ها برای وب و موبایل، از وایرفریم تا طراحی نهایی."
       },
       "where": {
         "en": "All case studies",
@@ -98,8 +98,8 @@
         "fa": "دیزاین سیستم"
       },
       "text": {
-        "en": "A shared Figma library with auto layout, variants and adaptive tables.",
-        "fa": "کتابخانه مشترک فیگما با auto layout، variant و جدول‌های تطبیق‌پذیر."
+        "en": "Shared Figma libraries with variants and adaptive components.",
+        "fa": "کتابخانه‌های مشترک فیگما با variant و کامپوننت‌های تطبیق‌پذیر."
       },
       "where": {
         "en": "Duniar",
@@ -110,11 +110,11 @@
       "icon": "code",
       "title": {
         "en": "Technical fluency",
-        "fa": "زبان مشترک با مهندسی"
+        "fa": "دانش فنی"
       },
       "text": {
-        "en": "Computer engineering degree with an AI specialisation. I read data models and talk constraints with engineers.",
-        "fa": "مهندسی کامپیوتر با گرایش هوش مصنوعی. مدل داده را می‌خوانم و با مهندس‌ها درباره محدودیت‌ها حرف می‌زنم."
+        "en": "A computer engineering degree with an AI focus. I speak the engineers’ language.",
+        "fa": "مهندسی کامپیوتر با گرایش هوش مصنوعی. زبان مهندس‌ها را می‌فهمم."
       },
       "where": {
         "en": "PIAI · Education",
@@ -124,16 +124,16 @@
     {
       "icon": "bidi",
       "title": {
-        "en": "Right-to-left and left-to-right",
-        "fa": "راست‌به‌چپ و چپ‌به‌راست"
+        "en": "Persian and English layouts",
+        "fa": "طراحی فارسی و انگلیسی"
       },
       "text": {
-        "en": "Native Persian, professional English and German. Bilingual layouts are a default, not an afterthought.",
-        "fa": "فارسی زبان مادری، انگلیسی و آلمانی در سطح حرفه‌ای. چیدمان دوزبانه برای من پیش‌فرض است، نه کار اضافه."
+        "en": "Native Persian, professional English and German. Bilingual layouts by default.",
+        "fa": "فارسی زبان مادری، انگلیسی و آلمانی حرفه‌ای. طراحی دوزبانه برایم پیش‌فرض است."
       },
       "where": {
-        "en": "Kanoon · Libra · Solution Apps",
-        "fa": "کانون · لیبرا · Solution Apps"
+        "en": "Kanoon · Libra",
+        "fa": "کانون · لیبرا"
       }
     }
   ],
@@ -146,20 +146,20 @@
     "fa": "درباره من"
   },
   "about_text": {
-    "en": "I studied computer engineering with a focus on AI, then moved into interface design in 2019. At Duniar I went from Senior UI/UX Designer to Product Manager. I do my best work on products whose structure is complicated, where the interface has to make it feel simple.",
-    "fa": "مهندسی کامپیوتر با گرایش هوش مصنوعی خواندم و از ۱۳۹۷ وارد طراحی رابط کاربری شدم. در دونیار از طراح ارشد UI/UX به مدیر محصول رسیدم. بهترین کارم را روی محصولاتی انجام می‌دهم که ساختار پیچیده‌ای دارند و رابط کاربری باید آن را ساده جلوه دهد."
+    "en": "A computer engineer who became a designer, and now a product manager too. I do my best work on complex products that need to feel simple.",
+    "fa": "مهندس کامپیوتری که طراح شد و حالا مدیر محصول هم هست. بهترین کارم را روی محصولات پیچیده‌ای انجام می‌دهم که باید ساده به نظر برسند."
   },
   "about_link": {
-    "en": "More about how I work",
-    "fa": "بیشتر درباره روش کارم"
+    "en": "More about me",
+    "fa": "بیشتر درباره من"
   },
   "more_title": {
     "en": "More work",
     "fa": "کارهای دیگر"
   },
   "more_subtitle": {
-    "en": "Libra has a full case study. The others are shipped Duniar work without a write-up yet.",
-    "fa": "لیبرا کیس‌استادی کامل دارد. بقیه کارهای منتشرشده دونیار هستند که هنوز شرح کامل ندارند."
+    "en": "Shipped work without a full case study yet.",
+    "fa": "کارهای منتشرشده‌ای که هنوز کیس‌استادی کامل ندارند."
   },
   "cta_title": {
     "en": "Hiring a product designer?",
@@ -167,14 +167,14 @@
   },
   "cta_text": {
     "en": "Email is the fastest way to reach me.",
-    "fa": "ایمیل سریع‌ترین راه ارتباط با من است."
+    "fa": "سریع‌ترین راه ارتباط با من ایمیل است."
   },
   "work_page_title": {
-    "en": "Products where the structure is hard and the screen has to feel easy.",
-    "fa": "محصولاتی که ساختارشان سخت است و صفحه باید ساده به نظر برسد."
+    "en": "Complex products, simple screens.",
+    "fa": "محصولات پیچیده، صفحه‌های ساده."
   },
   "work_page_intro": {
-    "en": "Each case study states what I was responsible for, the decisions that mattered, and what is still unmeasured.",
-    "fa": "هر کیس‌استادی نشان می‌دهد مسئولیت من چه بود، کدام تصمیم‌ها اهمیت داشتند و چه چیزی هنوز اندازه‌گیری نشده."
+    "en": "Each case study shows my role, the key decisions and what is still unmeasured.",
+    "fa": "هر کیس‌استادی نقش من، تصمیم‌های کلیدی و چیزهایی را که هنوز اندازه‌گیری نشده نشان می‌دهد."
   }
 }

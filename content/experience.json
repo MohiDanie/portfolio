@@ -1,11 +1,11 @@
 {
   "title": {
-    "en": "Mohadese Danaie, Product Designer",
-    "fa": "محدثه دانائی، طراح محصول"
+    "en": "Mohadese Danaie — Product Designer",
+    "fa": "محدثه دانائی — طراح محصول"
   },
   "summary": {
-    "en": "UI/UX and product designer since 2019; Product Manager at Duniar since March 2025. Computer engineering background with an AI specialisation. Persian, English and German.",
-    "fa": "طراح UI/UX و محصول از ۱۳۹۷؛ مدیر محصول دونیار از اسفند ۱۴۰۳. پیشینه مهندسی کامپیوتر با گرایش هوش مصنوعی. فارسی، انگلیسی و آلمانی."
+    "en": "Product designer since 2019 and Product Manager at Duniar since 2025. Computer engineering, AI focus. Persian, English, German.",
+    "fa": "طراح محصول از ۱۳۹۷ و مدیر محصول دونیار از ۱۴۰۳. مهندسی کامپیوتر، گرایش هوش مصنوعی. فارسی، انگلیسی، آلمانی."
   },
   "jobs": [
     {
@@ -22,20 +22,18 @@
         "fa": "دونیار · تهران"
       },
       "summary": {
-        "en": "Moved from design into product management at the same company.",
-        "fa": "در همان شرکت از طراحی به مدیریت محصول رسیدم."
+        "en": "Moved from design into product management.",
+        "fa": "از طراحی به مدیریت محصول رسیدم."
       },
       "bullets": {
         "en": [
-          "Moved from design into product management at the same company.",
-          "{?Own priorities and the roadmap for the company's web and mobile products, with engineering and data teams.?}",
-          "{?Write requirements and acceptance criteria and plan releases.?}",
+          "{?Own the roadmap and priorities for web and mobile products.?}",
+          "{?Write requirements and plan releases with engineering and data teams.?}",
           "{!One concrete result from this role!}"
         ],
         "fa": [
-          "در همان شرکت از طراحی به مدیریت محصول رسیدم.",
-          "{?مسئولیت اولویت‌ها و نقشه راه محصولات وب و موبایل شرکت، همراه با تیم‌های فنی و داده.?}",
-          "{?نوشتن نیازمندی‌ها و معیارهای پذیرش و برنامه‌ریزی انتشار.?}",
+          "{?مسئول نقشه راه و اولویت‌های محصولات وب و موبایل.?}",
+          "{?نوشتن نیازمندی‌ها و برنامه‌ریزی انتشار با تیم‌های فنی و داده.?}",
           "{!یک نتیجه مشخص از این نقش!}"
         ]
       },
@@ -55,19 +53,19 @@
         "fa": "دونیار · تهران"
       },
       "summary": {
-        "en": "Designed recruiting, data-analytics, ticketing and logistics products for a software and data studio.",
-        "fa": "طراحی محصولات استخدام، تحلیل داده، فروش بلیت و لجستیک برای یک شرکت نرم‌افزار و داده."
+        "en": "Recruiting, data, ticketing and logistics products.",
+        "fa": "محصولات استخدام، داده، فروش بلیت و لجستیک."
       },
       "bullets": {
         "en": [
-          "{?Designed Puzzlelity, PIAI, Ticlix, Elevate and the shipping, recycling and sport-ticketing platforms.?}",
-          "{?Built the shared Figma design system: auto layout, variants, adaptive tables.?}",
+          "{?Designed Puzzlelity, PIAI, Elevate and the shipping, recycling and ticketing platforms.?}",
+          "{?Built the shared Figma design system.?}",
           "Led the UI/UX team.",
           "{!Team size!}"
         ],
         "fa": [
-          "{?طراحی پازلیتی، پیای، تیکلیکس، الیویت و پلتفرم‌های حمل‌ونقل، بازیافت و فروش بلیت ورزشی.?}",
-          "{?ساخت دیزاین سیستم مشترک در فیگما: auto layout، variant و جدول‌های تطبیق‌پذیر.?}",
+          "{?طراحی پازلیتی، پیای، الیویت و پلتفرم‌های حمل، بازیافت و فروش بلیت.?}",
+          "{?ساخت دیزاین سیستم مشترک در فیگما.?}",
           "هدایت تیم UI/UX.",
           "{!اندازه تیم!}"
         ]
@@ -89,14 +87,14 @@
       },
       "summary": {
         "en": "{!What you designed at Gathersa!}",
-        "fa": "{!در گاترسا چه چیزی طراحی کردید!}"
+        "fa": "{!در گاترسا چه طراحی کردید!}"
       },
       "bullets": {
         "en": [
-          "{!Products and main responsibilities!}"
+          "{!Products and responsibilities!}"
         ],
         "fa": [
-          "{!محصولات و مسئولیت‌های اصلی!}"
+          "{!محصولات و مسئولیت‌ها!}"
         ]
       },
       "hide_when_published": false
@@ -143,11 +141,9 @@
       },
       "bullets": {
         "en": [
-          "Web and mobile projects for independent clients.",
           "{?Including the Libra reading platform.?}"
         ],
         "fa": [
-          "پروژه‌های وب و موبایل برای مشتریان مستقل.",
           "{?از جمله پلتفرم کتاب‌خوانی لیبرا.?}"
         ]
       },
@@ -167,19 +163,15 @@
         "fa": "Solution Apps · برلین"
       },
       "summary": {
-        "en": "Business apps for a Berlin software company, working in German and English.",
-        "fa": "اپ‌های سازمانی برای یک شرکت نرم‌افزاری در برلین، به زبان آلمانی و انگلیسی."
+        "en": "Business apps for a Berlin software company, in German and English.",
+        "fa": "اپ‌های سازمانی برای یک شرکت نرم‌افزاری در برلین، به آلمانی و انگلیسی."
       },
       "bullets": {
         "en": [
-          "Business apps for a Berlin software company, working in German and English.",
-          "{?Worked remotely from Tehran.?}",
-          "{?Including the Eurotex ordering app.?}"
+          "{?Remote, including the Eurotex ordering app.?}"
         ],
         "fa": [
-          "اپ‌های سازمانی برای یک شرکت نرم‌افزاری در برلین، به زبان آلمانی و انگلیسی.",
-          "{?به‌صورت دورکاری از تهران.?}",
-          "{?از جمله اپ سفارش Eurotex.?}"
+          "{?دورکاری، از جمله اپ سفارش Eurotex.?}"
         ]
       },
       "hide_when_published": false
@@ -199,16 +191,16 @@
       },
       "summary": {
         "en": "{!What you designed at Yecomsoft!}",
-        "fa": "{!در یکام‌سافت چه چیزی طراحی کردید!}"
+        "fa": "{!در یکام‌سافت چه طراحی کردید!}"
       },
       "bullets": {
         "en": [
           "{?Part-time, alongside Kanoon.?}",
-          "{!Products and main responsibilities!}"
+          "{!Products and responsibilities!}"
         ],
         "fa": [
           "{?پاره‌وقت، هم‌زمان با کانون.?}",
-          "{!محصولات و مسئولیت‌های اصلی!}"
+          "{!محصولات و مسئولیت‌ها!}"
         ]
       },
       "hide_when_published": false
@@ -232,12 +224,10 @@
       },
       "bullets": {
         "en": [
-          "Student and advisor apps for a national education organisation.",
-          "{?Designed the student hub, registration by student type and the advisor app.?}"
+          "{?Student hub, registration by student type and the advisor app.?}"
         ],
         "fa": [
-          "اپ‌های دانش‌آموز و پشتیبان برای یک مجموعه آموزشی سراسری.",
-          "{?طراحی هاب دانش‌آموز، ثبت‌نام بر اساس نوع دانش‌آموز و اپ پشتیبان.?}"
+          "{?هاب دانش‌آموز، ثبت‌نام بر اساس نوع دانش‌آموز و اپ پشتیبان.?}"
         ]
       },
       "hide_when_published": false
@@ -256,16 +246,14 @@
         "fa": "اپ Führerschein · آلمان"
       },
       "summary": {
-        "en": "A driving-regulation application for the German market.",
-        "fa": "اپلیکیشنی درباره مقررات رانندگی برای بازار آلمان."
+        "en": "A driving-theory app for the German market.",
+        "fa": "اپلیکیشن آموزش مقررات رانندگی برای بازار آلمان."
       },
       "bullets": {
         "en": [
-          "A driving-regulation application for the German market.",
           "{!Your role and what you delivered!}"
         ],
         "fa": [
-          "اپلیکیشنی درباره مقررات رانندگی برای بازار آلمان.",
           "{!نقش شما و آنچه تحویل دادید!}"
         ]
       },

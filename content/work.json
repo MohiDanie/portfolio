@@ -17,29 +17,29 @@
       },
       "cover": "/images/puzz.webp",
       "teaser": {
-        "en": "Employers spend time and money testing candidates. Puzzlelity lets them assemble a skills assessment from a ready-made library, including coding tasks the system evaluates automatically.",
-        "fa": "کارفرماها برای سنجش داوطلب‌ها زمان و هزینه زیادی صرف می‌کنند. پازلیتی به آن‌ها اجازه می‌دهد از یک کتابخانه آماده، آزمون مهارتی بسازند؛ حتی با سؤال‌های برنامه‌نویسی که سیستم خودکار ارزیابی می‌کند."
+        "en": "A skills-assessment builder for employers, including coding tasks that are graded automatically.",
+        "fa": "سازنده آزمون مهارتی برای کارفرماها، با سؤال‌های برنامه‌نویسی که خودکار تصحیح می‌شوند."
       },
       "summary": {
-        "en": "An assessment builder that stays simple while handling three nested levels, a shared question library and in-browser code evaluation.",
-        "fa": "سازنده آزمونی که با وجود سه سطح تودرتو، کتابخانه سؤال مشترک و ارزیابی کد در مرورگر، ساده باقی می‌ماند."
+        "en": "Making a three-level assessment builder feel simple for busy hiring managers.",
+        "fa": "ساده کردن یک سازنده آزمون سه‌سطحی برای مدیران استخدام پرمشغله."
       },
       "glance": {
         "problem": {
-          "en": "Screening candidates by hand is slow and costly for employers.",
-          "fa": "غربال دستی داوطلب‌ها برای کارفرما کند و پرهزینه است."
+          "en": "Screening candidates by hand is slow and costly.",
+          "fa": "غربال دستی داوطلب‌ها کند و پرهزینه است."
         },
         "users": {
-          "en": "Hiring managers who build assessments; candidates who take them.",
-          "fa": "مدیران استخدامی که آزمون می‌سازند؛ داوطلب‌هایی که آزمون می‌دهند."
+          "en": "Hiring managers who build tests; candidates who take them.",
+          "fa": "مدیران استخدام که آزمون می‌سازند؛ داوطلب‌هایی که آزمون می‌دهند."
         },
         "role": {
-          "en": "Senior UI/UX Designer{?, lead designer on the product?}",
-          "fa": "طراح ارشد UI/UX{?، طراح اصلی محصول?}"
+          "en": "Senior UI/UX Designer{?, lead designer?}",
+          "fa": "طراح ارشد UI/UX{?، طراح اصلی?}"
         },
         "outcome": {
-          "en": "{!What shipped, and any usage or feedback!}",
-          "fa": "{!چه چیزی منتشر شد و چه بازخورد یا داده‌ای دارید!}"
+          "en": "{!What shipped, and any feedback!}",
+          "fa": "{!چه چیزی منتشر شد و چه بازخوردی گرفتید!}"
         }
       },
       "facts": {
@@ -66,37 +66,19 @@
       },
       "chapters": [
         {
-          "id": "context",
+          "id": "overview",
           "title": {
-            "en": "Context",
-            "fa": "زمینه"
+            "en": "Overview",
+            "fa": "نمای کلی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Puzzlelity is a recruiting web application built at Duniar. An employer creates an <strong>assessment</strong>, which contains <strong>tests</strong>, which contain <strong>questions</strong>. Questions come from a prepared library or are written by the employer. When a question needs code, the candidate answers in a built-in editor and the system evaluates the result automatically.</p><p>Two people use the product in very different states of mind: a hiring manager building and reviewing assessments between meetings, and a candidate taking a timed test under pressure.</p>",
-            "fa": "<p>پازلیتی یک وب‌اپلیکیشن استخدام است که در دونیار ساخته شد. کارفرما یک <strong>ارزیابی</strong> می‌سازد که چند <strong>آزمون</strong> دارد و هر آزمون چند <strong>سؤال</strong>. سؤال‌ها از کتابخانه آماده انتخاب می‌شوند یا کارفرما خودش آن‌ها را می‌نویسد. اگر سؤال نیاز به کدنویسی داشته باشد، داوطلب در یک ویرایشگر داخلی پاسخ می‌دهد و سیستم نتیجه را خودکار ارزیابی می‌کند.</p><p>دو نوع کاربر با دو حال‌وهوای کاملاً متفاوت از محصول استفاده می‌کنند: مدیر استخدامی که بین جلسه‌ها ارزیابی می‌سازد و نتایج را بررسی می‌کند، و داوطلبی که زیر فشار زمان آزمون می‌دهد.</p>"
+            "en": "<p>Puzzlelity lets employers build an <strong>assessment</strong> made of <strong>tests</strong>, each with <strong>questions</strong> from a ready library or written by the employer. Coding questions run in a built-in editor and are graded automatically.</p><p>The challenge: a model that is simple for engineers is hard for everyone else. Splitting each level onto its own page would make users jump between screens and remember what they had already added.</p>",
+            "fa": "<p>پازلیتی به کارفرما امکان می‌دهد یک <strong>ارزیابی</strong> شامل چند <strong>آزمون</strong> بسازد؛ هر آزمون <strong>سؤال‌هایی</strong> از کتابخانه آماده یا نوشته خود کارفرما دارد. سؤال‌های برنامه‌نویسی در ویرایشگر داخلی اجرا و خودکار تصحیح می‌شوند.</p><p>چالش: مدلی که برای مهندس ساده است، برای بقیه سخت است. اگر هر سطح صفحه جدا داشته باشد، کاربر باید بین صفحه‌ها رفت‌وبرگشت کند و یادش بماند چه چیزی اضافه کرده.</p>"
           },
           "note": {
             "en": "",
             "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "challenge",
-          "title": {
-            "en": "The problem",
-            "fa": "مسئله"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>The data model is simple for engineers and hard for everyone else. A screen for each level, with the library on another page, would make building one assessment a trip between four views, holding in memory what had already been added.</p>",
-            "fa": "<p>مدل داده برای مهندس‌ها ساده است و برای بقیه دشوار. اگر برای هر سطح یک صفحه باشد و کتابخانه هم در صفحه‌ای جدا، ساختن یک ارزیابی یعنی رفت‌وبرگشت بین چهار صفحه و به خاطر سپردن چیزهایی که قبلاً اضافه شده.</p>"
-          },
-          "note": {
-            "en": "{!What showed this was a real problem: walkthroughs, pilot feedback, support questions?!}",
-            "fa": "{!چه شواهدی نشان داد این مشکل واقعی است: مرور با تیم، بازخورد پایلوت، سؤال‌های پشتیبانی؟!}"
           },
           "decisions": [],
           "gallery": []
@@ -104,31 +86,13 @@
         {
           "id": "role",
           "title": {
-            "en": "My role and the team",
-            "fa": "نقش من و تیم"
+            "en": "My role",
+            "fa": "نقش من"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li>{?Designed the employer side end to end: assessment builder, question library and candidate pipeline.?}</li><li>{?Designed the candidate test-taking flow and the code editor layout with the engineering lead.?}</li><li>{?Maintained the Figma component library the product was built from.?}</li><li>{!Who else was on the team, and what they owned!}</li></ul>",
-            "fa": "<ul><li>{?طراحی کامل سمت کارفرما: سازنده ارزیابی، کتابخانه سؤال و پایپ‌لاین داوطلب‌ها.?}</li><li>{?طراحی فرایند آزمون‌دادن داوطلب و چیدمان ویرایشگر کد همراه با لید فنی.?}</li><li>{?نگهداری کتابخانه کامپوننت فیگما که محصول بر اساس آن ساخته شد.?}</li><li>{!چه کسانی در تیم بودند و مسئولیت هر کدام چه بود!}</li></ul>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "constraints",
-          "title": {
-            "en": "Constraints",
-            "fa": "محدودیت‌ها"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<ul><li>Two very different users in one product, with different goals and different levels of patience.</li><li>Library questions and employer-written questions had to live side by side in the same structure.</li><li>Coding questions need a working editor inside a timed browser test.</li></ul>",
-            "fa": "<ul><li>دو کاربر کاملاً متفاوت در یک محصول، با هدف‌ها و حوصله متفاوت.</li><li>سؤال‌های کتابخانه و سؤال‌هایی که کارفرما می‌نویسد باید کنار هم در یک ساختار قرار می‌گرفتند.</li><li>سؤال‌های برنامه‌نویسی به یک ویرایشگر کارا در یک آزمون زمان‌دار مرورگری نیاز دارند.</li></ul>"
+            "en": "<ul><li>{?Designed the employer side: builder, question library and candidate pipeline.?}</li><li>{?Designed the candidate test flow and code-editor layout with the engineering lead.?}</li><li>{?Maintained the Figma component library.?}</li><li>{!Who else was on the team!}</li></ul>",
+            "fa": "<ul><li>{?طراحی سمت کارفرما: سازنده آزمون، کتابخانه سؤال و پایپ‌لاین داوطلب‌ها.?}</li><li>{?طراحی فرایند آزمون داوطلب و چیدمان ویرایشگر کد با لید فنی.?}</li><li>{?نگهداری کتابخانه کامپوننت فیگما.?}</li><li>{!چه کسانی در تیم بودند!}</li></ul>"
           },
           "note": {
             "en": "",
@@ -155,44 +119,44 @@
           "decisions": [
             {
               "title": {
-                "en": "Start from the library, not a blank page",
-                "fa": "شروع از کتابخانه، نه صفحه خالی"
+                "en": "Start from the library",
+                "fa": "شروع از کتابخانه"
               },
               "text": {
-                "en": "Creating an assessment opens with ready-made tests that the employer customises, instead of composing from nothing.",
-                "fa": "ساخت ارزیابی با آزمون‌های آماده‌ای شروع می‌شود که کارفرما شخصی‌سازی‌شان می‌کند، نه با ساختن از صفر."
+                "en": "New assessments start from ready-made tests that employers adjust.",
+                "fa": "ارزیابی جدید با آزمون‌های آماده شروع می‌شود و کارفرما فقط تغییرشان می‌دهد."
               },
               "why": {
-                "en": "Most employers hire for a handful of common roles. A blank builder makes the hardest step the first one.",
-                "fa": "بیشتر کارفرماها برای چند نقش رایج استخدام می‌کنند. سازنده خالی، سخت‌ترین قدم را اولین قدم می‌کند."
+                "en": "Most employers hire for common roles; a blank page makes the first step the hardest.",
+                "fa": "بیشتر کارفرماها برای نقش‌های رایج استخدام می‌کنند؛ صفحه خالی سخت‌ترین قدم را اول می‌گذارد."
               }
             },
             {
               "title": {
-                "en": "Show the whole structure on one canvas",
-                "fa": "نمایش کل ساختار در یک صفحه"
+                "en": "One canvas for all three levels",
+                "fa": "هر سه سطح در یک صفحه"
               },
               "text": {
-                "en": "Assessment, tests and questions sit in one nested outline, with the library in a side panel. Adding a question never leaves the page.",
-                "fa": "ارزیابی، آزمون‌ها و سؤال‌ها در یک ساختار تودرتو کنار هم هستند و کتابخانه در پنل کناری. اضافه‌کردن سؤال هیچ‌وقت کاربر را از صفحه بیرون نمی‌برد."
+                "en": "Assessment, tests and questions sit in one outline, with the library in a side panel.",
+                "fa": "ارزیابی، آزمون‌ها و سؤال‌ها در یک ساختار کنار هم‌اند و کتابخانه در پنل کناری است."
               },
               "why": {
-                "en": "The difficulty comes from losing context between levels. Keeping all three visible removes the need to remember.",
-                "fa": "دشواری از گم‌شدن زمینه بین سطح‌ها می‌آید. دیدن هم‌زمان هر سه سطح، نیاز به یادآوری را حذف می‌کند."
+                "en": "Seeing every level at once removes the need to remember.",
+                "fa": "دیدن هم‌زمان همه سطح‌ها نیاز به یادآوری را حذف می‌کند."
               }
             },
             {
               "title": {
-                "en": "Results flow into a pipeline",
-                "fa": "نتایج مستقیم به پایپ‌لاین می‌روند"
+                "en": "Results feed the pipeline",
+                "fa": "نتایج مستقیم به پایپ‌لاین"
               },
               "text": {
-                "en": "Scores land in a candidate pipeline, so reviewing a result and moving someone to the next stage happen in one place.",
-                "fa": "نمره‌ها وارد پایپ‌لاین داوطلب‌ها می‌شوند تا بررسی نتیجه و انتقال داوطلب به مرحله بعد در یک‌جا انجام شود."
+                "en": "Scores land in the candidate pipeline, where the next step happens.",
+                "fa": "نمره‌ها وارد پایپ‌لاین داوطلب‌ها می‌شوند؛ همان‌جا که قدم بعدی برداشته می‌شود."
               },
               "why": {
-                "en": "An assessment is only useful if it leads to a hiring decision.",
-                "fa": "ارزیابی فقط وقتی مفید است که به تصمیم استخدامی برسد."
+                "en": "A test is only useful if it leads to a hiring decision.",
+                "fa": "آزمون فقط وقتی مفید است که به تصمیم استخدامی برسد."
               }
             }
           ],
@@ -201,8 +165,8 @@
         {
           "id": "screens",
           "title": {
-            "en": "Final design",
-            "fa": "طراحی نهایی"
+            "en": "Screens",
+            "fa": "صفحه‌ها"
           },
           "draft_rationale": false,
           "body": {
@@ -225,55 +189,19 @@
           ]
         },
         {
-          "id": "validation",
-          "title": {
-            "en": "Research and validation",
-            "fa": "تحقیق و اعتبارسنجی"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>No formal user research is documented for this project yet, so none is claimed here.</p>",
-            "fa": "<p>برای این پروژه هنوز تحقیق کاربری رسمی مستند نشده، بنابراین اینجا ادعایی درباره آن نمی‌شود.</p>"
-          },
-          "note": {
-            "en": "{!Interviews, usability tests, pilot sessions or analytics, if any happened!}",
-            "fa": "{!مصاحبه، تست کاربردپذیری، جلسه پایلوت یا داده تحلیلی، اگر انجام شده!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
           "id": "outcome",
           "title": {
-            "en": "Outcome",
-            "fa": "نتیجه"
+            "en": "Outcome and next steps",
+            "fa": "نتیجه و قدم بعدی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The screens above are the final interface designs. Results are not published here.</p>",
-            "fa": "<p>صفحه‌های بالا طراحی نهایی رابط کاربری هستند. نتایج در اینجا منتشر نشده‌اند.</p>"
+            "en": "<p>No user research or results are documented for this project yet, so none are claimed.</p><p>Next, I would measure the time from sign-up to the first assessment sent, and test the builder with recruiters before finalising its structure.</p>",
+            "fa": "<p>برای این پروژه هنوز تحقیق کاربری یا نتیجه‌ای مستند نشده، پس ادعایی هم نمی‌شود.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی، و تست سازنده با کارشناسان استخدام پیش از قطعی شدن ساختار.</p>"
           },
           "note": {
-            "en": "{!Release status, adoption, and one piece of feedback from an employer or the team!}",
-            "fa": "{!وضعیت انتشار، میزان استفاده و یک بازخورد از کارفرما یا تیم!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "reflection",
-          "title": {
-            "en": "Reflection",
-            "fa": "بازنگری"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>The next thing I would measure is the time from sign-up to the first assessment sent. It is the clearest signal of whether starting from the library works. I would also put the builder in front of recruiters before the structure is final.</p>",
-            "fa": "<p>اولین چیزی که اندازه می‌گرفتم، فاصله زمانی ثبت‌نام تا ارسال اولین ارزیابی است؛ روشن‌ترین نشانه برای این‌که «شروع از کتابخانه» جواب می‌دهد یا نه. همچنین سازنده را پیش از قطعی‌شدن ساختار، جلوی کارشناسان استخدام می‌گذاشتم.</p>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
+            "en": "{!Release status, research or feedback!}",
+            "fa": "{!وضعیت انتشار، تحقیق یا بازخورد!}"
           },
           "decisions": [],
           "gallery": []
@@ -297,29 +225,29 @@
       },
       "cover": "/images/piai_cover.webp",
       "teaser": {
-        "en": "A web app for people who work with data but don’t code, or don’t know data science well, and still want results fast and simple. I designed the project workflow from upload to prediction, and the marketing site.",
-        "fa": "یک وب‌اپ برای کسانی که با داده کار می‌کنند اما کدنویسی نمی‌کنند یا علم داده را خوب نمی‌شناسند، و باز هم می‌خواهند سریع و ساده به نتیجه برسند. جریان کار پروژه از آپلود تا پیش‌بینی و سایت معرفی را طراحی کردم."
+        "en": "A web app that takes people who don’t code from a raw dataset to a trained model and prediction.",
+        "fa": "وب‌اپی که افراد بدون دانش کدنویسی را از داده خام تا مدل آموزش‌دیده و پیش‌بینی می‌رساند."
       },
       "summary": {
-        "en": "Turning a data-science pipeline (upload, analyse, clean, train, predict) into one guided path that someone without code can follow.",
-        "fa": "تبدیل زنجیره علم داده (آپلود، تحلیل، پاک‌سازی، آموزش، پیش‌بینی) به یک مسیر هدایت‌شده که کسی بدون کدنویسی بتواند دنبالش کند."
+        "en": "Turning a data-science pipeline into one guided path for non-programmers.",
+        "fa": "تبدیل زنجیره علم داده به یک مسیر هدایت‌شده برای غیربرنامه‌نویس‌ها."
       },
       "glance": {
         "problem": {
-          "en": "Getting from a raw file to a trained model normally means code, several tools and data-science vocabulary.",
-          "fa": "رسیدن از یک فایل خام به یک مدل آموزش‌دیده معمولاً یعنی کدنویسی، چند ابزار مختلف و اصطلاحات علم داده."
+          "en": "Getting from raw data to a model usually needs code and several tools.",
+          "fa": "رسیدن از داده خام به مدل معمولاً کدنویسی و چند ابزار می‌خواهد."
         },
         "users": {
-          "en": "Analysts, managers and small teams who work with data but don’t program.",
-          "fa": "تحلیل‌گرها، مدیران و تیم‌های کوچکی که با داده کار می‌کنند اما برنامه‌نویس نیستند."
+          "en": "Analysts, managers and small teams who don’t program.",
+          "fa": "تحلیل‌گرها، مدیران و تیم‌های کوچکی که برنامه‌نویس نیستند."
         },
         "role": {
-          "en": "Senior UI/UX Designer{?, lead designer on the app and marketing site?}",
-          "fa": "طراح ارشد UI/UX{?، طراح اصلی اپ و سایت معرفی?}"
+          "en": "Senior UI/UX Designer{?, lead designer on app and website?}",
+          "fa": "طراح ارشد UI/UX{?، طراح اصلی اپ و سایت?}"
         },
         "outcome": {
-          "en": "{!Release status, and any usage or feedback!}",
-          "fa": "{!وضعیت انتشار و هر بازخورد یا داده استفاده!}"
+          "en": "{!Release status and any feedback!}",
+          "fa": "{!وضعیت انتشار و بازخورد!}"
         }
       },
       "facts": {
@@ -346,33 +274,15 @@
       },
       "chapters": [
         {
-          "id": "context",
+          "id": "overview",
           "title": {
-            "en": "Context",
-            "fa": "زمینه"
+            "en": "Overview",
+            "fa": "نمای کلی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Duniar works where software and data science meet. PIAI is its product for people who need answers from their data without writing code: upload a dataset, look at it, clean it, train a model and use that model to predict.</p><p>The product has two parts. A <strong>marketing site</strong> explains the idea and brings people to sign up. The <strong>web app</strong> is where projects, datasets and trained models live.</p><p>My computer engineering degree, with an AI specialisation, helped here. I could follow the modelling discussions with the data scientists and turn each step into screens and choices.</p>",
-            "fa": "<p>دونیار در نقطه تلاقی نرم‌افزار و علم داده کار می‌کند. پیای محصول آن برای کسانی است که بدون کدنویسی از داده‌شان جواب می‌خواهند: یک دیتاست آپلود کنند، آن را ببینند، پاک‌سازی کنند، یک مدل آموزش دهند و با آن پیش‌بینی کنند.</p><p>محصول دو بخش دارد. یک <strong>سایت معرفی</strong> که ایده را توضیح می‌دهد و کاربر را به ثبت‌نام می‌رساند، و <strong>وب‌اپ</strong> که پروژه‌ها، دیتاست‌ها و مدل‌های آموزش‌دیده در آن هستند.</p><p>رشته مهندسی کامپیوتر با گرایش هوش مصنوعی اینجا کمکم کرد: می‌توانستم بحث‌های مدل‌سازی را با دانشمندان داده دنبال کنم و هر مرحله را به صفحه و انتخاب تبدیل کنم.</p>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "challenge",
-          "title": {
-            "en": "The problem",
-            "fa": "مسئله"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>A data-science workflow has a fixed order: you can’t train before you have clean data, and you can’t predict before you have a model. In code that order lives in the analyst’s head. For someone who doesn’t code, it has to live in the interface.</p><p>Each step also asks for several decisions at once: which file, which column is the target, which kind of model. The design had to make those decisions visible and in order, without assuming the user already knew the process.</p>",
-            "fa": "<p>یک فرایند علم داده ترتیب ثابتی دارد: پیش از داشتن داده تمیز نمی‌شود مدل آموزش داد و پیش از داشتن مدل نمی‌شود پیش‌بینی کرد. در کدنویسی این ترتیب در ذهن تحلیل‌گر است. برای کسی که کدنویسی نمی‌کند، این ترتیب باید در رابط کاربری باشد.</p><p>هر مرحله هم چند تصمیم هم‌زمان می‌خواهد: کدام فایل، کدام ستون هدف است، چه نوع مدلی. طراحی باید این تصمیم‌ها را به‌ترتیب و قابل دیدن کند، بدون این‌که فرض کند کاربر از قبل فرایند را می‌داند.</p>"
+            "en": "<p>PIAI lets people upload a dataset, explore and clean it, train a model and use it to predict, without writing code. It has a <strong>web app</strong> for the work and a <strong>marketing site</strong> that explains it.</p><p>Data science has a fixed order: no model without clean data, no prediction without a model. In code that order lives in the analyst’s head. Here it had to live in the interface.</p>",
+            "fa": "<p>پیای به کاربر اجازه می‌دهد بدون کدنویسی داده آپلود کند، آن را بررسی و پاک‌سازی کند، مدل آموزش دهد و پیش‌بینی بگیرد. محصول یک <strong>وب‌اپ</strong> برای کار و یک <strong>سایت معرفی</strong> دارد.</p><p>علم داده ترتیب ثابتی دارد: بدون داده تمیز مدلی نیست و بدون مدل پیش‌بینی‌ای. در کدنویسی این ترتیب در ذهن تحلیل‌گر است؛ اینجا باید در رابط کاربری می‌بود.</p>"
           },
           "note": {
             "en": "",
@@ -384,31 +294,13 @@
         {
           "id": "role",
           "title": {
-            "en": "My role and the team",
-            "fa": "نقش من و تیم"
+            "en": "My role",
+            "fa": "نقش من"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The app’s visual shell (header, cards and side menu style) was adapted from the Constructor UI kit, which let the team move quickly. My work was the product structure on top of it and the marketing site.</p><ul><li>{?Defined the project workflow and the information architecture of the app.?}</li><li>{?Designed the project, upload, analysis, cleaning, training and prediction screens.?}</li><li>{?Designed the marketing site and the sign-in and sign-up flow in five breakpoints.?}</li><li>{?Worked with the data scientists on what each step needs from the user.?}</li><li>{!Which screens you designed from scratch, and who else was on the team!}</li></ul>",
-            "fa": "<p>پوسته بصری اپ (هدر، کارت‌ها و سبک منوی کناری) از کیت رابط کاربری Constructor تطبیق داده شد تا تیم سریع‌تر جلو برود. کار من ساختار محصول روی آن و سایت معرفی بود.</p><ul><li>{?تعریف جریان کار پروژه و معماری اطلاعات اپ.?}</li><li>{?طراحی صفحه‌های پروژه، آپلود، تحلیل، پاک‌سازی، آموزش و پیش‌بینی.?}</li><li>{?طراحی سایت معرفی و فرایند ورود و ثبت‌نام در پنج اندازه صفحه.?}</li><li>{?همکاری با دانشمندان داده درباره این‌که هر مرحله چه چیزی از کاربر لازم دارد.?}</li><li>{!کدام صفحه‌ها را از صفر طراحی کردید و چه کسانی در تیم بودند!}</li></ul>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "constraints",
-          "title": {
-            "en": "Constraints",
-            "fa": "محدودیت‌ها"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<ul><li>The steps depend on each other, so the order can’t be optional.</li><li>Data lives in different places: local files, Snowflake, AWS, or datasets already in the product.</li><li>Training a model can take a long time, so the interface can’t wait for it.</li><li>The design started from an existing UI kit, so new screens had to fit its components.</li></ul>",
-            "fa": "<ul><li>مراحل به هم وابسته‌اند، پس ترتیب نمی‌تواند اختیاری باشد.</li><li>داده در جاهای مختلف است: فایل محلی، Snowflake، AWS یا دیتاست‌هایی که از قبل در محصول هستند.</li><li>آموزش مدل ممکن است طولانی باشد، پس رابط کاربری نمی‌تواند منتظر آن بماند.</li><li>طراحی از یک کیت آماده شروع شد، پس صفحه‌های جدید باید با کامپوننت‌های آن جور می‌شدند.</li></ul>"
+            "en": "<p>The app’s visual shell was adapted from the Constructor UI kit, so the team could move fast. My work was the product structure and the marketing site.</p><ul><li>{?Defined the project workflow and app structure.?}</li><li>{?Designed the upload, analysis, cleaning, training and prediction screens.?}</li><li>{?Designed the marketing site and sign-in flow in five breakpoints.?}</li><li>{!Screens designed from scratch, and the team!}</li></ul>",
+            "fa": "<p>پوسته بصری اپ از کیت Constructor تطبیق داده شد تا تیم سریع‌تر پیش برود. کار من ساختار محصول و سایت معرفی بود.</p><ul><li>{?تعریف جریان کار پروژه و ساختار اپ.?}</li><li>{?طراحی صفحه‌های آپلود، تحلیل، پاک‌سازی، آموزش و پیش‌بینی.?}</li><li>{?طراحی سایت معرفی و فرایند ورود در پنج اندازه صفحه.?}</li><li>{!صفحه‌هایی که از صفر طراحی شد، و تیم!}</li></ul>"
           },
           "note": {
             "en": "",
@@ -439,68 +331,40 @@
                 "fa": "یک پروژه، یک مسیر"
               },
               "text": {
-                "en": "Every project has the same six steps in a side menu that stays on screen: Overview, Upload, Analysis, Cleaning, Training, Prediction.",
-                "fa": "هر پروژه شش مرحله ثابت در یک منوی کناری همیشه‌پیدا دارد: نمای کلی، آپلود، تحلیل، پاک‌سازی، آموزش، پیش‌بینی."
+                "en": "Six fixed steps in a persistent side menu: Overview, Upload, Analysis, Cleaning, Training, Prediction.",
+                "fa": "شش مرحله ثابت در منوی کناری: نمای کلی، آپلود، تحلیل، پاک‌سازی، آموزش، پیش‌بینی."
               },
               "why": {
-                "en": "Data work has a natural order. Making that order the navigation shows users where they are and what comes next, without asking them to know the process.",
-                "fa": "کار با داده ترتیب طبیعی دارد. وقتی همین ترتیب ناوبری باشد، کاربر می‌داند کجاست و قدم بعدی چیست، بدون این‌که لازم باشد فرایند را از قبل بداند."
+                "en": "When the process is the navigation, users always know what comes next.",
+                "fa": "وقتی فرایند همان ناوبری باشد، کاربر همیشه می‌داند قدم بعدی چیست."
               }
             },
             {
               "title": {
-                "en": "A checklist beside every long form",
-                "fa": "یک چک‌لیست کنار هر فرم طولانی"
+                "en": "A checklist beside long forms",
+                "fa": "چک‌لیست کنار فرم‌های طولانی"
               },
               "text": {
-                "en": "Upload, Analysis, Training and Prediction each show a short checklist of what is needed before starting: name, file, target, model.",
-                "fa": "آپلود، تحلیل، آموزش و پیش‌بینی هر کدام یک چک‌لیست کوتاه از چیزهایی که پیش از شروع لازم است نشان می‌دهند: نام، فایل، ستون هدف، مدل."
+                "en": "Upload, training and prediction show what is still needed before starting.",
+                "fa": "آپلود، آموزش و پیش‌بینی نشان می‌دهند پیش از شروع چه چیزی مانده."
               },
               "why": {
-                "en": "These forms combine several decisions. A visible list breaks them into small steps and explains why a job can’t start yet.",
-                "fa": "این فرم‌ها چند تصمیم را با هم ترکیب می‌کنند. یک فهرست قابل دیدن آن‌ها را به قدم‌های کوچک تبدیل می‌کند و توضیح می‌دهد چرا هنوز نمی‌شود شروع کرد."
+                "en": "It breaks a heavy form into small steps.",
+                "fa": "یک فرم سنگین را به قدم‌های کوچک تقسیم می‌کند."
               }
             },
             {
               "title": {
                 "en": "Long jobs run in the background",
-                "fa": "کارهای طولانی در پس‌زمینه اجرا می‌شوند"
+                "fa": "کارهای طولانی در پس‌زمینه"
               },
               "text": {
-                "en": "When training starts, a card confirms it is running and says the user will be emailed when it finishes. Results arrive in a list with progress, View, Compare and Download.",
-                "fa": "وقتی آموزش شروع می‌شود، یک کارت تأیید می‌کند که در حال اجراست و می‌گوید پس از پایان ایمیل ارسال می‌شود. نتایج در فهرستی با وضعیت پیشرفت، مشاهده، مقایسه و دانلود قرار می‌گیرند."
+                "en": "Training continues off-screen and users get an email when it finishes.",
+                "fa": "آموزش مدل در پس‌زمینه ادامه می‌یابد و پس از پایان ایمیل ارسال می‌شود."
               },
               "why": {
-                "en": "Training can take minutes or hours. Blocking the screen would stop all other work, and leaving without a promise of notification would mean checking back again and again.",
-                "fa": "آموزش ممکن است چند دقیقه یا چند ساعت طول بکشد. قفل‌کردن صفحه کار دیگر را متوقف می‌کند، و ترک صفحه بدون وعده اطلاع‌رسانی یعنی مدام سر زدن دوباره."
-              }
-            },
-            {
-              "title": {
-                "en": "Bring data from where it already lives",
-                "fa": "آوردن داده از همان جایی که هست"
-              },
-              "text": {
-                "en": "Upload accepts a local file, Snowflake, AWS or an existing dataset, as tabs in one place, with progress, success, failure and retry states for each file.",
-                "fa": "آپلود فایل محلی، Snowflake، AWS یا یک دیتاست موجود را به‌صورت تب در یک‌جا می‌پذیرد، با حالت‌های در حال بارگذاری، موفق، خطا و تلاش دوباره برای هر فایل."
-              },
-              "why": {
-                "en": "Teams keep data in different systems. One entry point avoids a separate import flow for each source.",
-                "fa": "تیم‌ها داده را در سیستم‌های مختلف نگه می‌دارند. یک ورودی واحد از جریان جداگانه برای هر منبع جلوگیری می‌کند."
-              }
-            },
-            {
-              "title": {
-                "en": "Help people start",
-                "fa": "کمک به شروع"
-              },
-              "text": {
-                "en": "New project shows example names and three guiding questions for the description, with character counts and minimums.",
-                "fa": "ساخت پروژه جدید نمونه‌هایی برای نام و سه سؤال راهنما برای توضیحات نشان می‌دهد، با شمارنده کاراکتر و حداقل طول."
-              },
-              "why": {
-                "en": "A blank form is hardest for first-time users. Examples make the first words easier to write.",
-                "fa": "فرم خالی برای کاربر تازه‌وارد سخت‌ترین قسمت است. نمونه‌ها نوشتن اولین کلمه‌ها را آسان‌تر می‌کنند."
+                "en": "Training can take hours; users shouldn’t have to wait or keep checking.",
+                "fa": "آموزش ممکن است ساعت‌ها طول بکشد؛ کاربر نباید منتظر بماند یا مدام سر بزند."
               }
             }
           ],
@@ -509,8 +373,8 @@
         {
           "id": "workflow",
           "title": {
-            "en": "The workflow, screen by screen",
-            "fa": "جریان کار، صفحه به صفحه"
+            "en": "The workflow",
+            "fa": "جریان کار"
           },
           "draft_rationale": false,
           "body": {
@@ -526,50 +390,50 @@
             {
               "image": "/images/piai_dash.webp",
               "caption": {
-                "en": "Dashboard: projects, datasets and models in training. A running job shows its model and promises an email when it finishes.",
-                "fa": "داشبورد: پروژه‌ها، دیتاست‌ها و مدل‌های در حال آموزش. کار در حال اجرا مدلش را نشان می‌دهد و وعده ایمیل پس از پایان می‌دهد."
+                "en": "Dashboard with projects, datasets and a running training job.",
+                "fa": "داشبورد با پروژه‌ها، دیتاست‌ها و یک آموزش در حال اجرا."
               }
             },
             {
               "image": "/images/piai_newproj.webp",
               "caption": {
-                "en": "New project: examples and guiding questions instead of an empty form.",
-                "fa": "پروژه جدید: نمونه و سؤال راهنما به‌جای فرم خالی."
+                "en": "New project, with examples instead of an empty form.",
+                "fa": "پروژه جدید، با نمونه به‌جای فرم خالی."
               }
             },
             {
               "image": "/images/piai_upload.webp",
               "caption": {
-                "en": "Upload: four sources in one place, a checklist, and a state for every file.",
-                "fa": "آپلود: چهار منبع در یک‌جا، چک‌لیست، و وضعیت برای هر فایل."
+                "en": "Upload from a local file, Snowflake, AWS or an existing dataset.",
+                "fa": "آپلود از فایل محلی، Snowflake، AWS یا دیتاست موجود."
               }
             },
             {
               "image": "/images/piai_analysis.webp",
               "caption": {
-                "en": "Analysis: choose a file and an analyser; reports appear below with download and view.",
-                "fa": "تحلیل: انتخاب فایل و نوع تحلیل؛ گزارش‌ها با امکان دانلود و مشاهده پایین صفحه می‌آیند."
+                "en": "Analysis: pick a file and an analyser.",
+                "fa": "تحلیل: انتخاب فایل و نوع تحلیل."
               }
             },
             {
               "image": "/images/piai_clean.webp",
               "caption": {
-                "en": "Cleaning: bulk rules for headers, then per-column type and output format.",
-                "fa": "پاک‌سازی: قانون‌های گروهی برای ستون‌ها، سپس نوع و قالب خروجی برای هر ستون."
+                "en": "Cleaning rules for columns.",
+                "fa": "قانون‌های پاک‌سازی ستون‌ها."
               }
             },
             {
               "image": "/images/piai_train.webp",
               "caption": {
-                "en": "Training: name, file, target column and model type, with past runs to view and compare.",
-                "fa": "آموزش: نام، فایل، ستون هدف و نوع مدل، با اجراهای قبلی برای مشاهده و مقایسه."
+                "en": "Training with past runs to compare.",
+                "fa": "آموزش مدل، با اجراهای قبلی برای مقایسه."
               }
             },
             {
               "image": "/images/piai_predict.webp",
               "caption": {
-                "en": "Prediction: pick a file and a trained model, start, then download the result.",
-                "fa": "پیش‌بینی: انتخاب فایل و مدل آموزش‌دیده، شروع، سپس دانلود نتیجه."
+                "en": "Prediction and download.",
+                "fa": "پیش‌بینی و دانلود نتیجه."
               }
             }
           ]
@@ -577,8 +441,8 @@
         {
           "id": "website",
           "title": {
-            "en": "Marketing site and sign-in",
-            "fa": "سایت معرفی و ورود"
+            "en": "Marketing site",
+            "fa": "سایت معرفی"
           },
           "draft_rationale": false,
           "body": {
@@ -594,69 +458,33 @@
             {
               "image": "/images/piai_home.webp",
               "caption": {
-                "en": "Home page: the promise, three steps, services and the data sources PIAI accepts.",
-                "fa": "صفحه اصلی: وعده محصول، سه قدم، خدمات و منابع داده‌ای که پیای می‌پذیرد."
+                "en": "Home page.",
+                "fa": "صفحه اصلی."
               }
             },
             {
               "image": "/images/piai_login.webp",
               "caption": {
-                "en": "Sign-in on desktop and mobile. Every auth screen (sign-up, reset, verification, welcome, error) was designed in five breakpoints.",
-                "fa": "ورود در دسکتاپ و موبایل. همه صفحه‌های احراز هویت (ثبت‌نام، بازیابی، تأیید، خوش‌آمد، خطا) در پنج اندازه طراحی شدند."
+                "en": "Sign-in on desktop and mobile.",
+                "fa": "ورود در دسکتاپ و موبایل."
               }
             }
           ]
         },
         {
-          "id": "validation",
-          "title": {
-            "en": "Research and validation",
-            "fa": "تحقیق و اعتبارسنجی"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>No formal user research is documented for this project, so none is claimed here.</p>",
-            "fa": "<p>برای این پروژه تحقیق کاربری رسمی مستند نشده، بنابراین اینجا ادعایی درباره آن نمی‌شود.</p>"
-          },
-          "note": {
-            "en": "{!Any testing, demos or feedback sessions with users or the data team!}",
-            "fa": "{!هر تست، دمو یا جلسه بازخورد با کاربران یا تیم داده!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
           "id": "outcome",
           "title": {
-            "en": "Outcome",
-            "fa": "نتیجه"
+            "en": "Outcome and next steps",
+            "fa": "نتیجه و قدم بعدی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The screens above are the final designs for the app and the marketing site. The sample data in them is placeholder content.</p>",
-            "fa": "<p>صفحه‌های بالا طراحی نهایی اپ و سایت معرفی هستند. داده‌های داخل آن‌ها نمونه و موقت است.</p>"
+            "en": "<p>No user research or results are documented for this project yet, so none are claimed. Looking back, I would:</p><ul><li>Replace ML terms like Classification or Regression with plain questions about what to predict.</li><li>Make the checklist tick only when a field is really complete.</li><li>Use radio buttons for single choices such as the target column.</li><li>Remove the website-style footer left from the UI kit.</li></ul>",
+            "fa": "<p>برای این پروژه هنوز تحقیق کاربری یا نتیجه‌ای مستند نشده، پس ادعایی هم نمی‌شود. با نگاه دوباره:</p><ul><li>اصطلاحاتی مثل Classification و Regression را با سؤال ساده «چه چیزی را می‌خواهید پیش‌بینی کنید؟» جایگزین می‌کردم.</li><li>چک‌لیست فقط وقتی تیک بخورد که فیلد واقعاً کامل شده.</li><li>برای انتخاب‌های تکی مثل ستون هدف، دکمه رادیویی می‌گذاشتم.</li><li>فوتر سایت‌گونه‌ای را که از کیت مانده حذف می‌کردم.</li></ul>"
           },
           "note": {
-            "en": "{!Release status and anything you can share about use!}",
-            "fa": "{!وضعیت انتشار و هر چیزی درباره استفاده که قابل انتشار است!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "reflection",
-          "title": {
-            "en": "Reflection",
-            "fa": "بازنگری"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>Looking at the work again with fresh eyes, the structure holds up: one path, checklists and background jobs. What I would change:</p><ul><li><strong>Less data-science vocabulary.</strong> Training still asks users to pick Classification, Regression or Time Series, and Cleaning shows standard deviation and quartiles. For people who don’t code, I would ask what they want to predict and suggest the model type.</li><li><strong>A checklist that tells the truth.</strong> Items should tick only when the field is really complete, and Start should stay disabled until then.</li><li><strong>Single choices as single choices.</strong> The target column and the model type are one-of-many, so they should be radio buttons, not checkboxes.</li><li><strong>Remove what came from the kit.</strong> The app still carries a marketing-style footer and social links that don’t belong inside a work tool.</li><li><strong>Realistic sample data</strong> in mockups, so reviewers judge the design and not the placeholder numbers.</li></ul>",
-            "fa": "<p>با نگاه دوباره به کار، ساختار آن قابل دفاع است: یک مسیر، چک‌لیست‌ها و کارهای پس‌زمینه. چیزهایی که تغییر می‌دادم:</p><ul><li><strong>اصطلاحات علم داده کمتر.</strong> صفحه آموزش هنوز از کاربر می‌خواهد Classification، Regression یا Time Series را انتخاب کند و پاک‌سازی انحراف معیار و چارک‌ها را نشان می‌دهد. برای کسی که کدنویسی نمی‌کند، می‌پرسیدم چه چیزی را می‌خواهد پیش‌بینی کند و نوع مدل را پیشنهاد می‌دادم.</li><li><strong>چک‌لیستی که درست بگوید.</strong> هر مورد فقط وقتی تیک بخورد که فیلد واقعاً کامل شده، و دکمه شروع تا آن موقع غیرفعال بماند.</li><li><strong>انتخاب تکی، به شکل انتخاب تکی.</strong> ستون هدف و نوع مدل یکی از چند گزینه‌اند، پس باید دکمه رادیویی باشند، نه چک‌باکس.</li><li><strong>حذف باقی‌مانده‌های کیت.</strong> اپ هنوز فوتر و لینک‌های شبکه اجتماعی به سبک سایت معرفی دارد که جایشان داخل یک ابزار کاری نیست.</li><li><strong>داده نمونه واقعی‌تر</strong> در ماکاپ‌ها، تا بیننده طراحی را قضاوت کند نه عددهای موقت را.</li></ul>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
+            "en": "{!Release status, research or feedback!}",
+            "fa": "{!وضعیت انتشار، تحقیق یا بازخورد!}"
           },
           "decisions": [],
           "gallery": []
@@ -680,29 +508,29 @@
       },
       "cover": "/images/kan1.webp",
       "teaser": {
-        "en": "A large Iranian education organisation offered many services to students and advisors across separate apps. The work shown covers the student hub, sign-up by student type and the advisor app.",
-        "fa": "یک مجموعه آموزشی بزرگ ایرانی خدمات زیادی برای دانش‌آموزان و پشتیبان‌ها داشت که در اپ‌های جداگانه پخش بودند. کارهای این بخش شامل هاب دانش‌آموز، ثبت‌نام بر اساس نوع دانش‌آموز و اپ پشتیبان است."
+        "en": "One hub for students and advisors of a national education organisation, replacing scattered apps.",
+        "fa": "یک هاب برای دانش‌آموزان و پشتیبان‌های یک مجموعه آموزشی سراسری، به‌جای اپ‌های پراکنده."
       },
       "summary": {
-        "en": "Bringing scattered student services into one place, and designing for students and advisors who arrive with very different needs.",
-        "fa": "جمع‌کردن خدمات پراکنده دانش‌آموزی در یک‌جا، و طراحی برای دانش‌آموزان و پشتیبان‌هایی که با نیازهای کاملاً متفاوت وارد می‌شوند."
+        "en": "Bringing scattered services into one place for students and advisors with different needs.",
+        "fa": "جمع کردن خدمات پراکنده در یک‌جا برای دانش‌آموزان و پشتیبان‌ها با نیازهای متفاوت."
       },
       "glance": {
         "problem": {
-          "en": "Services were spread across apps; students had to know which app did what.",
-          "fa": "خدمات در اپ‌های مختلف پخش بودند؛ دانش‌آموز باید می‌دانست هر کار در کدام اپ انجام می‌شود."
+          "en": "Services were spread across apps; students had to know which did what.",
+          "fa": "خدمات در اپ‌های مختلف پخش بود و دانش‌آموز باید می‌دانست هر کار کجاست."
         },
         "users": {
-          "en": "Kanoon students, non-member students, and advisors.",
-          "fa": "دانش‌آموزان کانونی، دانش‌آموزان غیرکانونی و پشتیبان‌ها."
+          "en": "Kanoon students, non-member students and advisors.",
+          "fa": "دانش‌آموزان کانونی، غیرکانونی و پشتیبان‌ها."
         },
         "role": {
           "en": "UI/UX Designer",
           "fa": "طراح UI/UX"
         },
         "outcome": {
-          "en": "{!What shipped, and any adoption figures!}",
-          "fa": "{!چه چیزی منتشر شد و آمار استفاده!}"
+          "en": "{!What shipped, and adoption!}",
+          "fa": "{!چه چیزی منتشر شد و میزان استفاده!}"
         }
       },
       "facts": {
@@ -729,33 +557,15 @@
       },
       "chapters": [
         {
-          "id": "context",
+          "id": "overview",
           "title": {
-            "en": "Context",
-            "fa": "زمینه"
+            "en": "Overview",
+            "fa": "نمای کلی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Kanoon Farhangi Amoozesh Ghalamchi runs exams, study programmes and advising for school students across Iran. Its digital services had grown one at a time: answer sheets, results, Q&amp;A with teachers, study goals and contact with advisors.</p>",
-            "fa": "<p>کانون فرهنگی آموزش قلم‌چی برای دانش‌آموزان سراسر ایران آزمون، برنامه مطالعاتی و پشتیبانی برگزار می‌کند. خدمات دیجیتال آن یکی‌یکی رشد کرده بودند: پاسخ‌نامه، نتایج، رفع اشکال با معلم، هدف‌گذاری مطالعه و ارتباط با پشتیبان.</p>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "challenge",
-          "title": {
-            "en": "The problem",
-            "fa": "مسئله"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>Students arrive with different starting points: registered Kanoon students, students who use some services without being members, and advisors who support many students at once. One generic home screen serves none of them well.</p>",
-            "fa": "<p>کاربران با نقطه شروع متفاوت وارد می‌شوند: دانش‌آموزان ثبت‌نامی کانون، دانش‌آموزانی که بدون عضویت از بعضی خدمات استفاده می‌کنند، و پشتیبان‌هایی که هم‌زمان به چند دانش‌آموز رسیدگی می‌کنند. یک صفحه اصلی عمومی برای هیچ‌کدام خوب کار نمی‌کند.</p>"
+            "en": "<p>Kanoon Ghalamchi runs exams, study programmes and advising for students across Iran. Its digital services had grown one by one: answer sheets, results, Q&amp;A with teachers and advisor contact.</p><p>Members, non-members and advisors start from different places. One generic home screen served none of them well.</p>",
+            "fa": "<p>کانون قلم‌چی برای دانش‌آموزان سراسر ایران آزمون، برنامه مطالعاتی و پشتیبانی برگزار می‌کند. خدمات دیجیتال آن یکی‌یکی اضافه شده بود: پاسخ‌نامه، نتایج، رفع اشکال و ارتباط با پشتیبان.</p><p>دانش‌آموز عضو، غیرعضو و پشتیبان از نقطه‌های متفاوتی شروع می‌کنند و یک صفحه اصلی عمومی برای هیچ‌کدام مناسب نبود.</p>"
           },
           "note": {
             "en": "",
@@ -767,31 +577,13 @@
         {
           "id": "role",
           "title": {
-            "en": "My role and the team",
-            "fa": "نقش من و تیم"
+            "en": "My role",
+            "fa": "نقش من"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li>{?Designed the student app hub, sign-in and registration, and the advisor (Poshtiban) app.?}</li><li>{?Produced the grayscale wireframes for the Q&A and exam-review flows before visual design.?}</li><li>{?Handed off to the mobile developers in Zeplin.?}</li><li>{!Who else was on the team, and what they owned!}</li></ul>",
-            "fa": "<ul><li>{?طراحی هاب اپ دانش‌آموز، ورود و ثبت‌نام، و اپ پشتیبان.?}</li><li>{?تهیه وایرفریم‌های خاکستری فرایند رفع اشکال و مرور آزمون، پیش از طراحی بصری.?}</li><li>{?تحویل طراحی به توسعه‌دهنده‌های موبایل از طریق Zeplin.?}</li><li>{!چه کسانی در تیم بودند و مسئولیت هر کدام چه بود!}</li></ul>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "constraints",
-          "title": {
-            "en": "Constraints",
-            "fa": "محدودیت‌ها"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<ul><li>Persian, right-to-left, on mobile screens.</li><li>Members and non-members have different data: one has a Kanoon ID, the other does not.</li><li>Many existing services had to be reachable without rebuilding them.</li></ul>",
-            "fa": "<ul><li>فارسی، راست‌به‌چپ، روی صفحه موبایل.</li><li>عضو و غیرعضو اطلاعات متفاوتی دارند: یکی شناسه کانونی دارد و دیگری ندارد.</li><li>خدمات موجود زیادی باید بدون بازسازی در دسترس قرار می‌گرفتند.</li></ul>"
+            "en": "<ul><li>{?Designed the student hub, registration and the advisor app.?}</li><li>{?Made grayscale wireframes for Q&A and exam review before visual design.?}</li><li>{!Who else was on the team!}</li></ul>",
+            "fa": "<ul><li>{?طراحی هاب دانش‌آموز، ثبت‌نام و اپ پشتیبان.?}</li><li>{?تهیه وایرفریم خاکستری برای رفع اشکال و مرور آزمون پیش از طراحی بصری.?}</li><li>{!چه کسانی در تیم بودند!}</li></ul>"
           },
           "note": {
             "en": "",
@@ -818,44 +610,44 @@
           "decisions": [
             {
               "title": {
-                "en": "Ask what kind of student you are first",
-                "fa": "اول بپرس چه نوع دانش‌آموزی هستی"
+                "en": "Ask the student type first",
+                "fa": "اول نوع دانش‌آموز"
               },
               "text": {
-                "en": "Registration starts by asking whether the student is a Kanoon member or not. Each path asks only for what that group can provide.",
-                "fa": "ثبت‌نام با این پرسش شروع می‌شود که دانش‌آموز عضو کانون است یا نه. هر مسیر فقط اطلاعاتی را می‌خواهد که آن گروه می‌تواند بدهد."
+                "en": "Registration starts by asking whether the student is a member.",
+                "fa": "ثبت‌نام با این سؤال شروع می‌شود که دانش‌آموز عضو کانون است یا نه."
               },
               "why": {
-                "en": "Non-members can't be asked for a Kanoon ID they don't have.",
-                "fa": "نمی‌توان از غیرعضو شناسه کانونی خواست که ندارد."
+                "en": "Non-members don’t have a Kanoon ID to enter.",
+                "fa": "غیرعضوها شناسه کانونی ندارند."
               }
             },
             {
               "title": {
-                "en": "One hub, with services and apps kept apart",
-                "fa": "یک هاب، با خدمات و اپ‌های جدا از هم"
+                "en": "Services and apps kept apart",
+                "fa": "جدا کردن خدمات از اپ‌ها"
               },
               "text": {
-                "en": "The home screen groups in-app services (answer sheets, Q&A, results) apart from links to Kanoon's other apps, with a banner for time-bound announcements.",
-                "fa": "صفحه اصلی خدمات داخل اپ (پاسخ‌نامه، رفع اشکال، نتایج) را از لینک اپ‌های دیگر کانون جدا می‌کند و یک بنر برای اطلاعیه‌های زمان‌دار دارد."
+                "en": "The hub separates in-app services from links to other Kanoon apps.",
+                "fa": "هاب، خدمات داخل اپ را از لینک اپ‌های دیگر کانون جدا می‌کند."
               },
               "why": {
-                "en": "Students need to tell 'do it here' from 'go somewhere else' at a glance.",
-                "fa": "دانش‌آموز باید با یک نگاه تشخیص دهد کدام کار همین‌جا انجام می‌شود و کدام جای دیگر."
+                "en": "Students see at a glance what happens here and what opens elsewhere.",
+                "fa": "دانش‌آموز با یک نگاه می‌فهمد چه کاری همین‌جا انجام می‌شود."
               }
             },
             {
               "title": {
-                "en": "Advisor app built around today's goals",
-                "fa": "اپ پشتیبان بر محور هدف‌های امروز"
+                "en": "Advisors start with today’s goals",
+                "fa": "پشتیبان با هدف‌های امروز شروع می‌کند"
               },
               "text": {
-                "en": "The advisor app opens on each student's daily goal and quick actions, rather than a student directory.",
-                "fa": "اپ پشتیبان به‌جای فهرست دانش‌آموزان، با هدف روزانه هر دانش‌آموز و اقدام‌های سریع باز می‌شود."
+                "en": "The advisor app opens on each student’s daily goal and quick actions.",
+                "fa": "اپ پشتیبان با هدف روزانه هر دانش‌آموز و اقدام‌های سریع باز می‌شود."
               },
               "why": {
-                "en": "Advisors handle many students a day; the first screen should be their to-do list.",
-                "fa": "پشتیبان‌ها روزانه با دانش‌آموزان زیادی سروکار دارند؛ اولین صفحه باید فهرست کارهایشان باشد."
+                "en": "For advisors handling many students, the first screen should be a to-do list.",
+                "fa": "برای پشتیبانی که با دانش‌آموزان زیادی کار می‌کند، صفحه اول باید فهرست کارها باشد."
               }
             }
           ],
@@ -864,8 +656,8 @@
         {
           "id": "screens",
           "title": {
-            "en": "Final design",
-            "fa": "طراحی نهایی"
+            "en": "Screens",
+            "fa": "صفحه‌ها"
           },
           "draft_rationale": false,
           "body": {
@@ -881,8 +673,8 @@
             {
               "image": "/images/kan1.webp",
               "caption": {
-                "en": "Student app hub with services, apps and announcements.",
-                "fa": "هاب اپ دانش‌آموز با خدمات، اپ‌ها و اطلاعیه‌ها."
+                "en": "Student hub.",
+                "fa": "هاب دانش‌آموز."
               }
             },
             {
@@ -895,15 +687,15 @@
             {
               "image": "/images/kan2.webp",
               "caption": {
-                "en": "Advisor (Poshtiban) app.",
+                "en": "Advisor app.",
                 "fa": "اپ پشتیبان."
               }
             },
             {
               "image": "/images/kan3.webp",
               "caption": {
-                "en": "Grayscale wireframes for Q&A and exam review.",
-                "fa": "وایرفریم‌های خاکستری رفع اشکال و مرور آزمون."
+                "en": "Grayscale wireframes.",
+                "fa": "وایرفریم‌های خاکستری."
               }
             },
             {
@@ -916,55 +708,19 @@
           ]
         },
         {
-          "id": "validation",
-          "title": {
-            "en": "Research and validation",
-            "fa": "تحقیق و اعتبارسنجی"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>The grayscale wireframes were used to agree the flows before visual design. No formal user research is documented yet.</p>",
-            "fa": "<p>وایرفریم‌های خاکستری برای توافق روی فرایندها پیش از طراحی بصری استفاده شدند. تحقیق کاربری رسمی هنوز مستند نشده است.</p>"
-          },
-          "note": {
-            "en": "{!Any feedback from students or advisors, or user numbers you can publish!}",
-            "fa": "{!هر بازخوردی از دانش‌آموزان یا پشتیبان‌ها، یا تعداد کاربری که قابل انتشار است!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
           "id": "outcome",
           "title": {
-            "en": "Outcome",
-            "fa": "نتیجه"
+            "en": "Outcome and next steps",
+            "fa": "نتیجه و قدم بعدی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The screens above are the final interface designs. Results are not published here.</p>",
-            "fa": "<p>صفحه‌های بالا طراحی نهایی رابط کاربری هستند. نتایج در اینجا منتشر نشده‌اند.</p>"
+            "en": "<p>My first large product. Agreeing flows in grayscale kept discussions on structure, not colour. Today I would also design for parents, who shape how students use the app.</p>",
+            "fa": "<p>اولین محصول بزرگ من بود. توافق روی فرایندها در حالت خاکستری بحث را روی ساختار نگه داشت، نه رنگ. امروز والدین را هم در نظر می‌گرفتم، چون روی استفاده دانش‌آموز اثر دارند.</p>"
           },
           "note": {
-            "en": "{!Which of these screens shipped, and when!}",
-            "fa": "{!کدام صفحه‌ها منتشر شدند و چه زمانی!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "reflection",
-          "title": {
-            "en": "Reflection",
-            "fa": "بازنگری"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>This was my first large product. Agreeing flows in grayscale kept discussions on structure instead of colour. Today I would also design for parents, who influence how students use the product.</p>",
-            "fa": "<p>این اولین محصول بزرگ من بود. توافق روی فرایندها در حالت خاکستری، بحث‌ها را روی ساختار نگه داشت، نه رنگ. امروز والدین را هم در طراحی در نظر می‌گرفتم، چون روی نحوه استفاده دانش‌آموز اثر دارند.</p>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
+            "en": "{!Which screens shipped, and any adoption figures!}",
+            "fa": "{!کدام صفحه‌ها منتشر شد و آمار استفاده!}"
           },
           "decisions": [],
           "gallery": []
@@ -988,25 +744,25 @@
       },
       "cover": "/images/lib2.webp",
       "teaser": {
-        "en": "A bilingual reading platform where one book can be an ebook, an audiobook or a printed copy, across web and mobile, Persian and English, light and dark.",
-        "fa": "یک پلتفرم کتاب‌خوانی دوزبانه که هر کتاب می‌تواند الکترونیک، صوتی یا چاپی باشد؛ برای وب و موبایل، فارسی و انگلیسی، روشن و تاریک."
+        "en": "A bilingual reading platform where one book can be an ebook, audiobook or print copy.",
+        "fa": "پلتفرم کتاب‌خوانی دوزبانه که هر کتاب می‌تواند الکترونیک، صوتی یا چاپی باشد."
       },
       "summary": {
-        "en": "One book page for three formats, and one interface that works in both reading directions.",
-        "fa": "یک صفحه کتاب برای سه قالب، و یک رابط کاربری که در هر دو جهت خواندن کار می‌کند."
+        "en": "One book page for three formats, in both reading directions.",
+        "fa": "یک صفحه کتاب برای سه قالب، در هر دو جهت نوشتار."
       },
       "glance": {
         "problem": {
-          "en": "Three formats of the same book risk tripling the catalogue and splitting reviews.",
-          "fa": "سه قالب از یک کتاب ممکن است کاتالوگ را سه برابر و نظرها را پراکنده کند."
+          "en": "Three formats per book risked a triple catalogue and split reviews.",
+          "fa": "سه قالب برای هر کتاب یعنی کاتالوگ سه‌برابر و نظرهای پراکنده."
         },
         "users": {
-          "en": "Readers in Persian and English, on web and mobile.",
-          "fa": "خوانندگان فارسی‌زبان و انگلیسی‌زبان، در وب و موبایل."
+          "en": "Persian and English readers on web and mobile.",
+          "fa": "خوانندگان فارسی و انگلیسی در وب و موبایل."
         },
         "role": {
-          "en": "{!Your role and who the client was!}",
-          "fa": "{!نقش شما و این‌که مشتری چه کسی بود!}"
+          "en": "{!Your role and the client!}",
+          "fa": "{!نقش شما و مشتری!}"
         },
         "outcome": {
           "en": "{!Shipped or concept!}",
@@ -1037,33 +793,15 @@
       },
       "chapters": [
         {
-          "id": "context",
+          "id": "overview",
           "title": {
-            "en": "Context",
-            "fa": "زمینه"
+            "en": "Overview",
+            "fa": "نمای کلی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Libra offers books in three formats, in Persian and English. Readers browse by category, search by text or voice, and choose subscription plans for ebooks, audiobooks or both.</p>",
-            "fa": "<p>لیبرا کتاب را در سه قالب و به دو زبان فارسی و انگلیسی ارائه می‌دهد. خواننده بر اساس دسته‌بندی مرور می‌کند، با متن یا صدا جست‌وجو می‌کند و برای کتاب الکترونیک، صوتی یا هر دو اشتراک انتخاب می‌کند.</p>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "challenge",
-          "title": {
-            "en": "The problem",
-            "fa": "مسئله"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>Treating each format as its own product would triple the catalogue and split ratings and reviews. The interface also had to mirror cleanly between right-to-left Persian and left-to-right English without becoming two separate designs.</p>",
-            "fa": "<p>اگر هر قالب محصولی جداگانه حساب شود، کاتالوگ سه برابر و امتیازها و نظرها پراکنده می‌شوند. رابط کاربری هم باید بین فارسی راست‌به‌چپ و انگلیسی چپ‌به‌راست به‌درستی آینه می‌شد، بدون این‌که به دو طراحی جدا تبدیل شود.</p>"
+            "en": "<p>Libra offers books as ebooks, audiobooks and print, in Persian and English. The interface had to mirror cleanly between right-to-left and left-to-right without becoming two separate designs.</p>",
+            "fa": "<p>لیبرا کتاب را به‌صورت الکترونیک، صوتی و چاپی، به فارسی و انگلیسی ارائه می‌دهد. رابط کاربری باید بین راست‌به‌چپ و چپ‌به‌راست به‌درستی آینه می‌شد، بدون این‌که به دو طراحی جدا تبدیل شود.</p>"
           },
           "note": {
             "en": "",
@@ -1090,30 +828,30 @@
           "decisions": [
             {
               "title": {
-                "en": "One book, three formats as tabs",
-                "fa": "یک کتاب، سه قالب به‌صورت تب"
+                "en": "Formats as tabs",
+                "fa": "قالب‌ها به‌صورت تب"
               },
               "text": {
-                "en": "Ebook, Audio and Hardcover are tabs on one book page. Ratings, description and related books stay shared; the actions change with the format.",
-                "fa": "الکترونیک، صوتی و چاپی سه تب در یک صفحه کتاب هستند. امتیاز، توضیحات و کتاب‌های مرتبط مشترک می‌مانند و فقط اقدام‌ها با قالب عوض می‌شوند."
+                "en": "Ebook, audio and print are tabs on one book page; ratings and details are shared.",
+                "fa": "الکترونیک، صوتی و چاپی تب‌های یک صفحه‌اند و امتیاز و توضیحات مشترک است."
               },
               "why": {
-                "en": "Readers choose a book first and a format second.",
+                "en": "Readers choose the book first, the format second.",
                 "fa": "خواننده اول کتاب را انتخاب می‌کند، بعد قالب را."
               }
             },
             {
               "title": {
-                "en": "Search-first home",
-                "fa": "صفحه اصلی با محوریت جست‌وجو"
+                "en": "Search first",
+                "fa": "اول جست‌وجو"
               },
               "text": {
-                "en": "The home screen leads with text and voice search over the cover wall, with categories directly below.",
-                "fa": "صفحه اصلی با جست‌وجوی متنی و صوتی روی دیوار جلدها شروع می‌شود و دسته‌بندی‌ها درست زیر آن هستند."
+                "en": "The home screen leads with text and voice search.",
+                "fa": "صفحه اصلی با جست‌وجوی متنی و صوتی شروع می‌شود."
               },
               "why": {
-                "en": "Most readers arrive knowing a title or an author.",
-                "fa": "بیشتر خواننده‌ها با دانستن نام کتاب یا نویسنده وارد می‌شوند."
+                "en": "Most readers arrive knowing a title or author.",
+                "fa": "بیشتر خواننده‌ها نام کتاب یا نویسنده را می‌دانند."
               }
             },
             {
@@ -1122,12 +860,12 @@
                 "fa": "کامپوننت‌های آگاه به جهت"
               },
               "text": {
-                "en": "Components use start and end instead of left and right, so the Persian and English layouts come from the same files.",
-                "fa": "کامپوننت‌ها به‌جای چپ و راست از «ابتدا» و «انتها» استفاده می‌کنند تا چیدمان فارسی و انگلیسی از همان فایل‌ها ساخته شود."
+                "en": "Components use start and end instead of left and right.",
+                "fa": "کامپوننت‌ها به‌جای چپ و راست از ابتدا و انتها استفاده می‌کنند."
               },
               "why": {
-                "en": "Two hand-made versions drift apart quickly.",
-                "fa": "دو نسخه دست‌ساز خیلی زود از هم فاصله می‌گیرند."
+                "en": "Both languages come from the same files, so they never drift apart.",
+                "fa": "هر دو زبان از یک فایل ساخته می‌شوند و از هم فاصله نمی‌گیرند."
               }
             }
           ],
@@ -1136,8 +874,8 @@
         {
           "id": "screens",
           "title": {
-            "en": "Final design",
-            "fa": "طراحی نهایی"
+            "en": "Screens",
+            "fa": "صفحه‌ها"
           },
           "draft_rationale": false,
           "body": {
@@ -1153,22 +891,22 @@
             {
               "image": "/images/lib2.webp",
               "caption": {
-                "en": "Home, browse and book page across devices. Book covers are placeholders.",
-                "fa": "صفحه اصلی، مرور و صفحه کتاب در دستگاه‌های مختلف. جلد کتاب‌ها موقت هستند."
+                "en": "Home, browse and book page. Covers are placeholders.",
+                "fa": "صفحه اصلی، مرور و صفحه کتاب. جلدها موقت‌اند."
               }
             },
             {
               "image": "/images/lib1.webp",
               "caption": {
-                "en": "Book page in light and dark, with the format tabs.",
-                "fa": "صفحه کتاب در تم روشن و تاریک، با تب‌های قالب."
+                "en": "Book page in light and dark.",
+                "fa": "صفحه کتاب در تم روشن و تاریک."
               }
             },
             {
               "image": "/images/lib3.webp",
               "caption": {
-                "en": "English layout with search results.",
-                "fa": "چیدمان انگلیسی با نتایج جست‌وجو."
+                "en": "English layout with search.",
+                "fa": "چیدمان انگلیسی با جست‌وجو."
               }
             }
           ]
@@ -1176,35 +914,17 @@
         {
           "id": "outcome",
           "title": {
-            "en": "Outcome",
-            "fa": "نتیجه"
+            "en": "Outcome and next steps",
+            "fa": "نتیجه و قدم بعدی"
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The screens above are complete interface designs for web, tablet and mobile.</p>",
-            "fa": "<p>صفحه‌های بالا طراحی کامل رابط کاربری برای وب، تبلت و موبایل هستند.</p>"
+            "en": "<p>The format tabs held up well. I would revisit the subscription screen: four plans side by side is a lot to compare on a phone.</p>",
+            "fa": "<p>تب‌های قالب خوب جواب داد. صفحه اشتراک را بازطراحی می‌کردم: مقایسه چهار طرح کنار هم روی گوشی زیاد است.</p>"
           },
           "note": {
-            "en": "{!Whether Libra launched, and for whom it was designed!}",
-            "fa": "{!آیا لیبرا منتشر شد و برای چه کسی طراحی شد!}"
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "reflection",
-          "title": {
-            "en": "Reflection",
-            "fa": "بازنگری"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "<p>The format tabs hold up well. I would revisit the subscription screen: four plans side by side is a lot to compare on a phone.</p>",
-            "fa": "<p>تب‌های قالب به‌خوبی جواب می‌دهند. صفحه اشتراک را بازطراحی می‌کردم: مقایسه چهار طرح کنار هم روی گوشی زیاد است.</p>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
+            "en": "{!Whether Libra launched, and for whom!}",
+            "fa": "{!آیا لیبرا منتشر شد و برای چه کسی!}"
           },
           "decisions": [],
           "gallery": []
