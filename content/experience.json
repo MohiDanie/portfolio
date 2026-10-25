@@ -27,14 +27,14 @@
       },
       "bullets": {
         "en": [
-          "{?Own the roadmap and priorities for web and mobile products.?}",
-          "{?Write requirements and plan releases with engineering and data teams.?}",
-          "{!One concrete result from this role!}"
+          "Own the roadmap and priorities for web and mobile products, and still design.",
+          "Turn user needs into product solutions that serve both users and business goals.",
+          "Led three product projects in parallel in under a year, from idea and planning to design and development."
         ],
         "fa": [
-          "{?مسئول نقشه راه و اولویت‌های محصولات وب و موبایل.?}",
-          "{?نوشتن نیازمندی‌ها و برنامه‌ریزی انتشار با تیم‌های فنی و داده.?}",
-          "{!یک نتیجه مشخص از این نقش!}"
+          "مسئول نقشه راه و اولویت‌های محصولات وب و موبایل، در کنار طراحی.",
+          "تبدیل نیازهای کاربران به راهکارهای محصولی هم‌سو با اهداف کسب‌وکار.",
+          "پیشبرد هم‌زمان سه پروژه محصول در کمتر از یک سال، از ایده و برنامه‌ریزی تا طراحی و توسعه."
         ]
       },
       "hide_when_published": false
@@ -58,16 +58,14 @@
       },
       "bullets": {
         "en": [
-          "{?Designed Puzzleity, PIAI, Elevate and the shipping, recycling and ticketing platforms.?}",
-          "{?Built the shared Figma design system.?}",
-          "Led the UI/UX team.",
-          "{!Team size!}"
+          "Designed Puzzleity, PIAI, Elevate, RainJoy, a dating app and platforms for shipping, recycling and ticketing.",
+          "Built the shared Figma design system.",
+          "Led the UI/UX team: one designer and one intern."
         ],
         "fa": [
-          "{?طراحی پازلیتی، پیای، الیویت و پلتفرم‌های حمل، بازیافت و فروش بلیت.?}",
-          "{?ساخت دیزاین سیستم مشترک در فیگما.?}",
-          "هدایت تیم UI/UX.",
-          "{!اندازه تیم!}"
+          "طراحی پازلیتی، پیای، الیویت، رین‌جوی، یک اپ دوست‌یابی و پلتفرم‌های حمل، بازیافت و فروش بلیت.",
+          "ساخت دیزاین سیستم مشترک در فیگما.",
+          "هدایت تیم UI/UX: یک طراح و یک کارآموز."
         ]
       },
       "hide_when_published": false
@@ -86,15 +84,15 @@
         "fa": "گاترسا · تهران"
       },
       "summary": {
-        "en": "{!What you designed at Gathersa!}",
-        "fa": "{!در گاترسا چه طراحی کردید!}"
+        "en": "Ticketing products for arts events, theatre and concerts.",
+        "fa": "محصولات فروش بلیت رویدادهای هنری، تئاتر و کنسرت."
       },
       "bullets": {
         "en": [
-          "{!Products and responsibilities!}"
+          "Designed ticket sales for arts events, theatre and concerts."
         ],
         "fa": [
-          "{!محصولات و مسئولیت‌ها!}"
+          "طراحی فروش بلیت برای رویدادهای هنری، تئاتر و کنسرت."
         ]
       },
       "hide_when_published": false
@@ -140,12 +138,8 @@
         "fa": "پروژه‌های وب و موبایل برای مشتریان مستقل."
       },
       "bullets": {
-        "en": [
-          "{?Including the Libra reading platform.?}"
-        ],
-        "fa": [
-          "{?از جمله پلتفرم کتاب‌خوانی لیبرا.?}"
-        ]
+        "en": [],
+        "fa": []
       },
       "hide_when_published": false
     },
@@ -190,17 +184,19 @@
         "fa": "یکام‌سافت · تهران"
       },
       "summary": {
-        "en": "{!What you designed at Yecomsoft!}",
-        "fa": "{!در یکام‌سافت چه طراحی کردید!}"
+        "en": "Designed the Libra reading platform, its redesign, and user panels for payment systems.",
+        "fa": "طراحی پلتفرم کتاب‌خوانی لیبرا، بازطراحی آن، و پنل کاربری سیستم‌های پرداخت."
       },
       "bullets": {
         "en": [
-          "{?Part-time, alongside Kanoon.?}",
-          "{!Products and responsibilities!}"
+          "Designed the Libra reading platform and its redesign, and user panels for payment systems.",
+          "Full-time, alongside university.",
+          "Led the Libra design team of three designers."
         ],
         "fa": [
-          "{?پاره‌وقت، هم‌زمان با کانون.?}",
-          "{!محصولات و مسئولیت‌ها!}"
+          "طراحی پلتفرم کتاب‌خوانی لیبرا و بازطراحی آن، و پنل کاربری سیستم‌های پرداخت.",
+          "تمام‌وقت، هم‌زمان با تحصیل در دانشگاه.",
+          "سرپرستی تیم سه‌نفره طراحی لیبرا."
         ]
       },
       "hide_when_published": false
@@ -224,10 +220,10 @@
       },
       "bullets": {
         "en": [
-          "{?Student hub, registration by student type and the advisor app.?}"
+          "Designed the student hub, registration, and apps for advisors, managers and branches: 12 apps and several websites."
         ],
         "fa": [
-          "{?هاب دانش‌آموز، ثبت‌نام بر اساس نوع دانش‌آموز و اپ پشتیبان.?}"
+          "طراحی هاب دانش‌آموز، ثبت‌نام، و اپ‌های پشتیبان‌ها، مدیران و نمایندگی‌ها: ۱۲ اپلیکیشن و چند وب‌سایت."
         ]
       },
       "hide_when_published": false
@@ -250,12 +246,8 @@
         "fa": "اپلیکیشن آموزش مقررات رانندگی برای بازار آلمان."
       },
       "bullets": {
-        "en": [
-          "{!Your role and what you delivered!}"
-        ],
-        "fa": [
-          "{!نقش شما و آنچه تحویل دادید!}"
-        ]
+        "en": [],
+        "fa": []
       },
       "hide_when_published": false
     }
@@ -271,8 +263,8 @@
         "fa": "کارشناسی مهندسی کامپیوتر، گرایش هوش مصنوعی"
       },
       "school": {
-        "en": "University of Qom",
-        "fa": "دانشگاه قم"
+        "en": "University of Qom (transferred from the University of Kashan)",
+        "fa": "دانشگاه قم (انتقالی از دانشگاه کاشان)"
       }
     },
     {
@@ -285,8 +277,22 @@
         "fa": "کارشناسی مهندسی کامپیوتر"
       },
       "school": {
-        "en": "University of Kashan{? · transferred to the University of Qom?}",
-        "fa": "دانشگاه کاشان{? · انتقال به دانشگاه قم?}"
+        "en": "University of Kashan",
+        "fa": "دانشگاه کاشان"
+      }
+    },
+    {
+      "when": {
+        "en": "{!Years!}",
+        "fa": "{!سال‌ها!}"
+      },
+      "degree": {
+        "en": "BSc Metallurgical Engineering",
+        "fa": "کارشناسی مهندسی متالورژی"
+      },
+      "school": {
+        "en": "University of Kashan, full-time",
+        "fa": "دانشگاه سراسری کاشان، روزانه"
       }
     }
   ],

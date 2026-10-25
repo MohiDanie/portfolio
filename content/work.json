@@ -34,34 +34,34 @@
           "fa": "مدیران استخدام که آزمون می‌سازند؛ داوطلب‌هایی که آزمون می‌دهند."
         },
         "role": {
-          "en": "Senior UI/UX Designer{?, lead designer?}",
-          "fa": "طراح ارشد UI/UX{?، طراح اصلی?}"
+          "en": "Senior UI/UX Designer, lead product designer",
+          "fa": "طراح ارشد UI/UX، طراح اصلی محصول"
         },
         "outcome": {
-          "en": "Released by Duniar as Tik Talent after I left.{! Any feedback or usage you know of!}",
-          "fa": "بعد از خروج من، دونیار آن را با نام تیک تلنت منتشر کرد.{! بازخورد یا آمار استفاده‌ای که می‌دانید!}"
+          "en": "Released as TikTalent. Sold to a company in Australia and used for exams and hiring at Shahid Beheshti University.",
+          "fa": "با نام تیک‌تلنت منتشر شد؛ به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود."
         }
       },
       "facts": {
         "role": {
-          "en": "Senior UI/UX Designer{?, lead designer?}",
-          "fa": "طراح ارشد UI/UX{?، طراح اصلی?}"
+          "en": "Senior UI/UX Designer, lead product designer",
+          "fa": "طراح ارشد UI/UX، طراح اصلی محصول"
         },
         "team": {
-          "en": "{!Team size and roles!}",
-          "fa": "{!اندازه و ترکیب تیم!}"
+          "en": "Product manager, four developers and a DevOps engineer",
+          "fa": "مدیر محصول، چهار برنامه‌نویس و یک مهندس DevOps"
         },
         "time": {
-          "en": "Duniar{?, 2024?}",
-          "fa": "دونیار{?، ۱۴۰۳?}"
+          "en": "Duniar, 2024",
+          "fa": "دونیار، ۱۴۰۳"
         },
         "platform": {
           "en": "Web app with a built-in code editor",
           "fa": "وب‌اپ با ویرایشگر کد داخلی"
         },
         "status": {
-          "en": "Released as Tik Talent",
-          "fa": "منتشرشده با نام تیک تلنت"
+          "en": "Released as TikTalent · <a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>",
+          "fa": "منتشرشده با نام تیک‌تلنت · <a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>"
         }
       },
       "chapters": [
@@ -91,8 +91,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li>{?Designed the employer side: builder, question library and candidate pipeline.?}</li><li>{?Designed the candidate test flow and code-editor layout with the engineering lead.?}</li><li>{?Maintained the Figma component library.?}</li><li>{!Who else was on the team!}</li></ul>",
-            "fa": "<ul><li>{?طراحی سمت کارفرما: سازنده آزمون، کتابخانه سؤال و پایپ‌لاین داوطلب‌ها.?}</li><li>{?طراحی فرایند آزمون داوطلب و چیدمان ویرایشگر کد با لید فنی.?}</li><li>{?نگهداری کتابخانه کامپوننت فیگما.?}</li><li>{!چه کسانی در تیم بودند!}</li></ul>"
+            "en": "<p>I led the product’s design end to end, from research to checking the build.</p><ul><li><strong>Research:</strong> framed the problem, benchmarked competitors, interviewed users and built personas.</li><li><strong>Definition:</strong> shaped the features with the client, then mapped user flows and wireframes.</li><li><strong>Design:</strong> built the design system and the full product UI in Figma, with interactive prototypes.</li><li><strong>Testing:</strong> ran usability tests and UI reviews, and fixed what users struggled with.</li><li><strong>Delivery:</strong> handed off to developers, reviewed the build, and monitored user issues and completion rates.</li></ul><p>I worked with a product manager, four developers and a DevOps engineer.</p>",
+            "fa": "<p>طراحی محصول را از تحقیق تا بررسی پیاده‌سازی، از ابتدا تا انتها هدایت کردم.</p><ul><li><strong>تحقیق:</strong> تعریف مسئله، بنچ‌مارک رقبا، مصاحبه با کاربران و ساخت پرسونا.</li><li><strong>تعریف محصول:</strong> شکل دادن فیچرها همراه کارفرما، سپس طراحی مسیر کاربر و وایرفریم.</li><li><strong>طراحی:</strong> ساخت دیزاین سیستم و طراحی کامل رابط محصول در فیگما، همراه پروتوتایپ تعاملی.</li><li><strong>تست:</strong> تست کاربردپذیری و بازبینی UI، و رفع مشکلاتی که کاربران با آن روبه‌رو بودند.</li><li><strong>تحویل:</strong> تحویل طرح به برنامه‌نویس‌ها، بررسی پیاده‌سازی، و پایش مشکلات کاربران و نرخ تکمیل.</li></ul><p>همراه یک مدیر محصول، چهار برنامه‌نویس و یک مهندس DevOps کار کردم.</p>"
           },
           "note": {
             "en": "",
@@ -196,12 +196,12 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Duniar released the product as Tik Talent after I left. I have no user research or results from it, so none are claimed.</p><p>Next, I would measure the time from sign-up to the first assessment sent, and test the builder with recruiters before finalising its structure.</p>",
-            "fa": "<p>دونیار بعد از خروج من محصول را با نام تیک تلنت منتشر کرد. تحقیق کاربری یا نتیجه‌ای از آن در دست ندارم، پس ادعایی هم نمی‌شود.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی، و تست سازنده با کارشناسان استخدام پیش از قطعی شدن ساختار.</p>"
+            "en": "<p>After I left Duniar, the product was released as TikTalent (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>). It was sold to a company in Australia and is used for exams and hiring at Shahid Beheshti University.</p><p>Interviews and prototype tests shaped the design along the way; I don’t have figures from them to publish here.</p><p>Next, I would track the time from sign-up to the first assessment sent, the moment that shows whether the builder really is simple.</p>",
+            "fa": "<p>بعد از خروج من از دونیار، محصول با نام تیک‌تلنت (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>) منتشر شد. به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود.</p><p>مصاحبه‌ها و تست پروتوتایپ در طول کار طراحی را شکل دادند؛ عددی از آن‌ها برای انتشار در اختیار ندارم.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی؛ لحظه‌ای که نشان می‌دهد سازنده واقعاً ساده است یا نه.</p>"
           },
           "note": {
-            "en": "{!Any feedback or usage figures after release!}",
-            "fa": "{!بازخورد یا آمار استفاده بعد از انتشار!}"
+            "en": "",
+            "fa": ""
           },
           "decisions": [],
           "gallery": []
@@ -242,34 +242,34 @@
           "fa": "تحلیل‌گرها، مدیران و تیم‌های کوچکی که برنامه‌نویس نیستند."
         },
         "role": {
-          "en": "Senior UI/UX Designer{?, lead designer on app and website?}",
-          "fa": "طراح ارشد UI/UX{?، طراح اصلی اپ و سایت?}"
+          "en": "Senior UI/UX Designer, lead designer for the app and marketing site",
+          "fa": "طراح ارشد UI/UX، طراح اصلی اپ و سایت معرفی"
         },
         "outcome": {
-          "en": "{!Release status and any feedback!}",
-          "fa": "{!وضعیت انتشار و بازخورد!}"
+          "en": "Released and sold B2B, with contracts with companies in Australia.",
+          "fa": "منتشر شد و به‌صورت B2B فروخته شد، با قرارداد با شرکت‌هایی در استرالیا."
         }
       },
       "facts": {
         "role": {
-          "en": "Senior UI/UX Designer{?, lead designer?}",
-          "fa": "طراح ارشد UI/UX{?، طراح اصلی?}"
+          "en": "Senior UI/UX Designer, lead designer",
+          "fa": "طراح ارشد UI/UX، طراح اصلی"
         },
         "team": {
-          "en": "{!Team size and roles!}",
-          "fa": "{!اندازه و ترکیب تیم!}"
+          "en": "Client, project manager in Australia, tech lead, two back-end and two front-end developers",
+          "fa": "کارفرما، مدیر پروژه در استرالیا، لید فنی، دو برنامه‌نویس بک‌اند و دو فرانت‌اند"
         },
         "time": {
-          "en": "Duniar{?, 2024?}",
-          "fa": "دونیار{?، ۱۴۰۳?}"
+          "en": "Duniar, 2024",
+          "fa": "دونیار، ۱۴۰۳"
         },
         "platform": {
           "en": "Web app (desktop) and responsive marketing site",
           "fa": "وب‌اپ (دسکتاپ) و سایت معرفی واکنش‌گرا"
         },
         "status": {
-          "en": "{!Shipped, pilot or design only!}",
-          "fa": "{!منتشرشده، آزمایشی یا فقط طراحی!}"
+          "en": "Released, sold B2B",
+          "fa": "منتشرشده، فروش B2B"
         }
       },
       "chapters": [
@@ -299,8 +299,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The app’s visual shell was adapted from the Constructor UI kit, so the team could move fast. My work was the product structure and the marketing site.</p><ul><li>{?Defined the project workflow and app structure.?}</li><li>{?Designed the upload, analysis, cleaning, training and prediction screens.?}</li><li>{?Designed the marketing site and sign-in flow in five breakpoints.?}</li><li>{!Screens designed from scratch, and the team!}</li></ul>",
-            "fa": "<p>پوسته بصری اپ از کیت Constructor تطبیق داده شد تا تیم سریع‌تر پیش برود. کار من ساختار محصول و سایت معرفی بود.</p><ul><li>{?تعریف جریان کار پروژه و ساختار اپ.?}</li><li>{?طراحی صفحه‌های آپلود، تحلیل، پاک‌سازی، آموزش و پیش‌بینی.?}</li><li>{?طراحی سایت معرفی و فرایند ورود در پنج اندازه صفحه.?}</li><li>{!صفحه‌هایی که از صفر طراحی شد، و تیم!}</li></ul>"
+            "en": "<p>The app’s visual shell was adapted from the Constructor UI kit so the team could move fast. My work was the product structure, the workflow screens and the marketing site; every screen I designed was built and shipped.</p><ul><li>Defined the project workflow and app structure.</li><li>Designed the upload, analysis, cleaning, training and prediction screens.</li><li>Designed the marketing site and sign-in flow across five breakpoints.</li><li>Ran user tests and monitored use after release.</li></ul><p>I worked with the client, a project manager in Australia, a tech lead, and two back-end and two front-end developers.</p>",
+            "fa": "<p>پوسته بصری اپ از کیت Constructor تطبیق داده شد تا تیم سریع‌تر پیش برود. کار من ساختار محصول، صفحه‌های جریان کار و سایت معرفی بود؛ همه صفحه‌هایی که طراحی کردم پیاده‌سازی و منتشر شد.</p><ul><li>تعریف جریان کار پروژه و ساختار اپ.</li><li>طراحی صفحه‌های آپلود، تحلیل، پاک‌سازی، آموزش و پیش‌بینی.</li><li>طراحی سایت معرفی و فرایند ورود در پنج اندازه صفحه.</li><li>اجرای تست کاربر و پایش استفاده بعد از انتشار.</li></ul><p>با کارفرما، مدیر پروژه در استرالیا، لید فنی، دو برنامه‌نویس بک‌اند و دو فرانت‌اند همکاری کردم.</p>"
           },
           "note": {
             "en": "",
@@ -479,12 +479,12 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>No user research or results are documented for this project yet, so none are claimed. Looking back, I would:</p><ul><li>Replace ML terms like Classification or Regression with plain questions about what to predict.</li><li>Make the checklist tick only when a field is really complete.</li><li>Use radio buttons for single choices such as the target column.</li><li>Remove the website-style footer left from the UI kit.</li></ul>",
-            "fa": "<p>برای این پروژه هنوز تحقیق کاربری یا نتیجه‌ای مستند نشده، پس ادعایی هم نمی‌شود. با نگاه دوباره:</p><ul><li>اصطلاحاتی مثل Classification و Regression را با سؤال ساده «چه چیزی را می‌خواهید پیش‌بینی کنید؟» جایگزین می‌کردم.</li><li>چک‌لیست فقط وقتی تیک بخورد که فیلد واقعاً کامل شده.</li><li>برای انتخاب‌های تکی مثل ستون هدف، دکمه رادیویی می‌گذاشتم.</li><li>فوتر سایت‌گونه‌ای را که از کیت مانده حذف می‌کردم.</li></ul>"
+            "en": "<p>PIAI was released and sold B2B, with contracts with companies in Australia.</p><p>Looking back, I would:</p><ul><li>Replace ML terms like Classification or Regression with plain questions about what to predict.</li><li>Make the checklist tick only when a field is really complete.</li><li>Use radio buttons for single choices such as the target column.</li><li>Remove the website-style footer left from the UI kit.</li></ul>",
+            "fa": "<p>پیای منتشر شد و به‌صورت B2B فروخته شد، با قرارداد با شرکت‌هایی در استرالیا.</p><p>با نگاه دوباره:</p><ul><li>اصطلاحاتی مثل Classification و Regression را با سؤال ساده «چه چیزی را می‌خواهید پیش‌بینی کنید؟» جایگزین می‌کردم.</li><li>چک‌لیست فقط وقتی تیک بخورد که فیلد واقعاً کامل شده.</li><li>برای انتخاب‌های تکی مثل ستون هدف، دکمه رادیویی می‌گذاشتم.</li><li>فوتر سایت‌گونه‌ای را که از کیت مانده حذف می‌کردم.</li></ul>"
           },
           "note": {
-            "en": "{!Release status, research or feedback!}",
-            "fa": "{!وضعیت انتشار، تحقیق یا بازخورد!}"
+            "en": "",
+            "fa": ""
           },
           "decisions": [],
           "gallery": []
@@ -529,8 +529,8 @@
           "fa": "طراح UI/UX"
         },
         "outcome": {
-          "en": "{!What shipped, and adoption!}",
-          "fa": "{!چه چیزی منتشر شد و میزان استفاده!}"
+          "en": "12 apps released, plus the festival and olympiad websites. The online school was postponed.",
+          "fa": "۱۲ اپلیکیشن منتشر شد، همراه سایت‌های جشنواره و المپیاد. مدرسه آنلاین به بعد موکول شد."
         }
       },
       "facts": {
@@ -539,8 +539,8 @@
           "fa": "طراح UI/UX"
         },
         "team": {
-          "en": "{!Team size and roles!}",
-          "fa": "{!اندازه و ترکیب تیم!}"
+          "en": "Kanoon’s technical team, 30+ people",
+          "fa": "تیم فنی کانون، بیش از ۳۰ نفر"
         },
         "time": {
           "en": "Sep 2019 – Jan 2021",
@@ -551,8 +551,8 @@
           "fa": "موبایل، فارسی (راست‌به‌چپ)"
         },
         "status": {
-          "en": "{!Shipped, pilot or concept!}",
-          "fa": "{!منتشرشده، آزمایشی یا طرح!}"
+          "en": "Partly released: 12 apps and two websites",
+          "fa": "بخشی منتشر شد: ۱۲ اپ و دو سایت"
         }
       },
       "chapters": [
@@ -582,8 +582,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li>{?Designed the student hub, registration and the advisor app.?}</li><li>{?Made grayscale wireframes for Q&A and exam review before visual design.?}</li><li>{!Who else was on the team!}</li></ul>",
-            "fa": "<ul><li>{?طراحی هاب دانش‌آموز، ثبت‌نام و اپ پشتیبان.?}</li><li>{?تهیه وایرفریم خاکستری برای رفع اشکال و مرور آزمون پیش از طراحی بصری.?}</li><li>{!چه کسانی در تیم بودند!}</li></ul>"
+            "en": "<ul><li>Designed the student hub and registration, and apps for advisors, managers and branches, including exam flows.</li><li>Made grayscale wireframes for Q&amp;A and exam review before visual design.</li><li>Designed 12 apps and several websites in total.</li></ul><p>I worked within Kanoon’s technical team of more than 30 people.</p>",
+            "fa": "<ul><li>طراحی هاب دانش‌آموز و ثبت‌نام، و اپ‌های پشتیبان‌ها، مدیران و نمایندگی‌ها، از جمله فرایندهای آزمون.</li><li>تهیه وایرفریم خاکستری برای رفع اشکال و مرور آزمون پیش از طراحی بصری.</li><li>در مجموع طراحی ۱۲ اپلیکیشن و چند وب‌سایت.</li></ul><p>در تیم فنی کانون با بیش از ۳۰ متخصص کار کردم.</p>"
           },
           "note": {
             "en": "",
@@ -715,12 +715,12 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>My first large product. Agreeing flows in grayscale kept discussions on structure, not colour. Today I would also design for parents, who shape how students use the app.</p>",
-            "fa": "<p>اولین محصول بزرگ من بود. توافق روی فرایندها در حالت خاکستری بحث را روی ساختار نگه داشت، نه رنگ. امروز والدین را هم در نظر می‌گرفتم، چون روی استفاده دانش‌آموز اثر دارند.</p>"
+            "en": "<p>Twelve apps were released, along with the festival and olympiad websites; the online school was postponed.</p><p>My first large product. Agreeing flows in grayscale kept discussions on structure, not colour. Today I would also design for parents, who shape how students use the app.</p>",
+            "fa": "<p>دوازده اپلیکیشن منتشر شد، همراه سایت‌های جشنواره و المپیاد؛ مدرسه آنلاین به بعد موکول شد.</p><p>اولین محصول بزرگ من بود. توافق روی فرایندها در حالت خاکستری بحث را روی ساختار نگه داشت، نه رنگ. امروز والدین را هم در نظر می‌گرفتم، چون روی استفاده دانش‌آموز اثر دارند.</p>"
           },
           "note": {
-            "en": "{!Which screens shipped, and any adoption figures!}",
-            "fa": "{!کدام صفحه‌ها منتشر شد و آمار استفاده!}"
+            "en": "",
+            "fa": ""
           },
           "decisions": [],
           "gallery": []
@@ -739,8 +739,8 @@
         "fa": "مصرفی · کتاب الکترونیک و صوتی"
       },
       "year": {
-        "en": "{?Freelance · 2021?}",
-        "fa": "{?فریلنس · ۱۴۰۰?}"
+        "en": "Yecomsoft · 2020–2021",
+        "fa": "یکام‌سافت · ۱۳۹۹–۱۴۰۰"
       },
       "cover": "/images/lib2.webp",
       "teaser": {
@@ -761,34 +761,34 @@
           "fa": "خوانندگان فارسی و انگلیسی در وب و موبایل."
         },
         "role": {
-          "en": "{!Your role and the client!}",
-          "fa": "{!نقش شما و مشتری!}"
+          "en": "Lead of the UI/UX design team",
+          "fa": "سرپرست تیم طراحی UI/UX"
         },
         "outcome": {
-          "en": "{!Shipped or concept!}",
-          "fa": "{!منتشرشده یا طرح!}"
+          "en": "Released for readers outside Iran.",
+          "fa": "برای خوانندگان خارج از ایران منتشر شد."
         }
       },
       "facts": {
         "role": {
-          "en": "{!Your role!}",
-          "fa": "{!نقش شما!}"
+          "en": "Lead of the UI/UX design team",
+          "fa": "سرپرست تیم طراحی UI/UX"
         },
         "team": {
-          "en": "{!Team size and roles!}",
-          "fa": "{!اندازه و ترکیب تیم!}"
+          "en": "Three UI/UX designers, an intern, six developers, a project manager, product owner and tech lead",
+          "fa": "سه طراح UI/UX، یک کارآموز، شش برنامه‌نویس، مدیر پروژه، مالک محصول و مدیر فنی"
         },
         "time": {
-          "en": "{?2021?}",
-          "fa": "{?۱۴۰۰?}"
+          "en": "Yecomsoft · 2020–2021",
+          "fa": "یکام‌سافت · ۱۳۹۹–۱۴۰۰"
         },
         "platform": {
           "en": "Responsive web, tablet and mobile",
           "fa": "وب واکنش‌گرا، تبلت و موبایل"
         },
         "status": {
-          "en": "{!Shipped or concept!}",
-          "fa": "{!منتشرشده یا طرح!}"
+          "en": "Released",
+          "fa": "منتشرشده"
         }
       },
       "chapters": [
@@ -919,12 +919,12 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The format tabs held up well. I would revisit the subscription screen: four plans side by side is a lot to compare on a phone.</p>",
-            "fa": "<p>تب‌های قالب خوب جواب داد. صفحه اشتراک را بازطراحی می‌کردم: مقایسه چهار طرح کنار هم روی گوشی زیاد است.</p>"
+            "en": "<p>Libra was released for readers outside Iran.</p><p>The format tabs held up well. I would revisit the subscription screen: four plans side by side is a lot to compare on a phone.</p>",
+            "fa": "<p>لیبرا برای خوانندگان خارج از ایران منتشر شد.</p><p>تب‌های قالب خوب جواب داد. صفحه اشتراک را بازطراحی می‌کردم: مقایسه چهار طرح کنار هم روی گوشی زیاد است.</p>"
           },
           "note": {
-            "en": "{!Whether Libra launched, and for whom!}",
-            "fa": "{!آیا لیبرا منتشر شد و برای چه کسی!}"
+            "en": "",
+            "fa": ""
           },
           "decisions": [],
           "gallery": []
