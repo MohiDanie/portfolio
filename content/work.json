@@ -1,10 +1,10 @@
 {
   "cases": [
     {
-      "slug": "puzzlelity",
+      "slug": "puzzleity",
       "secondary": false,
       "title": {
-        "en": "Puzzlelity",
+        "en": "Puzzleity",
         "fa": "پازلیتی"
       },
       "category": {
@@ -38,8 +38,8 @@
           "fa": "طراح ارشد UI/UX{?، طراح اصلی?}"
         },
         "outcome": {
-          "en": "{!What shipped, and any feedback!}",
-          "fa": "{!چه چیزی منتشر شد و چه بازخوردی گرفتید!}"
+          "en": "Released by Duniar as Tik Talent after I left.{! Any feedback or usage you know of!}",
+          "fa": "بعد از خروج من، دونیار آن را با نام تیک تلنت منتشر کرد.{! بازخورد یا آمار استفاده‌ای که می‌دانید!}"
         }
       },
       "facts": {
@@ -60,8 +60,8 @@
           "fa": "وب‌اپ با ویرایشگر کد داخلی"
         },
         "status": {
-          "en": "{!Shipped, pilot or concept!}",
-          "fa": "{!منتشرشده، آزمایشی یا طرح!}"
+          "en": "Released as Tik Talent",
+          "fa": "منتشرشده با نام تیک تلنت"
         }
       },
       "chapters": [
@@ -73,7 +73,7 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Puzzlelity lets employers build an <strong>assessment</strong> made of <strong>tests</strong>, each with <strong>questions</strong> from a ready library or written by the employer. Coding questions run in a built-in editor and are graded automatically.</p><p>The challenge: a model that is simple for engineers is hard for everyone else. Splitting each level onto its own page would make users jump between screens and remember what they had already added.</p>",
+            "en": "<p>Puzzleity lets employers build an <strong>assessment</strong> made of <strong>tests</strong>, each with <strong>questions</strong> from a ready library or written by the employer. Coding questions run in a built-in editor and are graded automatically.</p><p>The challenge: a model that is simple for engineers is hard for everyone else. Splitting each level onto its own page would make users jump between screens and remember what they had already added.</p>",
             "fa": "<p>پازلیتی به کارفرما امکان می‌دهد یک <strong>ارزیابی</strong> شامل چند <strong>آزمون</strong> بسازد؛ هر آزمون <strong>سؤال‌هایی</strong> از کتابخانه آماده یا نوشته خود کارفرما دارد. سؤال‌های برنامه‌نویسی در ویرایشگر داخلی اجرا و خودکار تصحیح می‌شوند.</p><p>چالش: مدلی که برای مهندس ساده است، برای بقیه سخت است. اگر هر سطح صفحه جدا داشته باشد، کاربر باید بین صفحه‌ها رفت‌وبرگشت کند و یادش بماند چه چیزی اضافه کرده.</p>"
           },
           "note": {
@@ -196,12 +196,12 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>No user research or results are documented for this project yet, so none are claimed.</p><p>Next, I would measure the time from sign-up to the first assessment sent, and test the builder with recruiters before finalising its structure.</p>",
-            "fa": "<p>برای این پروژه هنوز تحقیق کاربری یا نتیجه‌ای مستند نشده، پس ادعایی هم نمی‌شود.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی، و تست سازنده با کارشناسان استخدام پیش از قطعی شدن ساختار.</p>"
+            "en": "<p>Duniar released the product as Tik Talent after I left. I have no user research or results from it, so none are claimed.</p><p>Next, I would measure the time from sign-up to the first assessment sent, and test the builder with recruiters before finalising its structure.</p>",
+            "fa": "<p>دونیار بعد از خروج من محصول را با نام تیک تلنت منتشر کرد. تحقیق کاربری یا نتیجه‌ای از آن در دست ندارم، پس ادعایی هم نمی‌شود.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی، و تست سازنده با کارشناسان استخدام پیش از قطعی شدن ساختار.</p>"
           },
           "note": {
-            "en": "{!Release status, research or feedback!}",
-            "fa": "{!وضعیت انتشار، تحقیق یا بازخورد!}"
+            "en": "{!Any feedback or usage figures after release!}",
+            "fa": "{!بازخورد یا آمار استفاده بعد از انتشار!}"
           },
           "decisions": [],
           "gallery": []

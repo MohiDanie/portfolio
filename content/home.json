@@ -72,7 +72,7 @@
         "fa": "تبدیل ساختارهای پیچیده به مسیرهایی که کاربر راحت دنبال می‌کند."
       },
       "where": {
-        "en": "Puzzlelity · PIAI · Kanoon",
+        "en": "Puzzleity · PIAI · Kanoon",
         "fa": "پازلیتی · پیای · کانون"
       }
     },
@@ -158,8 +158,8 @@
     "fa": "کارهای دیگر"
   },
   "more_subtitle": {
-    "en": "Shipped work without a full case study yet.",
-    "fa": "کارهای منتشرشده‌ای که هنوز کیس‌استادی کامل ندارند."
+    "en": "Other projects, without a full case study yet.",
+    "fa": "پروژه‌های دیگر که هنوز کیس‌استادی کامل ندارند."
   },
   "cta_title": {
     "en": "Hiring a product designer?",

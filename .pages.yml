@@ -16,7 +16,7 @@ content:
     - name: slug
       label: آدرس کوتاه (انگلیسی)
       type: string
-      description: مثلاً puzzlelity — صفحه روی mdanaie.ir/#puzzlelity باز می‌شود
+      description: مثلاً puzzleity — صفحه روی mdanaie.ir/#puzzleity باز می‌شود
     - name: secondary
       label: فقط در «کارهای دیگر» نشان بده (نه منتخب)
       type: boolean
