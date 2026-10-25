@@ -1,0 +1,870 @@
+media:
+  input: images
+  output: /images
+content:
+- name: work
+  label: نمونه‌کارها (کیس‌استادی‌ها)
+  type: file
+  path: content/work.json
+  format: json
+  fields:
+  - name: cases
+    label: کیس‌استادی‌ها — ترتیب همین فهرست ترتیب سایت است
+    type: object
+    list: true
+    fields:
+    - name: slug
+      label: آدرس کوتاه (انگلیسی)
+      type: string
+      description: مثلاً puzzlelity — صفحه روی mdanaie.ir/#puzzlelity باز می‌شود
+    - name: secondary
+      label: فقط در «کارهای دیگر» نشان بده (نه منتخب)
+      type: boolean
+    - name: title
+      label: نام پروژه
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: category
+      label: دسته
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: year
+      label: شرکت / سال
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: cover
+      label: تصویر اصلی
+      type: image
+    - name: teaser
+      label: خلاصه کارت
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: text
+      - name: fa
+        label: فارسی
+        type: text
+    - name: summary
+      label: زیرتیتر کیس‌استادی
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: text
+      - name: fa
+        label: فارسی
+        type: text
+    - name: glance
+      label: خلاصه چهارخانه
+      type: object
+      fields:
+      - name: problem
+        label: مسئله
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: text
+        - name: fa
+          label: فارسی
+          type: text
+      - name: users
+        label: کاربران
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: text
+        - name: fa
+          label: فارسی
+          type: text
+      - name: role
+        label: نقش
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: text
+        - name: fa
+          label: فارسی
+          type: text
+      - name: outcome
+        label: نتیجه
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: text
+        - name: fa
+          label: فارسی
+          type: text
+        description: برای متنی که باید تأیید شود {? متن ?} و برای اطلاعات ناقص {! متن !} بنویس. این‌ها روی سایت فقط در حالت پیش‌نویس دیده می‌شوند.
+    - name: facts
+      label: مشخصات
+      type: object
+      fields:
+      - name: role
+        label: نقش
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: string
+        - name: fa
+          label: فارسی
+          type: string
+      - name: team
+        label: تیم
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: string
+        - name: fa
+          label: فارسی
+          type: string
+      - name: time
+        label: زمان
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: string
+        - name: fa
+          label: فارسی
+          type: string
+      - name: platform
+        label: پلتفرم
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: string
+        - name: fa
+          label: فارسی
+          type: string
+      - name: status
+        label: وضعیت
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: string
+        - name: fa
+          label: فارسی
+          type: string
+    - name: chapters
+      label: بخش‌های کیس‌استادی
+      type: object
+      list: true
+      fields:
+      - name: id
+        label: شناسه بخش (انگلیسی، بدون فاصله)
+        type: string
+        description: مثلاً context یا decisions — در آدرس صفحه استفاده می‌شود
+      - name: title
+        label: عنوان بخش
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: string
+        - name: fa
+          label: فارسی
+          type: string
+      - name: draft_rationale
+        label: برچسب «استدلال پیش‌نویس»
+        type: boolean
+      - name: body
+        label: متن
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: rich-text
+        - name: fa
+          label: فارسی
+          type: rich-text
+        description: برای متنی که باید تأیید شود {? متن ?} و برای اطلاعات ناقص {! متن !} بنویس. این‌ها روی سایت فقط در حالت پیش‌نویس دیده می‌شوند.
+      - name: note
+        label: یادداشت برجسته (کادر کناری)
+        type: object
+        fields:
+        - name: en
+          label: English
+          type: text
+        - name: fa
+          label: فارسی
+          type: text
+      - name: decisions
+        label: تصمیم‌ها
+        type: object
+        list: true
+        fields:
+        - name: title
+          label: عنوان تصمیم
+          type: object
+          fields:
+          - name: en
+            label: English
+            type: string
+          - name: fa
+            label: فارسی
+            type: string
+        - name: text
+          label: چه کردیم
+          type: object
+          fields:
+          - name: en
+            label: English
+            type: text
+          - name: fa
+            label: فارسی
+            type: text
+        - name: why
+          label: چرا
+          type: object
+          fields:
+          - name: en
+            label: English
+            type: text
+          - name: fa
+            label: فارسی
+            type: text
+      - name: gallery
+        label: تصاویر
+        type: object
+        list: true
+        fields:
+        - name: image
+          label: تصویر
+          type: image
+        - name: caption
+          label: توضیح تصویر
+          type: object
+          fields:
+          - name: en
+            label: English
+            type: text
+          - name: fa
+            label: فارسی
+            type: text
+- name: home
+  label: صفحه اصلی
+  type: file
+  path: content/home.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: برچسب‌های بالای تیتر
+    type: object
+    list: true
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: headline
+    label: تیتر اصلی
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+    description: کلمه‌هایی که بین دو ستاره بیایند (*مثل این*) رنگ برنجی می‌گیرند
+  - name: lede
+    label: پاراگراف معرفی
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: rich-text
+    - name: fa
+      label: فارسی
+      type: rich-text
+  - name: cta_work
+    label: دکمه نمونه‌کارها
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: cta_resume
+    label: دکمه رزومه
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: work_title
+    label: تیتر نمونه‌کارهای منتخب
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: work_subtitle
+    label: زیرتیتر نمونه‌کارها
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: capabilities_title
+    label: تیتر توانمندی‌ها
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: capabilities_subtitle
+    label: زیرتیتر توانمندی‌ها
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: capabilities
+    label: توانمندی‌ها
+    type: object
+    list: true
+    fields:
+    - name: icon
+      label: آیکون
+      type: select
+      options:
+        values:
+        - compass
+        - layers
+        - grid
+        - components
+        - code
+        - bidi
+        - file
+        - mail
+        - pin
+        - globe
+    - name: title
+      label: عنوان
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: text
+      label: توضیح
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: text
+      - name: fa
+        label: فارسی
+        type: text
+    - name: where
+      label: کجا دیده می‌شود
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+  - name: experience_title
+    label: تیتر سوابق
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: about_title
+    label: تیتر درباره من
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: about_text
+    label: متن کوتاه درباره من
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: text
+    - name: fa
+      label: فارسی
+      type: text
+  - name: about_link
+    label: متن لینک درباره من
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: more_title
+    label: تیتر کارهای دیگر
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: more_subtitle
+    label: زیرتیتر کارهای دیگر
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: cta_title
+    label: تیتر بخش تماس پایین صفحه
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: cta_text
+    label: متن بخش تماس
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: work_page_title
+    label: تیتر صفحه نمونه‌کارها
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: work_page_intro
+    label: معرفی صفحه نمونه‌کارها
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: text
+    - name: fa
+      label: فارسی
+      type: text
+- name: archive
+  label: کارهای دیگر (بدون کیس‌استادی)
+  type: file
+  path: content/archive.json
+  format: json
+  fields:
+  - name: items
+    label: کارها
+    type: object
+    list: true
+    fields:
+    - name: image
+      label: تصویر
+      type: image
+    - name: title
+      label: نام
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: text
+      label: توضیح کوتاه
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: text
+      - name: fa
+        label: فارسی
+        type: text
+- name: about
+  label: درباره من
+  type: file
+  path: content/about.json
+  format: json
+  fields:
+  - name: title
+    label: تیتر
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: intro
+    label: معرفی
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: rich-text
+    - name: fa
+      label: فارسی
+      type: rich-text
+  - name: process
+    label: مراحل روش کار
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: عنوان
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: text
+      label: توضیح
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+  - name: principles
+    label: اصول کار
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: rich-text
+    - name: fa
+      label: فارسی
+      type: rich-text
+  - name: leadership
+    label: رهبری
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: rich-text
+    - name: fa
+      label: فارسی
+      type: rich-text
+    description: برای متنی که باید تأیید شود {? متن ?} و برای اطلاعات ناقص {! متن !} بنویس. این‌ها روی سایت فقط در حالت پیش‌نویس دیده می‌شوند.
+  - name: tools
+    label: ابزارها
+    type: object
+    list: true
+    fields:
+    - name: name
+      label: نام ابزار
+      type: string
+    - name: level
+      label: سطح
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+  - name: languages
+    label: زبان‌ها
+    type: object
+    list: true
+    fields:
+    - name: name
+      label: زبان
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: level
+      label: سطح
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+- name: experience
+  label: رزومه و سوابق
+  type: file
+  path: content/experience.json
+  format: json
+  fields:
+  - name: title
+    label: تیتر صفحه رزومه
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: summary
+    label: خلاصه
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: text
+    - name: fa
+      label: فارسی
+      type: text
+  - name: jobs
+    label: سوابق کاری (جدیدترین اول)
+    type: object
+    list: true
+    fields:
+    - name: when
+      label: تاریخ
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: title
+      label: عنوان شغلی
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: org
+      label: شرکت · شهر
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: summary
+      label: یک خط خلاصه (صفحه اصلی)
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: text
+      - name: fa
+        label: فارسی
+        type: text
+      description: برای متنی که باید تأیید شود {? متن ?} و برای اطلاعات ناقص {! متن !} بنویس. این‌ها روی سایت فقط در حالت پیش‌نویس دیده می‌شوند.
+    - name: bullets
+      label: موارد (صفحه رزومه)
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: text
+        list: true
+      - name: fa
+        label: فارسی
+        type: text
+        list: true
+    - name: hide_when_published
+      label: فقط در حالت پیش‌نویس نشان بده
+      type: boolean
+  - name: education
+    label: تحصیلات
+    type: object
+    list: true
+    fields:
+    - name: when
+      label: تاریخ
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: degree
+      label: مدرک
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+    - name: school
+      label: دانشگاه
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
+  - name: skills
+    label: مهارت‌ها
+    type: object
+    list: true
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+- name: contact
+  label: تماس
+  type: file
+  path: content/contact.json
+  format: json
+  fields:
+  - name: title
+    label: تیتر
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: intro
+    label: معرفی
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: text
+    - name: fa
+      label: فارسی
+      type: text
+  - name: location
+    label: موقعیت
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: string
+    - name: fa
+      label: فارسی
+      type: string
+  - name: timezone
+    label: منطقه زمانی
+    type: string
+  - name: availability
+    label: آمادگی همکاری
+    type: object
+    fields:
+    - name: en
+      label: English
+      type: text
+    - name: fa
+      label: فارسی
+      type: text
+    description: برای متنی که باید تأیید شود {? متن ?} و برای اطلاعات ناقص {! متن !} بنویس. این‌ها روی سایت فقط در حالت پیش‌نویس دیده می‌شوند.
+- name: settings
+  label: تنظیمات
+  type: file
+  path: content/settings.json
+  format: json
+  fields:
+  - name: email
+    label: ایمیل
+    type: string
+  - name: linkedin
+    label: آدرس لینکدین
+    type: string
+    description: مثلاً https://www.linkedin.com/in/…  — خالی بماند تا پنهان شود
+  - name: resume_pdf
+    label: فایل PDF رزومه
+    type: file
+  - name: draft_mode
+    label: حالت پیش‌نویس
+    type: boolean
+    description: روشن = نوار پیش‌نویس و همه متن‌های «تأیید شود» برای همه بازدیدکننده‌ها دیده می‌شود. برای سایت عمومی خاموش بماند.

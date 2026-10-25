@@ -1,0 +1,180 @@
+{
+  "eyebrow": [
+    {
+      "en": "Product Designer",
+      "fa": "طراح محصول"
+    },
+    {
+      "en": "Product Manager at Duniar",
+      "fa": "مدیر محصول در دونیار"
+    },
+    {
+      "en": "Tehran",
+      "fa": "تهران"
+    }
+  ],
+  "headline": {
+    "en": "Product designer with a *product manager’s* habits.",
+    "fa": "طراح محصول، با عادت‌های یک *مدیر محصول.*"
+  },
+  "lede": {
+    "en": "I’m <strong>Mohadese Danaie</strong>. Since 2019 I’ve designed web and mobile products for recruiting, data analytics, education and logistics. Since March 2025 I’ve also been <strong>Product Manager</strong> at Duniar, so I make design decisions with scope, cost and delivery in mind.",
+    "fa": "من <strong>محدثه دانائی</strong> هستم. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، تحلیل داده، آموزش و لجستیک طراحی کرده‌ام. از اسفند ۱۴۰۳ <strong>مدیر محصول</strong> دونیار هم هستم؛ برای همین تصمیم‌های طراحی را با در نظر گرفتن دامنه، هزینه و زمان تحویل می‌گیرم."
+  },
+  "cta_work": {
+    "en": "View selected work",
+    "fa": "دیدن نمونه‌کارها"
+  },
+  "cta_resume": {
+    "en": "Résumé",
+    "fa": "رزومه"
+  },
+  "work_title": {
+    "en": "Selected work",
+    "fa": "نمونه‌کارهای منتخب"
+  },
+  "work_subtitle": {
+    "en": "Three projects, chosen for how much of the thinking they show.",
+    "fa": "سه پروژه، انتخاب‌شده بر اساس این‌که چقدر از فرایند فکری را نشان می‌دهند."
+  },
+  "capabilities_title": {
+    "en": "Capabilities",
+    "fa": "توانمندی‌ها"
+  },
+  "capabilities_subtitle": {
+    "en": "Each one points to where you can see it.",
+    "fa": "هر مورد نشان می‌دهد کجا می‌توانید آن را ببینید."
+  },
+  "capabilities": [
+    {
+      "icon": "compass",
+      "title": {
+        "en": "Product strategy and prioritisation",
+        "fa": "استراتژی و اولویت‌بندی محصول"
+      },
+      "text": {
+        "en": "Setting priorities and planning releases as Product Manager at Duniar.",
+        "fa": "تعیین اولویت‌ها و برنامه‌ریزی انتشار به‌عنوان مدیر محصول دونیار."
+      },
+      "where": {
+        "en": "Résumé · Duniar",
+        "fa": "رزومه · دونیار"
+      }
+    },
+    {
+      "icon": "layers",
+      "title": {
+        "en": "Problem framing",
+        "fa": "قاب‌بندی مسئله"
+      },
+      "text": {
+        "en": "Turning complex structures into flows people can follow: nested builders, data analysis, multi-role apps.",
+        "fa": "تبدیل ساختارهای پیچیده به فرایندهایی که کاربر بتواند دنبال کند: سازنده‌های تودرتو، تحلیل داده، اپ‌های چندنقشی."
+      },
+      "where": {
+        "en": "Puzzlelity · PIAI · Kanoon",
+        "fa": "پازلیتی · پیای · کانون"
+      }
+    },
+    {
+      "icon": "grid",
+      "title": {
+        "en": "Interaction and interface design",
+        "fa": "طراحی تعامل و رابط کاربری"
+      },
+      "text": {
+        "en": "Flows, screens and states for web and mobile, from wireframes to final UI.",
+        "fa": "فرایندها، صفحه‌ها و حالت‌ها برای وب و موبایل، از وایرفریم تا رابط نهایی."
+      },
+      "where": {
+        "en": "All case studies",
+        "fa": "همه کیس‌استادی‌ها"
+      }
+    },
+    {
+      "icon": "components",
+      "title": {
+        "en": "Design systems",
+        "fa": "دیزاین سیستم"
+      },
+      "text": {
+        "en": "A shared Figma library with auto layout, variants and adaptive tables.",
+        "fa": "کتابخانه مشترک فیگما با auto layout، variant و جدول‌های تطبیق‌پذیر."
+      },
+      "where": {
+        "en": "Duniar",
+        "fa": "دونیار"
+      }
+    },
+    {
+      "icon": "code",
+      "title": {
+        "en": "Technical fluency",
+        "fa": "زبان مشترک با مهندسی"
+      },
+      "text": {
+        "en": "Computer engineering degree with an AI specialisation. I read data models and talk constraints with engineers.",
+        "fa": "مهندسی کامپیوتر با گرایش هوش مصنوعی. مدل داده را می‌خوانم و با مهندس‌ها درباره محدودیت‌ها حرف می‌زنم."
+      },
+      "where": {
+        "en": "PIAI · Education",
+        "fa": "پیای · تحصیلات"
+      }
+    },
+    {
+      "icon": "bidi",
+      "title": {
+        "en": "Right-to-left and left-to-right",
+        "fa": "راست‌به‌چپ و چپ‌به‌راست"
+      },
+      "text": {
+        "en": "Native Persian, professional English and German. Bilingual layouts are a default, not an afterthought.",
+        "fa": "فارسی زبان مادری، انگلیسی و آلمانی در سطح حرفه‌ای. چیدمان دوزبانه برای من پیش‌فرض است، نه کار اضافه."
+      },
+      "where": {
+        "en": "Kanoon · Libra · Solution Apps",
+        "fa": "کانون · لیبرا · Solution Apps"
+      }
+    }
+  ],
+  "experience_title": {
+    "en": "Experience",
+    "fa": "سوابق کاری"
+  },
+  "about_title": {
+    "en": "About",
+    "fa": "درباره من"
+  },
+  "about_text": {
+    "en": "I studied computer engineering with a focus on AI, then moved into interface design in 2019. At Duniar I went from Senior UI/UX Designer to Product Manager. I do my best work on products whose structure is complicated, where the interface has to make it feel simple.",
+    "fa": "مهندسی کامپیوتر با گرایش هوش مصنوعی خواندم و از ۱۳۹۷ وارد طراحی رابط کاربری شدم. در دونیار از طراح ارشد UI/UX به مدیر محصول رسیدم. بهترین کارم را روی محصولاتی انجام می‌دهم که ساختار پیچیده‌ای دارند و رابط کاربری باید آن را ساده جلوه دهد."
+  },
+  "about_link": {
+    "en": "More about how I work",
+    "fa": "بیشتر درباره روش کارم"
+  },
+  "more_title": {
+    "en": "More work",
+    "fa": "کارهای دیگر"
+  },
+  "more_subtitle": {
+    "en": "Libra has a full case study. The others are shipped Duniar work without a write-up yet.",
+    "fa": "لیبرا کیس‌استادی کامل دارد. بقیه کارهای منتشرشده دونیار هستند که هنوز شرح کامل ندارند."
+  },
+  "cta_title": {
+    "en": "Hiring a product designer?",
+    "fa": "دنبال طراح محصول هستید؟"
+  },
+  "cta_text": {
+    "en": "Email is the fastest way to reach me.",
+    "fa": "ایمیل سریع‌ترین راه ارتباط با من است."
+  },
+  "work_page_title": {
+    "en": "Products where the structure is hard and the screen has to feel easy.",
+    "fa": "محصولاتی که ساختارشان سخت است و صفحه باید ساده به نظر برسد."
+  },
+  "work_page_intro": {
+    "en": "Each case study states what I was responsible for, the decisions that mattered, and what is still unmeasured.",
+    "fa": "هر کیس‌استادی نشان می‌دهد مسئولیت من چه بود، کدام تصمیم‌ها اهمیت داشتند و چه چیزی هنوز اندازه‌گیری نشده."
+  }
+}

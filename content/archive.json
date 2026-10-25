@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "image": "/images/ship.webp",
+      "title": {
+        "en": "Door-to-door sea shipping",
+        "fa": "حمل دریایی درب‌به‌درب"
+      },
+      "text": {
+        "en": "Groupage booking that links every party in a shipment. Duniar.",
+        "fa": "رزرو حمل گروهی که همه طرف‌های یک محموله را به هم وصل می‌کند. دونیار."
+      }
+    },
+    {
+      "image": "/images/elev.webp",
+      "title": {
+        "en": "Elevate",
+        "fa": "الیویت"
+      },
+      "text": {
+        "en": "Mobile app matching startups with investors. Duniar.",
+        "fa": "اپ موبایل برای اتصال استارتاپ‌ها و سرمایه‌گذاران. دونیار."
+      }
+    },
+    {
+      "image": "/images/sport.webp",
+      "title": {
+        "en": "Sport ticketing",
+        "fa": "فروش بلیت ورزشی"
+      },
+      "text": {
+        "en": "Seat maps and ticket sales by sport, with an admission app. Duniar.",
+        "fa": "نقشه صندلی و فروش بلیت بر اساس رشته ورزشی، با اپ کنترل ورود. دونیار."
+      }
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "title": {
+    "en": "Mohadese Danaie, Product Designer",
+    "fa": "محدثه دانائی، طراح محصول"
+  },
+  "summary": {
+    "en": "UI/UX and product designer since 2019; Product Manager at Duniar since March 2025. Computer engineering background with an AI specialisation. Persian, English and German.",
+    "fa": "طراح UI/UX و محصول از ۱۳۹۷؛ مدیر محصول دونیار از اسفند ۱۴۰۳. پیشینه مهندسی کامپیوتر با گرایش هوش مصنوعی. فارسی، انگلیسی و آلمانی."
+  },
+  "jobs": [
+    {
+      "when": {
+        "en": "Mar 2025 – Present",
+        "fa": "اسفند ۱۴۰۳ – اکنون"
+      },
+      "title": {
+        "en": "Product Manager",
+        "fa": "مدیر محصول"
+      },
+      "org": {
+        "en": "Duniar · Tehran",
+        "fa": "دونیار · تهران"
+      },
+      "summary": {
+        "en": "Moved from design into product management at the same company.",
+        "fa": "در همان شرکت از طراحی به مدیریت محصول رسیدم."
+      },
+      "bullets": {
+        "en": [
+          "Moved from design into product management at the same company.",
+          "{?Own priorities and the roadmap for the company's web and mobile products, with engineering and data teams.?}",
+          "{?Write requirements and acceptance criteria and plan releases.?}",
+          "{!One concrete result from this role!}"
+        ],
+        "fa": [
+          "در همان شرکت از طراحی به مدیریت محصول رسیدم.",
+          "{?مسئولیت اولویت‌ها و نقشه راه محصولات وب و موبایل شرکت، همراه با تیم‌های فنی و داده.?}",
+          "{?نوشتن نیازمندی‌ها و معیارهای پذیرش و برنامه‌ریزی انتشار.?}",
+          "{!یک نتیجه مشخص از این نقش!}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Mar 2024 – Mar 2025",
+        "fa": "اسفند ۱۴۰۲ – اسفند ۱۴۰۳"
+      },
+      "title": {
+        "en": "Senior UI/UX Designer",
+        "fa": "طراح ارشد UI/UX"
+      },
+      "org": {
+        "en": "Duniar · Tehran",
+        "fa": "دونیار · تهران"
+      },
+      "summary": {
+        "en": "Designed recruiting, data-analytics, ticketing and logistics products for a software and data studio.",
+        "fa": "طراحی محصولات استخدام، تحلیل داده، فروش بلیت و لجستیک برای یک شرکت نرم‌افزار و داده."
+      },
+      "bullets": {
+        "en": [
+          "{?Designed Puzzlelity, PIAI, Ticlix, Elevate and the shipping, recycling and sport-ticketing platforms.?}",
+          "{?Built the shared Figma design system: auto layout, variants, adaptive tables.?}",
+          "Led the UI/UX team.",
+          "{!Team size!}"
+        ],
+        "fa": [
+          "{?طراحی پازلیتی، پیای، تیکلیکس، الیویت و پلتفرم‌های حمل‌ونقل، بازیافت و فروش بلیت ورزشی.?}",
+          "{?ساخت دیزاین سیستم مشترک در فیگما: auto layout، variant و جدول‌های تطبیق‌پذیر.?}",
+          "هدایت تیم UI/UX.",
+          "{!اندازه تیم!}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Mar 2023 – Mar 2024",
+        "fa": "اسفند ۱۴۰۱ – اسفند ۱۴۰۲"
+      },
+      "title": {
+        "en": "UI/UX Designer",
+        "fa": "طراح UI/UX"
+      },
+      "org": {
+        "en": "Gathersa · Tehran",
+        "fa": "گاترسا · تهران"
+      },
+      "summary": {
+        "en": "{!What you designed at Gathersa!}",
+        "fa": "{!در گاترسا چه چیزی طراحی کردید!}"
+      },
+      "bullets": {
+        "en": [
+          "{!Products and main responsibilities!}"
+        ],
+        "fa": [
+          "{!محصولات و مسئولیت‌های اصلی!}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Jan 2022 – Mar 2023",
+        "fa": "دی ۱۴۰۰ – اسفند ۱۴۰۱"
+      },
+      "title": {
+        "en": "{!What you did in this period!}",
+        "fa": "{!در این دوره چه می‌کردید!}"
+      },
+      "org": {
+        "en": "",
+        "fa": ""
+      },
+      "summary": {
+        "en": "{!Studies, freelance or a break!}",
+        "fa": "{!تحصیل، فریلنس یا وقفه!}"
+      },
+      "bullets": {
+        "en": [],
+        "fa": []
+      },
+      "hide_when_published": true
+    },
+    {
+      "when": {
+        "en": "Aug 2021 – Jan 2022",
+        "fa": "مرداد ۱۴۰۰ – دی ۱۴۰۰"
+      },
+      "title": {
+        "en": "UI/UX Designer",
+        "fa": "طراح UI/UX"
+      },
+      "org": {
+        "en": "Freelance · Tehran",
+        "fa": "فریلنس · تهران"
+      },
+      "summary": {
+        "en": "Web and mobile projects for independent clients.",
+        "fa": "پروژه‌های وب و موبایل برای مشتریان مستقل."
+      },
+      "bullets": {
+        "en": [
+          "Web and mobile projects for independent clients.",
+          "{?Including the Libra reading platform.?}"
+        ],
+        "fa": [
+          "پروژه‌های وب و موبایل برای مشتریان مستقل.",
+          "{?از جمله پلتفرم کتاب‌خوانی لیبرا.?}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Jan 2021 – Aug 2021",
+        "fa": "دی ۱۳۹۹ – مرداد ۱۴۰۰"
+      },
+      "title": {
+        "en": "UI/UX Designer",
+        "fa": "طراح UI/UX"
+      },
+      "org": {
+        "en": "Solution Apps · Berlin",
+        "fa": "Solution Apps · برلین"
+      },
+      "summary": {
+        "en": "Business apps for a Berlin software company, working in German and English.",
+        "fa": "اپ‌های سازمانی برای یک شرکت نرم‌افزاری در برلین، به زبان آلمانی و انگلیسی."
+      },
+      "bullets": {
+        "en": [
+          "Business apps for a Berlin software company, working in German and English.",
+          "{?Worked remotely from Tehran.?}",
+          "{?Including the Eurotex ordering app.?}"
+        ],
+        "fa": [
+          "اپ‌های سازمانی برای یک شرکت نرم‌افزاری در برلین، به زبان آلمانی و انگلیسی.",
+          "{?به‌صورت دورکاری از تهران.?}",
+          "{?از جمله اپ سفارش Eurotex.?}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Oct 2020 – Feb 2021",
+        "fa": "مهر ۱۳۹۹ – بهمن ۱۳۹۹"
+      },
+      "title": {
+        "en": "UI/UX Designer",
+        "fa": "طراح UI/UX"
+      },
+      "org": {
+        "en": "Yecomsoft · Tehran",
+        "fa": "یکام‌سافت · تهران"
+      },
+      "summary": {
+        "en": "{!What you designed at Yecomsoft!}",
+        "fa": "{!در یکام‌سافت چه چیزی طراحی کردید!}"
+      },
+      "bullets": {
+        "en": [
+          "{?Part-time, alongside Kanoon.?}",
+          "{!Products and main responsibilities!}"
+        ],
+        "fa": [
+          "{?پاره‌وقت، هم‌زمان با کانون.?}",
+          "{!محصولات و مسئولیت‌های اصلی!}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Sep 2019 – Jan 2021",
+        "fa": "شهریور ۱۳۹۸ – دی ۱۳۹۹"
+      },
+      "title": {
+        "en": "UI/UX Designer",
+        "fa": "طراح UI/UX"
+      },
+      "org": {
+        "en": "Kanoon Farhangi Amoozesh Ghalamchi · Tehran",
+        "fa": "کانون فرهنگی آموزش قلم‌چی · تهران"
+      },
+      "summary": {
+        "en": "Student and advisor apps for a national education organisation.",
+        "fa": "اپ‌های دانش‌آموز و پشتیبان برای یک مجموعه آموزشی سراسری."
+      },
+      "bullets": {
+        "en": [
+          "Student and advisor apps for a national education organisation.",
+          "{?Designed the student hub, registration by student type and the advisor app.?}"
+        ],
+        "fa": [
+          "اپ‌های دانش‌آموز و پشتیبان برای یک مجموعه آموزشی سراسری.",
+          "{?طراحی هاب دانش‌آموز، ثبت‌نام بر اساس نوع دانش‌آموز و اپ پشتیبان.?}"
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Jan 2019",
+        "fa": "دی ۱۳۹۷"
+      },
+      "title": {
+        "en": "UI/UX Designer",
+        "fa": "طراح UI/UX"
+      },
+      "org": {
+        "en": "Führerschein app · Germany",
+        "fa": "اپ Führerschein · آلمان"
+      },
+      "summary": {
+        "en": "A driving-regulation application for the German market.",
+        "fa": "اپلیکیشنی درباره مقررات رانندگی برای بازار آلمان."
+      },
+      "bullets": {
+        "en": [
+          "A driving-regulation application for the German market.",
+          "{!Your role and what you delivered!}"
+        ],
+        "fa": [
+          "اپلیکیشنی درباره مقررات رانندگی برای بازار آلمان.",
+          "{!نقش شما و آنچه تحویل دادید!}"
+        ]
+      },
+      "hide_when_published": false
+    }
+  ],
+  "education": [
+    {
+      "when": {
+        "en": "2020 – 2025",
+        "fa": "۱۳۹۹ – ۱۴۰۴"
+      },
+      "degree": {
+        "en": "BSc Computer Engineering, Artificial Intelligence",
+        "fa": "کارشناسی مهندسی کامپیوتر، گرایش هوش مصنوعی"
+      },
+      "school": {
+        "en": "University of Qom",
+        "fa": "دانشگاه قم"
+      }
+    },
+    {
+      "when": {
+        "en": "2018 – 2021",
+        "fa": "۱۳۹۷ – ۱۴۰۰"
+      },
+      "degree": {
+        "en": "BSc Computer Engineering",
+        "fa": "کارشناسی مهندسی کامپیوتر"
+      },
+      "school": {
+        "en": "University of Kashan{? · transferred to the University of Qom?}",
+        "fa": "دانشگاه کاشان{? · انتقال به دانشگاه قم?}"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "en": "Product prioritisation",
+      "fa": "اولویت‌بندی محصول"
+    },
+    {
+      "en": "Problem framing",
+      "fa": "قاب‌بندی مسئله"
+    },
+    {
+      "en": "Information architecture",
+      "fa": "معماری اطلاعات"
+    },
+    {
+      "en": "Interaction design",
+      "fa": "طراحی تعامل"
+    },
+    {
+      "en": "UI design",
+      "fa": "طراحی رابط کاربری"
+    },
+    {
+      "en": "Design systems",
+      "fa": "دیزاین سیستم"
+    },
+    {
+      "en": "Prototyping",
+      "fa": "پروتوتایپ"
+    },
+    {
+      "en": "Requirements writing",
+      "fa": "نوشتن نیازمندی"
+    },
+    {
+      "en": "RTL / LTR design",
+      "fa": "طراحی راست‌به‌چپ / چپ‌به‌راست"
+    }
+  ]
+}

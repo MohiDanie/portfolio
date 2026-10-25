@@ -1,0 +1,149 @@
+{
+  "title": {
+    "en": "I came to design from engineering, and to product from design.",
+    "fa": "از مهندسی به طراحی رسیدم، و از طراحی به محصول."
+  },
+  "intro": {
+    "en": "<p>I studied computer engineering with a specialisation in artificial intelligence. I started designing interfaces in 2019, first on a German driving-regulation app and then at Kanoon Ghalamchi, one of Iran’s largest education organisations. Since then I’ve worked on recruiting, data, logistics, ticketing and publishing products, including six months with a Berlin software company.</p><p>At Duniar I moved from Senior UI/UX Designer to Product Manager. Running priorities changed how I design: I start from what a release needs to prove, and I bring engineers into decisions earlier.</p>",
+    "fa": "<p>مهندسی کامپیوتر با گرایش هوش مصنوعی خوانده‌ام. طراحی رابط کاربری را از ۱۳۹۷ شروع کردم؛ اول روی یک اپ آلمانی درباره مقررات رانندگی و بعد در کانون فرهنگی آموزش قلم‌چی، یکی از بزرگ‌ترین مجموعه‌های آموزشی ایران. از آن زمان روی محصولات استخدام، داده، لجستیک، فروش بلیت و نشر کار کرده‌ام؛ از جمله شش ماه همکاری با یک شرکت نرم‌افزاری در برلین.</p><p>در دونیار از طراح ارشد UI/UX به مدیر محصول رسیدم. مسئولیت اولویت‌ها نوع طراحی‌کردنم را تغییر داد: از این شروع می‌کنم که یک نسخه باید چه چیزی را ثابت کند، و مهندس‌ها را زودتر وارد تصمیم‌ها می‌کنم.</p>"
+  },
+  "process": [
+    {
+      "title": {
+        "en": "Understand",
+        "fa": "درک"
+      },
+      "text": {
+        "en": "Users, business, constraints.",
+        "fa": "کاربر، کسب‌وکار، محدودیت‌ها."
+      }
+    },
+    {
+      "title": {
+        "en": "Frame",
+        "fa": "قاب‌بندی"
+      },
+      "text": {
+        "en": "One clear problem statement.",
+        "fa": "یک صورت‌مسئله روشن."
+      }
+    },
+    {
+      "title": {
+        "en": "Explore",
+        "fa": "کاوش"
+      },
+      "text": {
+        "en": "Several directions, cheaply.",
+        "fa": "چند مسیر، با هزینه کم."
+      }
+    },
+    {
+      "title": {
+        "en": "Validate",
+        "fa": "اعتبارسنجی"
+      },
+      "text": {
+        "en": "With users or stakeholders.",
+        "fa": "با کاربر یا ذی‌نفعان."
+      }
+    },
+    {
+      "title": {
+        "en": "Refine",
+        "fa": "پالایش"
+      },
+      "text": {
+        "en": "States, edge cases, detail.",
+        "fa": "حالت‌ها، استثناها، جزئیات."
+      }
+    },
+    {
+      "title": {
+        "en": "Deliver",
+        "fa": "تحویل"
+      },
+      "text": {
+        "en": "Handoff, QA, follow-through.",
+        "fa": "هندآف، کنترل کیفیت، پیگیری."
+      }
+    }
+  ],
+  "principles": {
+    "en": "<p><strong>Ambiguity.</strong> I write the problem down in one sentence and agree on it before drawing screens. At Puzzlelity, that sentence was about lost context, not missing features.</p><p><strong>Trade-offs.</strong> I make them visible. A cut feature goes on a list with its reason, so the team can come back to it.</p><p><strong>Feedback.</strong> I show work early and in grayscale, as with the Kanoon wireframes, so the discussion stays on flows.</p><p><strong>Quality.</strong> I design empty, loading and error states alongside the main path.</p>",
+    "fa": "<p><strong>ابهام.</strong> مسئله را در یک جمله می‌نویسم و قبل از کشیدن صفحه روی آن توافق می‌گیرم. در پازلیتی آن جمله درباره گم‌شدن زمینه بود، نه کمبود قابلیت.</p><p><strong>بده‌بستان‌ها.</strong> آن‌ها را آشکار می‌کنم. قابلیتی که حذف می‌شود با دلیلش در یک فهرست ثبت می‌شود تا تیم بتواند دوباره سراغش برود.</p><p><strong>بازخورد.</strong> کار را زود و به‌صورت خاکستری نشان می‌دهم، مثل وایرفریم‌های کانون، تا بحث روی فرایند بماند.</p><p><strong>کیفیت.</strong> حالت خالی، بارگذاری و خطا را هم‌زمان با مسیر اصلی طراحی می‌کنم.</p>"
+  },
+  "leadership": {
+    "en": "<p>At Duniar I led the UI/UX team as Senior UI/UX Designer. As Product Manager I own priorities, not pixels. Each case study states which of these roles I held.</p><p>{?I set the design system, reviewed the team’s work and paired on difficult flows.?}</p>",
+    "fa": "<p>در دونیار به‌عنوان طراح ارشد UI/UX تیم UI/UX را هدایت می‌کردم. به‌عنوان مدیر محصول مسئول اولویت‌ها هستم، نه پیکسل‌ها. در هر کیس‌استادی مشخص است کدام نقش را داشته‌ام.</p><p>{?دیزاین سیستم را تعیین می‌کردم، کارهای تیم را بازبینی می‌کردم و روی فرایندهای سخت همراه تیم کار می‌کردم.?}</p>"
+  },
+  "tools": [
+    {
+      "name": "Figma",
+      "level": {
+        "en": "advanced",
+        "fa": "پیشرفته"
+      }
+    },
+    {
+      "name": "Zeplin",
+      "level": {
+        "en": "advanced",
+        "fa": "پیشرفته"
+      }
+    },
+    {
+      "name": "Adobe XD",
+      "level": {
+        "en": "advanced",
+        "fa": "پیشرفته"
+      }
+    },
+    {
+      "name": "Photoshop",
+      "level": {
+        "en": "advanced",
+        "fa": "پیشرفته"
+      }
+    },
+    {
+      "name": "Illustrator",
+      "level": {
+        "en": "basic",
+        "fa": "مقدماتی"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": {
+        "en": "Persian",
+        "fa": "فارسی"
+      },
+      "level": {
+        "en": "native",
+        "fa": "زبان مادری"
+      }
+    },
+    {
+      "name": {
+        "en": "English",
+        "fa": "انگلیسی"
+      },
+      "level": {
+        "en": "professional",
+        "fa": "حرفه‌ای"
+      }
+    },
+    {
+      "name": {
+        "en": "German",
+        "fa": "آلمانی"
+      },
+      "level": {
+        "en": "professional",
+        "fa": "حرفه‌ای"
+      }
+    }
+  ]
+}
