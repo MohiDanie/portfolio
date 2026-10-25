@@ -20,6 +20,10 @@
         "en": "A skills-assessment builder for employers, including coding tasks that are graded automatically.",
         "fa": "سازنده آزمون مهارتی برای کارفرماها، با سؤال‌های برنامه‌نویسی که خودکار تصحیح می‌شوند."
       },
+      "highlight": {
+        "en": "Released as TikTalent · used by Shahid Beheshti University",
+        "fa": "منتشرشده با نام تیک‌تلنت · در استفاده دانشگاه شهید بهشتی"
+      },
       "summary": {
         "en": "Making a three-level assessment builder feel simple for busy hiring managers.",
         "fa": "ساده کردن یک سازنده آزمون سه‌سطحی برای مدیران استخدام پرمشغله."
@@ -38,8 +42,8 @@
           "fa": "طراح ارشد UI/UX، طراح اصلی محصول"
         },
         "outcome": {
-          "en": "Released as TikTalent. Sold to a company in Australia and used for exams and hiring at Shahid Beheshti University.",
-          "fa": "با نام تیک‌تلنت منتشر شد؛ به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود."
+          "en": "Later released as TikTalent. Sold to a company in Australia and used for exams and hiring at Shahid Beheshti University.",
+          "fa": "بعدها با نام تیک‌تلنت منتشر شد؛ به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود."
         }
       },
       "facts": {
@@ -196,8 +200,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>After I left Duniar, the product was released as TikTalent (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>). It was sold to a company in Australia and is used for exams and hiring at Shahid Beheshti University.</p><p>Interviews and prototype tests shaped the design along the way; I don’t have figures from them to publish here.</p><p>Next, I would track the time from sign-up to the first assessment sent, the moment that shows whether the builder really is simple.</p>",
-            "fa": "<p>بعد از خروج من از دونیار، محصول با نام تیک‌تلنت (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>) منتشر شد. به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود.</p><p>مصاحبه‌ها و تست پروتوتایپ در طول کار طراحی را شکل دادند؛ عددی از آن‌ها برای انتشار در اختیار ندارم.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی؛ لحظه‌ای که نشان می‌دهد سازنده واقعاً ساده است یا نه.</p>"
+            "en": "<p>The product was later released as TikTalent (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>). It was sold to a company in Australia and is used for exams and hiring at Shahid Beheshti University.</p><p>Interviews and prototype tests shaped the design along the way; I don’t have figures from them to publish here.</p><p>Next, I would track the time from sign-up to the first assessment sent, the moment that shows whether the builder really is simple.</p>",
+            "fa": "<p>محصول بعدها با نام تیک‌تلنت (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>) منتشر شد. به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود.</p><p>مصاحبه‌ها و تست پروتوتایپ در طول کار طراحی را شکل دادند؛ عددی از آن‌ها برای انتشار در اختیار ندارم.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی؛ لحظه‌ای که نشان می‌دهد سازنده واقعاً ساده است یا نه.</p>"
           },
           "note": {
             "en": "",
@@ -227,6 +231,10 @@
       "teaser": {
         "en": "A web app that takes people who don’t code from a raw dataset to a trained model and prediction.",
         "fa": "وب‌اپی که افراد بدون دانش کدنویسی را از داده خام تا مدل آموزش‌دیده و پیش‌بینی می‌رساند."
+      },
+      "highlight": {
+        "en": "Released · sold B2B, with contracts in Australia",
+        "fa": "منتشرشده · فروش B2B با قرارداد در استرالیا"
       },
       "summary": {
         "en": "Turning a data-science pipeline into one guided path for non-programmers.",
@@ -511,6 +519,10 @@
         "en": "One hub for students and advisors of a national education organisation, replacing scattered apps.",
         "fa": "یک هاب برای دانش‌آموزان و پشتیبان‌های یک مجموعه آموزشی سراسری، به‌جای اپ‌های پراکنده."
       },
+      "highlight": {
+        "en": "12 apps released, plus two websites",
+        "fa": "۱۲ اپ منتشر شد، همراه دو وب‌سایت"
+      },
       "summary": {
         "en": "Bringing scattered services into one place for students and advisors with different needs.",
         "fa": "جمع کردن خدمات پراکنده در یک‌جا برای دانش‌آموزان و پشتیبان‌ها با نیازهای متفاوت."
@@ -746,6 +758,10 @@
       "teaser": {
         "en": "A bilingual reading platform where one book can be an ebook, audiobook or print copy.",
         "fa": "پلتفرم کتاب‌خوانی دوزبانه که هر کتاب می‌تواند الکترونیک، صوتی یا چاپی باشد."
+      },
+      "highlight": {
+        "en": "Released for readers outside Iran",
+        "fa": "منتشرشده برای خوانندگان خارج از ایران"
       },
       "summary": {
         "en": "One book page for three formats, in both reading directions.",

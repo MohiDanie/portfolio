@@ -63,6 +63,16 @@ content:
       - name: fa
         label: فارسی
         type: text
+    - name: highlight
+      label: نتیجه روی کارت (کوتاه)
+      type: object
+      fields:
+      - name: en
+        label: English
+        type: string
+      - name: fa
+        label: فارسی
+        type: string
     - name: summary
       label: زیرتیتر کیس‌استادی
       type: object
