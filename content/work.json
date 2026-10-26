@@ -1425,8 +1425,8 @@
         "fa": ""
       },
       "summary": {
-        "en": "One ticketing product across desktop and mobile: discover, search, buy and manage tickets.",
-        "fa": "یک محصول فروش بلیت در دسکتاپ و موبایل: کشف، جستجو، خرید و مدیریت بلیت."
+        "en": "One ticketing product across desktop and mobile, for both sides: audiences who buy tickets and sellers who manage events.",
+        "fa": "یک محصول فروش بلیت در دسکتاپ و موبایل، برای هر دو طرف: مخاطبانی که بلیت می‌خرند و فروشندگانی که رویداد را مدیریت می‌کنند."
       },
       "glance": {
         "problem": {
@@ -1557,6 +1557,46 @@
               "caption": {
                 "en": "Empty state with a next step.",
                 "fa": "حالت خالی با قدم بعدی."
+              }
+            }
+          ]
+        },
+        {
+          "id": "seller",
+          "title": {
+            "en": "The seller panel",
+            "fa": "پنل فروشنده"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Organisers and sales agents get their own panel, also responsive. It opens with the numbers a seller checks first: events, users, seats and tickets sold, plus how full each event is.</p><ul><li><strong>Fill rate at a glance:</strong> each event shows sold against capacity with a coloured ring, from green to red as it sells out.</li><li><strong>A sales chart</strong> over 7, 15 or 30 days, with all-time, 30-day and 7-day totals in the report.</li><li><strong>A live seat map per event:</strong> sold, reserved, available and blocked seats in one colour-coded view, next to the event’s sales list.</li><li><strong>One sales table</strong> to search, sort and filter, with ticket status and download.</li><li>On mobile, the summary cards scroll sideways and the menu adds dark mode and language settings.</li></ul>",
+            "fa": "<p>برگزارکنندگان و عاملان فروش پنل جداگانه خودشان را دارند که آن هم واکنش‌گراست. پنل با عددهایی شروع می‌شود که فروشنده اول بررسی می‌کند: رویدادها، کاربران، صندلی‌ها و بلیت‌های فروخته‌شده، و میزان پر شدن هر رویداد.</p><ul><li><strong>میزان پر شدن در یک نگاه:</strong> هر رویداد فروش نسبت به ظرفیت را با یک حلقه رنگی نشان می‌دهد، از سبز تا قرمز وقتی ظرفیت پر می‌شود.</li><li><strong>نمودار فروش</strong> در بازه ۷، ۱۵ یا ۳۰ روزه، همراه جمع کل، ۳۰ روز و ۷ روز در گزارش.</li><li><strong>نقشه زنده صندلی برای هر رویداد:</strong> صندلی‌های فروخته‌شده، رزروشده، قابل خرید و غیرقابل خرید در یک نمای رنگی، کنار فهرست فروش همان رویداد.</li><li><strong>یک جدول فروش</strong> با جستجو، مرتب‌سازی و فیلتر، همراه وضعیت و دانلود بلیت.</li><li>در موبایل کارت‌های خلاصه افقی اسکرول می‌شوند و منو تنظیمات حالت تیره و زبان را هم دارد.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/tx_seller_home.webp",
+              "caption": {
+                "en": "Seller dashboard on desktop and mobile.",
+                "fa": "داشبورد فروشنده در دسکتاپ و موبایل."
+              }
+            },
+            {
+              "image": "/images/tx_seller_event.webp",
+              "caption": {
+                "en": "Event view with the live seat map.",
+                "fa": "نمای رویداد با نقشه زنده صندلی."
+              }
+            },
+            {
+              "image": "/images/tx_seller_report.webp",
+              "caption": {
+                "en": "Sales report, and the mobile menu with dark mode and language.",
+                "fa": "گزارش فروش، و منوی موبایل با حالت تیره و زبان."
               }
             }
           ]
