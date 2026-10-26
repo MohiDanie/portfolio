@@ -776,6 +776,162 @@
       ]
     },
     {
+      "slug": "jebeer",
+      "secondary": true,
+      "title": {
+        "en": "Jebeer",
+        "fa": "آهوی جبیر"
+      },
+      "category": {
+        "en": "Conservation · CSR platform",
+        "fa": "حفاظت · پلتفرم مسئولیت اجتماعی"
+      },
+      "year": {
+        "en": "Freelance · 2026",
+        "fa": "فریلنس · ۱۴۰۵"
+      },
+      "cover": "/images/jb_hero.webp",
+      "teaser": {
+        "en": "A cinematic conservation and CSR platform for the Jebeer gazelle of Hormuz Island, in English, Persian and Arabic.",
+        "fa": "پلتفرم سینمایی حفاظت و مسئولیت اجتماعی برای آهوی جبیر جزیره هرمز، به سه زبان انگلیسی، فارسی و عربی."
+      },
+      "highlight": {
+        "en": "",
+        "fa": ""
+      },
+      "summary": {
+        "en": "Turning a refinery’s conservation programme into a story people can follow, support and verify.",
+        "fa": "تبدیل برنامه حفاظتی یک پالایشگاه به روایتی که مردم بتوانند دنبال کنند، حمایت کنند و بسنجند."
+      },
+      "glance": {
+        "problem": {
+          "en": "Corporate conservation reports are dry and hard to trust; the public rarely sees where support goes.",
+          "fa": "گزارش‌های حفاظتی شرکت‌ها خشک و کم‌اعتمادند و مردم به‌ندرت می‌بینند حمایتشان کجا می‌رود."
+        },
+        "users": {
+          "en": "Donors, volunteers, researchers, partner companies and local communities.",
+          "fa": "حامیان مالی، داوطلبان، پژوهشگران، شرکت‌های همکار و جوامع محلی."
+        },
+        "role": {
+          "en": "Freelance Product Designer",
+          "fa": "طراح محصول فریلنس"
+        },
+        "outcome": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "facts": {
+        "role": {
+          "en": "Freelance Product Designer",
+          "fa": "طراح محصول فریلنس"
+        },
+        "team": {
+          "en": "",
+          "fa": ""
+        },
+        "time": {
+          "en": "Freelance, 2026",
+          "fa": "فریلنس، ۱۴۰۵"
+        },
+        "platform": {
+          "en": "Responsive web in English, Persian and Arabic",
+          "fa": "وب واکنش‌گرا به انگلیسی، فارسی و عربی"
+        },
+        "status": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "chapters": [
+        {
+          "id": "overview",
+          "title": {
+            "en": "Overview",
+            "fa": "نمای کلی"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Jebeer is a digital platform for protecting the Jebeer gazelle on Hormuz Island, built for a refinery’s CSR programme. Instead of a report, the home page is a scroll-driven story in chapters: arrival, discovery, habitat, the challenge, the response, impact and how to take part.</p><p>I designed the product structure and the full experience, from the cinematic home page to the deeper pages for donating, research, partners, transparency and a shop.</p>",
+            "fa": "<p>جبیر پلتفرمی دیجیتال برای حفاظت از آهوی جبیر در جزیره هرمز است که برای برنامه مسئولیت اجتماعی یک پالایشگاه ساخته شد. به‌جای یک گزارش، صفحه اصلی روایتی فصل‌به‌فصل است که با اسکرول پیش می‌رود: آغاز، کشف، زیستگاه، چالش، پاسخ، اثر و راه‌های مشارکت.</p><p>ساختار محصول و کل تجربه را طراحی کردم، از صفحه اصلی سینمایی تا صفحه‌های عمیق‌تر برای حمایت مالی، پژوهش، همکاران، شفافیت و فروشگاه.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/jb_hero.webp",
+              "caption": {
+                "en": "The opening chapter on desktop and mobile.",
+                "fa": "فصل آغاز در دسکتاپ و موبایل."
+              }
+            }
+          ]
+        },
+        {
+          "id": "languages",
+          "title": {
+            "en": "Three languages, two directions",
+            "fa": "سه زبان، دو جهت"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>The site runs in English, Persian and Arabic. Persian and Arabic are full right-to-left layouts, not mirrored copies: navigation, numerals, coordinates and charts follow each language’s conventions.</p>",
+            "fa": "<p>سایت به انگلیسی، فارسی و عربی اجرا می‌شود. فارسی و عربی چیدمان کامل راست‌به‌چپ دارند، نه نسخه آینه‌شده: منو، اعداد، مختصات و نمودارها از قواعد هر زبان پیروی می‌کنند.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/jb_languages.webp",
+              "caption": {
+                "en": "English, Persian and Arabic.",
+                "fa": "انگلیسی، فارسی و عربی."
+              }
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "title": {
+            "en": "Making impact visible",
+            "fa": "دیدنی کردن اثر"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>A live habitat map</strong> with herd locations, ranges and ranger patrols, shown with a delay so the data can’t help poachers.</li><li><strong>Impact in numbers:</strong> population, protected land, rangers and water points, with trends and progress towards each goal.</li><li><strong>A three-step donation flow</strong> where each amount is translated into something concrete, such as days of ranger patrol.</li><li><strong>Honest data labels:</strong> figures are marked as samples until the scientific team confirms them.</li></ul>",
+            "fa": "<ul><li><strong>نقشه زنده زیستگاه</strong> با موقعیت گله‌ها، محدوده زیست و مسیر گشت محیط‌بانان، که با تأخیر نمایش داده می‌شود تا به شکارچیان کمک نکند.</li><li><strong>اثر به زبان عدد:</strong> جمعیت، زمین حفاظت‌شده، محیط‌بانان و آبشخورها، با روند و پیشرفت نسبت به هر هدف.</li><li><strong>فرایند سه‌مرحله‌ای حمایت مالی</strong> که هر مبلغ را به چیزی ملموس تبدیل می‌کند، مثل روزهای گشت محیط‌بانی.</li><li><strong>برچسب صادقانه داده:</strong> عددها تا تأیید تیم علمی «نمونه» علامت خورده‌اند.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/jb_map.webp",
+              "caption": {
+                "en": "Habitat map with GPS fixes and island details.",
+                "fa": "نقشه زیستگاه با موقعیت‌های GPS و جزئیات جزیره."
+              }
+            },
+            {
+              "image": "/images/jb_impact.webp",
+              "caption": {
+                "en": "Impact dashboard and the donation flow.",
+                "fa": "داشبورد اثر و فرایند حمایت مالی."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "libra",
       "secondary": true,
       "title": {

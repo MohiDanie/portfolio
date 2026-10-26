@@ -18,8 +18,8 @@
     "fa": "طراح محصول با *نگاه مدیر محصول.*"
   },
   "lede": {
-    "en": "I’m <strong>Mohadese Danaie</strong>. I’ve designed web and mobile products since 2019, in recruiting, data, education and logistics. As <strong>Product Manager</strong> at Duniar I owned scope, cost and delivery, and I bring that to every design decision. I now work freelance.",
-    "fa": "<strong>محدثه دانائی</strong> هستم. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، داده، آموزش و لجستیک طراحی می‌کنم. به‌عنوان <strong>مدیر محصول</strong> دونیار مسئول دامنه، هزینه و زمان تحویل بودم و همین نگاه را در هر تصمیم طراحی به کار می‌برم. اکنون به‌صورت فریلنس کار می‌کنم."
+    "en": "I’m <strong>Mohadese Danaie</strong>. I’ve designed web and mobile products since 2019, in recruiting, AI and data, education, ticketing, dating and conservation. As <strong>Product Manager</strong> at Duniar I owned scope, cost and delivery, and I bring that to every design decision. I now work freelance.",
+    "fa": "<strong>محدثه دانائی</strong> هستم. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، هوش مصنوعی و داده، آموزش، فروش بلیت، دوست‌یابی و حفاظت محیط زیست طراحی می‌کنم. به‌عنوان <strong>مدیر محصول</strong> دونیار مسئول دامنه، هزینه و زمان تحویل بودم و همین نگاه را در هر تصمیم طراحی به کار می‌برم. اکنون به‌صورت فریلنس کار می‌کنم."
   },
   "cta_work": {
     "en": "View work",
@@ -124,16 +124,16 @@
     {
       "icon": "bidi",
       "title": {
-        "en": "Persian and English layouts",
-        "fa": "طراحی فارسی و انگلیسی"
+        "en": "Multilingual and RTL layouts",
+        "fa": "چیدمان چندزبانه و راست‌به‌چپ"
       },
       "text": {
-        "en": "Native Persian, professional English and German. Bilingual layouts by default.",
-        "fa": "فارسی زبان مادری، انگلیسی و آلمانی حرفه‌ای. طراحی دوزبانه برایم پیش‌فرض است."
+        "en": "Native Persian, professional English and German. Products shipped in English, Persian and Arabic.",
+        "fa": "فارسی زبان مادری، انگلیسی و آلمانی در سطح حرفه‌ای. محصولاتی به انگلیسی، فارسی و عربی."
       },
       "where": {
-        "en": "Kanoon · Libra",
-        "fa": "کانون · لیبرا"
+        "en": "Kanoon · Libra · Jebeer",
+        "fa": "کانون · لیبرا · جبیر"
       }
     }
   ],

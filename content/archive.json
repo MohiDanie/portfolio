@@ -3,17 +3,6 @@
     {
       "image": "",
       "title": {
-        "en": "Jebeer",
-        "fa": "آهوی جبیر"
-      },
-      "text": {
-        "en": "A cinematic conservation and CSR/ESG platform for the Jebeer gazelle, built for a petrochemical company: a story-led site, impact reporting and ways to take part. English, Persian and Arabic.",
-        "fa": "پلتفرم سینمایی حفاظت از آهوی جبیر و گزارش مسئولیت اجتماعی (CSR/ESG) برای یک شرکت پتروشیمی: روایت داستانی، گزارش اثرگذاری و راه‌های مشارکت. به سه زبان انگلیسی، فارسی و عربی."
-      }
-    },
-    {
-      "image": "",
-      "title": {
         "en": "Design system",
         "fa": "دیزاین سیستم"
       },
@@ -51,8 +40,8 @@
         "fa": "پلتفرم کارکنان"
       },
       "text": {
-        "en": "An internal platform for a petrochemical company’s staff.",
-        "fa": "پلتفرم داخلی برای کارکنان یک شرکت پتروشیمی."
+        "en": "An internal platform for a refinery’s staff.",
+        "fa": "پلتفرم داخلی برای کارکنان یک پالایشگاه."
       }
     },
     {
