@@ -1,6 +1,83 @@
 {
   "items": [
     {
+      "image": "",
+      "title": {
+        "en": "Jebeer",
+        "fa": "آهوی جبیر"
+      },
+      "text": {
+        "en": "A cinematic conservation and CSR/ESG platform for the Jebeer gazelle, built for a petrochemical company: a story-led site, impact reporting and ways to take part. English, Persian and Arabic.",
+        "fa": "پلتفرم سینمایی حفاظت از آهوی جبیر و گزارش مسئولیت اجتماعی (CSR/ESG) برای یک شرکت پتروشیمی: روایت داستانی، گزارش اثرگذاری و راه‌های مشارکت. به سه زبان انگلیسی، فارسی و عربی."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Design system",
+        "fa": "دیزاین سیستم"
+      },
+      "text": {
+        "en": "A shared Figma design system with variants and adaptive components, used across a portfolio of products.",
+        "fa": "دیزاین سیستم مشترک در فیگما با واریانت‌ها و کامپوننت‌های تطبیق‌پذیر، مورد استفاده در مجموعه‌ای از محصولات."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Admin panels and modular CRM",
+        "fa": "پنل‌های مدیریتی و CRM ماژولار"
+      },
+      "text": {
+        "en": "Professional admin panels and a CRM built from reusable modules that can be combined per client.",
+        "fa": "پنل‌های مدیریتی حرفه‌ای و CRM مبتنی بر ماژول‌های قابل‌استفاده‌مجدد که برای هر مشتری قابل ترکیب است."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Event ticketing",
+        "fa": "فروش بلیت رویداد"
+      },
+      "text": {
+        "en": "Ticketing for arts events, theatre and concerts: a sales site, a panel for sales agents with settlements, ticket issuing, and setup of venues, seats and prices. Gathersa.",
+        "fa": "فروش بلیت رویدادهای هنری، تئاتر و کنسرت: سایت فروش، پنل عاملان فروش و تسویه با آن‌ها، صدور بلیت، و تعریف سالن، صندلی و قیمت. گاترسا."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Dating app",
+        "fa": "اپ دوست‌یابی"
+      },
+      "text": {
+        "en": "A full-featured dating app for the US market.",
+        "fa": "اپلیکیشن کامل دوست‌یابی برای بازار آمریکا."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "RainJoy",
+        "fa": "رین‌جوی"
+      },
+      "text": {
+        "en": "A club-themed dating app for the LGBTQ+ community, for countries where it is legal.",
+        "fa": "اپ دوست‌یابی با تم کلاب برای جامعه LGBTQ+، در کشورهایی که قانون از آن حمایت می‌کند."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Employee platform",
+        "fa": "پلتفرم کارکنان"
+      },
+      "text": {
+        "en": "An internal platform for a petrochemical company’s staff.",
+        "fa": "پلتفرم داخلی برای کارکنان یک شرکت پتروشیمی."
+      }
+    },
+    {
       "image": "/images/ship.webp",
       "title": {
         "en": "Door-to-door shipping",
@@ -31,61 +108,6 @@
       "text": {
         "en": "Seat maps and ticket sales by sport, plus an entry-check app.",
         "fa": "نقشه صندلی و فروش بلیت بر اساس رشته، همراه اپ کنترل ورود."
-      }
-    },
-    {
-      "image": "",
-      "title": {
-        "en": "Jebeer",
-        "fa": "آهوی جبیر"
-      },
-      "text": {
-        "en": "A conservation and CSR platform for the Jebeer gazelle, for a petrochemical company. English, Persian and Arabic.",
-        "fa": "پلتفرم حفاظت و مسئولیت اجتماعی برای آهوی جبیر، برای یک شرکت پتروشیمی. به سه زبان انگلیسی، فارسی و عربی."
-      }
-    },
-    {
-      "image": "",
-      "title": {
-        "en": "Employee platform",
-        "fa": "پلتفرم کارکنان"
-      },
-      "text": {
-        "en": "An internal platform for a petrochemical company’s staff.",
-        "fa": "پلتفرم داخلی برای کارکنان یک شرکت پتروشیمی."
-      }
-    },
-    {
-      "image": "",
-      "title": {
-        "en": "Event ticketing",
-        "fa": "فروش بلیت رویداد"
-      },
-      "text": {
-        "en": "Ticket sales for arts events, theatre and concerts, designed at Gathersa.",
-        "fa": "فروش بلیت رویدادهای هنری، تئاتر و کنسرت؛ طراحی‌شده در گاترسا."
-      }
-    },
-    {
-      "image": "",
-      "title": {
-        "en": "Dating app",
-        "fa": "اپ دوست‌یابی"
-      },
-      "text": {
-        "en": "A dating app designed at Duniar.",
-        "fa": "اپلیکیشن دوست‌یابی؛ طراحی‌شده در دونیار."
-      }
-    },
-    {
-      "image": "",
-      "title": {
-        "en": "RainJoy",
-        "fa": "رین‌جوی"
-      },
-      "text": {
-        "en": "Designed at Duniar.",
-        "fa": "طراحی‌شده در دونیار."
       }
     }
   ]

@@ -27,11 +27,11 @@
       },
       "bullets": {
         "en": [
-          "Designed Jebeer, a conservation and CSR platform for the Jebeer gazelle, in English, Persian and Arabic.",
+          "Designed Jebeer, a cinematic conservation and CSR/ESG platform for the Jebeer gazelle, in English, Persian and Arabic.",
           "Designed an internal platform for the company’s employees."
         ],
         "fa": [
-          "طراحی «آهوی جبیر»، پلتفرم حفاظت و مسئولیت اجتماعی برای آهوی جبیر، به سه زبان انگلیسی، فارسی و عربی.",
+          "طراحی «آهوی جبیر»، پلتفرم سینمایی حفاظت و گزارش مسئولیت اجتماعی برای آهوی جبیر، به سه زبان انگلیسی، فارسی و عربی.",
           "طراحی پلتفرم داخلی برای کارکنان شرکت."
         ]
       },
@@ -120,10 +120,10 @@
       },
       "bullets": {
         "en": [
-          "Designed ticket sales for arts events, theatre and concerts."
+          "Designed an event ticketing platform for arts, theatre and concerts: sales site, agent panel with settlements, ticket issuing, and venue, seat and price setup."
         ],
         "fa": [
-          "طراحی فروش بلیت برای رویدادهای هنری، تئاتر و کنسرت."
+          "طراحی پلتفرم فروش بلیت رویدادهای هنری، تئاتر و کنسرت: سایت فروش، پنل عاملان و تسویه، صدور بلیت، و تعریف سالن، صندلی و قیمت."
         ]
       },
       "hide_when_published": false
