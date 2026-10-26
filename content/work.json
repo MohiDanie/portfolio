@@ -1425,8 +1425,8 @@
         "fa": ""
       },
       "summary": {
-        "en": "One ticketing product across desktop and mobile, for both sides: audiences who buy tickets and sellers who manage events.",
-        "fa": "یک محصول فروش بلیت در دسکتاپ و موبایل، برای هر دو طرف: مخاطبانی که بلیت می‌خرند و فروشندگانی که رویداد را مدیریت می‌کنند."
+        "en": "One ticketing product across desktop and mobile, for three audiences: people who buy tickets, sellers who run events, and the team that runs the platform.",
+        "fa": "یک محصول فروش بلیت در دسکتاپ و موبایل، برای سه گروه: کسانی که بلیت می‌خرند، فروشندگانی که رویداد برگزار می‌کنند و تیمی که پلتفرم را اداره می‌کند."
       },
       "glance": {
         "problem": {
@@ -1597,6 +1597,46 @@
               "caption": {
                 "en": "Sales report, and the mobile menu with dark mode and language.",
                 "fa": "گزارش فروش، و منوی موبایل با حالت تیره و زبان."
+              }
+            }
+          ]
+        },
+        {
+          "id": "admin",
+          "title": {
+            "en": "The admin panel",
+            "fa": "پنل مدیریت"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Above the sellers sits an admin panel for the Ticlix team, built on the same components so both panels feel like one product.</p><ul><li><strong>Companies, active events, revenue and seats sold</strong> on one home screen, with invoices underneath and a shortcut to create a new event.</li><li><strong>Reports with a filter panel</strong> by event, date and seller, so finance can answer a question without exporting data.</li><li><strong>Box-office sales:</strong> staff pick a seat on the map and issue a ticket in a short form, for sales made in person or by phone.</li><li><strong>Skeleton loading states</strong> that mirror each layout, so the page keeps its shape while data loads.</li></ul>",
+            "fa": "<p>بالاتر از فروشندگان، پنل مدیریت برای تیم تیکلیکس قرار دارد که روی همان کامپوننت‌ها ساخته شده تا هر دو پنل یک محصول واحد به نظر برسند.</p><ul><li><strong>شرکت‌ها، رویدادهای فعال، درآمد و صندلی‌های فروخته‌شده</strong> در یک صفحه خانه، با فاکتورها در پایین و میانبر ساخت رویداد جدید.</li><li><strong>گزارش با پنل فیلتر</strong> بر اساس رویداد، تاریخ و فروشنده، تا بخش مالی بدون خروجی گرفتن از داده به جواب برسد.</li><li><strong>فروش حضوری:</strong> کارمند صندلی را روی نقشه انتخاب می‌کند و با یک فرم کوتاه بلیت صادر می‌کند، برای فروش حضوری یا تلفنی.</li><li><strong>حالت‌های بارگذاری اسکلتی</strong> که شکل هر صفحه را تکرار می‌کنند، تا صفحه هنگام بارگذاری داده ساختارش را حفظ کند.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/tx_admin_home.webp",
+              "caption": {
+                "en": "Admin home and the report filter.",
+                "fa": "خانه پنل مدیریت و فیلتر گزارش."
+              }
+            },
+            {
+              "image": "/images/tx_admin_boxoffice.webp",
+              "caption": {
+                "en": "Seat map and the box-office ticket form.",
+                "fa": "نقشه صندلی و فرم صدور بلیت حضوری."
+              }
+            },
+            {
+              "image": "/images/tx_admin_loading.webp",
+              "caption": {
+                "en": "Skeleton loading state and the loaded dashboard.",
+                "fa": "حالت بارگذاری اسکلتی و داشبورد بارگذاری‌شده."
               }
             }
           ]
