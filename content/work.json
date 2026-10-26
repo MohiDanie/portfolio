@@ -1008,8 +1008,8 @@
         "fa": ""
       },
       "summary": {
-        "en": "Matching startups with investors, starting from a trusted sign-up.",
-        "fa": "اتصال استارتاپ‌ها به سرمایه‌گذاران، با شروعی قابل اعتماد از ثبت‌نام."
+        "en": "Matching startups with investors: a trusted sign-up, a funding-first feed, and messaging built for meetings.",
+        "fa": "اتصال استارتاپ‌ها به سرمایه‌گذاران: ثبت‌نام قابل اعتماد، فید متمرکز بر اطلاعات جذب سرمایه، و پیام‌رسانی برای هماهنگی جلسه."
       },
       "glance": {
         "problem": {
@@ -1043,8 +1043,8 @@
           "fa": "دونیار"
         },
         "platform": {
-          "en": "Mobile app",
-          "fa": "اپ موبایل"
+          "en": "Mobile app, light and dark themes",
+          "fa": "اپ موبایل، تم روشن و تیره"
         },
         "status": {
           "en": "",
@@ -1060,8 +1060,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Elevate matches startups with investors based on shared interests. Every user goes through a vetting step, so people never match with bots.</p><p>I designed the mobile app: onboarding, sign-up and login, the startup application, and how founders invite team members.</p>",
-            "fa": "<p>الیویت استارتاپ‌ها را بر اساس علایق مشترک به سرمایه‌گذاران وصل می‌کند. همه کاربران از یک مرحله احراز اعتبار عبور می‌کنند تا هیچ‌کس با بات مَچ نشود.</p><p>اپ موبایل را طراحی کردم: معرفی اولیه، ثبت‌نام و ورود، فرم درخواست استارتاپ و دعوت اعضای تیم.</p>"
+            "en": "<p>Elevate matches startups with investors based on shared interests. Every user goes through a vetting step, so people never match with bots.</p><p>I designed the mobile app end to end, from the information architecture to every screen, in light and dark themes.</p>",
+            "fa": "<p>الیویت استارتاپ‌ها را بر اساس علایق مشترک به سرمایه‌گذاران وصل می‌کند. همه کاربران از یک مرحله احراز اعتبار عبور می‌کنند تا هیچ‌کس با بات مَچ نشود.</p><p>اپ موبایل را از معماری اطلاعات تا تک‌تک صفحه‌ها، در دو تم روشن و تیره، طراحی کردم.</p>"
           },
           "note": {
             "en": "",
@@ -1071,33 +1071,41 @@
           "gallery": []
         },
         {
-          "id": "flows",
+          "id": "structure",
           "title": {
-            "en": "Key flows",
-            "fa": "فرایندهای اصلی"
+            "en": "Structure",
+            "fa": "ساختار"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Two entry paths, onboarding for new users and login for returning ones, both land on Home. Four tabs carry the rest of the product: Home with a map of nearby events, Explore for startups and investors, Messages, and a Menu for spaces and team invites.</p>",
+            "fa": "<p>دو مسیر ورود، معرفی برای کاربر جدید و ورود برای کاربر قدیمی، هر دو به خانه می‌رسند. چهار تب بقیه محصول را در بر می‌گیرد: خانه با نقشه رویدادهای نزدیک، کاوش برای استارتاپ‌ها و سرمایه‌گذاران، پیام‌ها، و منو برای فضاها و دعوت اعضای تیم.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/elev_ia.webp",
+              "caption": {
+                "en": "Simplified information architecture.",
+                "fa": "معماری اطلاعات به‌صورت ساده‌شده."
+              }
+            }
+          ]
+        },
+        {
+          "id": "onboarding",
+          "title": {
+            "en": "Onboarding and sign-up",
+            "fa": "معرفی و ثبت‌نام"
           },
           "draft_rationale": false,
           "body": {
             "en": "<ul><li><strong>Sign-up in one field:</strong> email, or LinkedIn, Google or Apple, with the vetting promise stated before the user commits.</li><li><strong>A four-step startup checklist:</strong> company and ownership, fundraising, media and pitch, and team members. Founders can choose “Add later” instead of stopping when a document isn’t ready.</li><li><strong>Invitations with a clear choice:</strong> a team member sees the role and startup they are invited to, and can accept or decline with a note to the owner.</li></ul>",
             "fa": "<ul><li><strong>ثبت‌نام با یک فیلد:</strong> ایمیل، یا لینکدین، گوگل و اپل؛ و وعده احراز اعتبار پیش از شروع ثبت‌نام بیان می‌شود.</li><li><strong>چک‌لیست چهارمرحله‌ای استارتاپ:</strong> شرکت و ساختار مالکیت، اطلاعات جذب سرمایه، رسانه و پیچ، و اعضای تیم. اگر مدرکی آماده نباشد، بنیان‌گذار به‌جای توقف «بعداً اضافه کن» را انتخاب می‌کند.</li><li><strong>دعوت با انتخاب روشن:</strong> عضو تیم نقش و استارتاپی را که به آن دعوت شده می‌بیند و می‌تواند بپذیرد یا با نوشتن پیامی برای مالک رد کند.</li></ul>"
-          },
-          "note": {
-            "en": "",
-            "fa": ""
-          },
-          "decisions": [],
-          "gallery": []
-        },
-        {
-          "id": "screens",
-          "title": {
-            "en": "Screens",
-            "fa": "صفحه‌ها"
-          },
-          "draft_rationale": false,
-          "body": {
-            "en": "",
-            "fa": ""
           },
           "note": {
             "en": "",
@@ -1124,6 +1132,46 @@
               "caption": {
                 "en": "Startup checklist, invitation, and declining with a note.",
                 "fa": "چک‌لیست استارتاپ، دعوت‌نامه و رد دعوت با پیام."
+              }
+            }
+          ]
+        },
+        {
+          "id": "app",
+          "title": {
+            "en": "Inside the app",
+            "fa": "درون اپ"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>A funding-first feed:</strong> each startup card leads with its stage and three numbers investors scan first: pre-money valuation, total raised and target raise, plus a short intro video.</li><li><strong>Events on a map:</strong> Home shows nearby events and how far away they are, so meetings can happen in person.</li><li><strong>Messaging built for meetings:</strong> chats, message requests to approve, calls, and scheduling a meeting from the conversation.</li><li><strong>Light and dark themes</strong> across the whole app.</li></ul>",
+            "fa": "<ul><li><strong>فید متمرکز بر جذب سرمایه:</strong> هر کارت استارتاپ با مرحله سرمایه‌گذاری و سه عددی شروع می‌شود که سرمایه‌گذار اول نگاه می‌کند: ارزش پیش از سرمایه‌گذاری، مجموع سرمایه جذب‌شده و هدف جذب، همراه یک ویدیوی معرفی کوتاه.</li><li><strong>رویدادها روی نقشه:</strong> خانه رویدادهای نزدیک و فاصله تا آن‌ها را نشان می‌دهد تا دیدار حضوری ممکن شود.</li><li><strong>پیام‌رسانی برای هماهنگی جلسه:</strong> گفتگو، تأیید درخواست‌های پیام، تماس، و تعیین زمان جلسه از دل گفتگو.</li><li><strong>تم روشن و تیره</strong> در سراسر اپ.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/elev_themes.webp",
+              "caption": {
+                "en": "Explore feed and event map, in light and dark.",
+                "fa": "فید کاوش و نقشه رویدادها، در تم روشن و تیره."
+              }
+            },
+            {
+              "image": "/images/elev_messages.webp",
+              "caption": {
+                "en": "Messages, chat and message requests.",
+                "fa": "پیام‌ها، گفتگو و درخواست‌های پیام."
+              }
+            },
+            {
+              "image": "/images/elev_matching.webp",
+              "caption": {
+                "en": "A match, the first message, and approving requests.",
+                "fa": "مَچ، اولین پیام و تأیید درخواست‌ها."
               }
             }
           ]
