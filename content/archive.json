@@ -89,17 +89,6 @@
       }
     },
     {
-      "image": "/images/elev.webp",
-      "title": {
-        "en": "Elevate",
-        "fa": "الیویت"
-      },
-      "text": {
-        "en": "A mobile app that matches startups with investors.",
-        "fa": "اپ موبایل برای اتصال استارتاپ‌ها به سرمایه‌گذاران."
-      }
-    },
-    {
       "image": "/images/sport.webp",
       "title": {
         "en": "Sport ticketing",

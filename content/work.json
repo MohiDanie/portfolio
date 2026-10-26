@@ -982,6 +982,153 @@
           "gallery": []
         }
       ]
+    },
+    {
+      "slug": "elevate",
+      "secondary": true,
+      "title": {
+        "en": "Elevate",
+        "fa": "الیویت"
+      },
+      "category": {
+        "en": "Startups · Mobile",
+        "fa": "استارتاپ · موبایل"
+      },
+      "year": {
+        "en": "Duniar",
+        "fa": "دونیار"
+      },
+      "cover": "/images/elev.webp",
+      "teaser": {
+        "en": "A mobile app that matches startups with investors.",
+        "fa": "اپ موبایل برای اتصال استارتاپ‌ها به سرمایه‌گذاران."
+      },
+      "highlight": {
+        "en": "",
+        "fa": ""
+      },
+      "summary": {
+        "en": "Matching startups with investors, starting from a trusted sign-up.",
+        "fa": "اتصال استارتاپ‌ها به سرمایه‌گذاران، با شروعی قابل اعتماد از ثبت‌نام."
+      },
+      "glance": {
+        "problem": {
+          "en": "Founders and investors need a place to meet where every profile is real.",
+          "fa": "بنیان‌گذاران و سرمایه‌گذاران به جایی نیاز دارند که مطمئن باشند همه پروفایل‌ها واقعی‌اند."
+        },
+        "users": {
+          "en": "Startup founders, their team members and investors.",
+          "fa": "بنیان‌گذاران استارتاپ، اعضای تیمشان و سرمایه‌گذاران."
+        },
+        "role": {
+          "en": "Senior UI/UX Designer",
+          "fa": "طراح ارشد UI/UX"
+        },
+        "outcome": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "facts": {
+        "role": {
+          "en": "Senior UI/UX Designer",
+          "fa": "طراح ارشد UI/UX"
+        },
+        "team": {
+          "en": "",
+          "fa": ""
+        },
+        "time": {
+          "en": "Duniar",
+          "fa": "دونیار"
+        },
+        "platform": {
+          "en": "Mobile app",
+          "fa": "اپ موبایل"
+        },
+        "status": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "chapters": [
+        {
+          "id": "overview",
+          "title": {
+            "en": "Overview",
+            "fa": "نمای کلی"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Elevate matches startups with investors based on shared interests. Every user goes through a vetting step, so people never match with bots.</p><p>I designed the mobile app: onboarding, sign-up and login, the startup application, and how founders invite team members.</p>",
+            "fa": "<p>الیویت استارتاپ‌ها را بر اساس علایق مشترک به سرمایه‌گذاران وصل می‌کند. همه کاربران از یک مرحله احراز اعتبار عبور می‌کنند تا هیچ‌کس با بات مَچ نشود.</p><p>اپ موبایل را طراحی کردم: معرفی اولیه، ثبت‌نام و ورود، فرم درخواست استارتاپ و دعوت اعضای تیم.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": []
+        },
+        {
+          "id": "flows",
+          "title": {
+            "en": "Key flows",
+            "fa": "فرایندهای اصلی"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>Sign-up in one field:</strong> email, or LinkedIn, Google or Apple, with the vetting promise stated before the user commits.</li><li><strong>A four-step startup checklist:</strong> company and ownership, fundraising, media and pitch, and team members. Founders can choose “Add later” instead of stopping when a document isn’t ready.</li><li><strong>Invitations with a clear choice:</strong> a team member sees the role and startup they are invited to, and can accept or decline with a note to the owner.</li></ul>",
+            "fa": "<ul><li><strong>ثبت‌نام با یک فیلد:</strong> ایمیل، یا لینکدین، گوگل و اپل؛ و وعده احراز اعتبار پیش از شروع ثبت‌نام بیان می‌شود.</li><li><strong>چک‌لیست چهارمرحله‌ای استارتاپ:</strong> شرکت و ساختار مالکیت، اطلاعات جذب سرمایه، رسانه و پیچ، و اعضای تیم. اگر مدرکی آماده نباشد، بنیان‌گذار به‌جای توقف «بعداً اضافه کن» را انتخاب می‌کند.</li><li><strong>دعوت با انتخاب روشن:</strong> عضو تیم نقش و استارتاپی را که به آن دعوت شده می‌بیند و می‌تواند بپذیرد یا با نوشتن پیامی برای مالک رد کند.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": []
+        },
+        {
+          "id": "screens",
+          "title": {
+            "en": "Screens",
+            "fa": "صفحه‌ها"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "",
+            "fa": ""
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/elev_onboarding.webp",
+              "caption": {
+                "en": "Splash, onboarding, sign-up and login.",
+                "fa": "صفحه آغازین، معرفی، ثبت‌نام و ورود."
+              }
+            },
+            {
+              "image": "/images/elev_signup.webp",
+              "caption": {
+                "en": "Sign-up with email or social accounts, and login.",
+                "fa": "ثبت‌نام با ایمیل یا حساب‌های اجتماعی، و ورود."
+              }
+            },
+            {
+              "image": "/images/elev_startup.webp",
+              "caption": {
+                "en": "Startup checklist, invitation, and declining with a note.",
+                "fa": "چک‌لیست استارتاپ، دعوت‌نامه و رد دعوت با پیام."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
