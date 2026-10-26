@@ -1399,6 +1399,169 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "ticlix",
+      "secondary": true,
+      "title": {
+        "en": "Ticlix",
+        "fa": "تیکلیکس"
+      },
+      "category": {
+        "en": "Ticketing · Responsive web",
+        "fa": "فروش بلیت · وب واکنش‌گرا"
+      },
+      "year": {
+        "en": "Gathersa",
+        "fa": "گاترسا"
+      },
+      "cover": "/images/tx_home.webp",
+      "teaser": {
+        "en": "Concert and theatre ticketing, designed for desktop and mobile as one system.",
+        "fa": "فروش بلیت کنسرت و تئاتر، طراحی‌شده برای دسکتاپ و موبایل به‌صورت یک سیستم واحد."
+      },
+      "highlight": {
+        "en": "",
+        "fa": ""
+      },
+      "summary": {
+        "en": "One ticketing product across desktop and mobile: discover, search, buy and manage tickets.",
+        "fa": "یک محصول فروش بلیت در دسکتاپ و موبایل: کشف، جستجو، خرید و مدیریت بلیت."
+      },
+      "glance": {
+        "problem": {
+          "en": "Ticket buyers switch between phone and laptop; the experience has to stay the same.",
+          "fa": "خریداران بلیت بین گوشی و لپ‌تاپ جابه‌جا می‌شوند و تجربه باید یکسان بماند."
+        },
+        "users": {
+          "en": "Concert and theatre audiences, plus sales agents behind the scenes.",
+          "fa": "مخاطبان کنسرت و تئاتر، و عاملان فروش در پشت صحنه."
+        },
+        "role": {
+          "en": "UI/UX Designer",
+          "fa": "طراح UI/UX"
+        },
+        "outcome": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "facts": {
+        "role": {
+          "en": "UI/UX Designer",
+          "fa": "طراح UI/UX"
+        },
+        "team": {
+          "en": "",
+          "fa": ""
+        },
+        "time": {
+          "en": "Gathersa",
+          "fa": "گاترسا"
+        },
+        "platform": {
+          "en": "Responsive web: desktop and mobile",
+          "fa": "وب واکنش‌گرا: دسکتاپ و موبایل"
+        },
+        "status": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "chapters": [
+        {
+          "id": "overview",
+          "title": {
+            "en": "Overview",
+            "fa": "نمای کلی"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Ticlix sells tickets for concerts, theatre and arts events. Behind the public site sit a panel for sales agents with settlements, ticket issuing, and setup for venues, seats and prices. These screens show the audience side.</p><p>Every page was designed twice, for desktop and for mobile, from one set of components: the same cards, colours and icons, rearranged for each screen size.</p>",
+            "fa": "<p>تیکلیکس بلیت کنسرت، تئاتر و رویدادهای هنری می‌فروشد. پشت سایت عمومی، پنل عاملان فروش با تسویه‌حساب، صدور بلیت و تعریف سالن، صندلی و قیمت قرار دارد. این صفحه‌ها سمت مخاطب را نشان می‌دهند.</p><p>هر صفحه دو بار طراحی شد، برای دسکتاپ و موبایل، از یک مجموعه کامپوننت: همان کارت‌ها، رنگ‌ها و آیکون‌ها که برای هر اندازه صفحه بازچینی شده‌اند.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/tx_home.webp",
+              "caption": {
+                "en": "Home: featured concert, today’s events and recommendations.",
+                "fa": "خانه: کنسرت ویژه، رویدادهای امروز و پیشنهادها."
+              }
+            }
+          ]
+        },
+        {
+          "id": "buying",
+          "title": {
+            "en": "Finding and buying",
+            "fa": "پیدا کردن و خرید"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>Every showtime is its own buy button,</strong> with the starting price, seats left and a countdown, so people can choose without opening another page.</li><li><strong>Filters as a side panel on desktop</strong> become sort and filter buttons pinned to the bottom on mobile, within thumb reach.</li><li><strong>The seat map</strong> is one tap from each showtime.</li></ul>",
+            "fa": "<ul><li><strong>هر سانس دکمه خرید خودش را دارد،</strong> همراه قیمت شروع، صندلی‌های باقی‌مانده و شمارش معکوس، تا کاربر بدون رفتن به صفحه دیگر انتخاب کند.</li><li><strong>فیلترها در دسکتاپ پنل کناری‌اند</strong> و در موبایل به دکمه‌های مرتب‌سازی و فیلتر در پایین صفحه تبدیل می‌شوند، در دسترس انگشت شست.</li><li><strong>نقشه صندلی</strong> با یک لمس از هر سانس باز می‌شود.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/tx_search.webp",
+              "caption": {
+                "en": "Search results with filters and per-showtime purchase.",
+                "fa": "نتایج جستجو با فیلتر و خرید برای هر سانس."
+              }
+            }
+          ]
+        },
+        {
+          "id": "tickets",
+          "title": {
+            "en": "Managing tickets",
+            "fa": "مدیریت بلیت‌ها"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>Tickets that look like tickets:</strong> a perforated stub separates event details from price and seats.</li><li><strong>Status tabs</strong> (current, checked in, cancelled, refunded, past) keep the list short.</li><li><strong>Each seat gets its own barcode</strong> with section, row and seat, plus download all and cancel all for group orders.</li><li><strong>An empty state that leads somewhere:</strong> no tickets yet points straight to upcoming concerts.</li></ul>",
+            "fa": "<ul><li><strong>بلیت‌هایی که شبیه بلیت‌اند:</strong> یک لبه سوراخ‌دار جزئیات رویداد را از قیمت و صندلی جدا می‌کند.</li><li><strong>تب‌های وضعیت</strong> (فعال، ورود ثبت‌شده، لغوشده، بازپرداخت‌شده، گذشته) فهرست را کوتاه نگه می‌دارند.</li><li><strong>هر صندلی بارکد خودش را دارد</strong> با بخش، ردیف و شماره صندلی، و برای خرید گروهی امکان دانلود همه و لغو همه.</li><li><strong>حالت خالی که به جایی می‌رسد:</strong> وقتی بلیتی نیست، کاربر مستقیم به کنسرت‌های پیش رو هدایت می‌شود.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/tx_tickets.webp",
+              "caption": {
+                "en": "My tickets, grouped by status.",
+                "fa": "بلیت‌های من، دسته‌بندی‌شده بر اساس وضعیت."
+              }
+            },
+            {
+              "image": "/images/tx_detail.webp",
+              "caption": {
+                "en": "Seat-level tickets with barcodes.",
+                "fa": "بلیت هر صندلی با بارکد."
+              }
+            },
+            {
+              "image": "/images/tx_empty.webp",
+              "caption": {
+                "en": "Empty state with a next step.",
+                "fa": "حالت خالی با قدم بعدی."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
