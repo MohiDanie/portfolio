@@ -32,6 +32,61 @@
         "en": "Seat maps and ticket sales by sport, plus an entry-check app.",
         "fa": "نقشه صندلی و فروش بلیت بر اساس رشته، همراه اپ کنترل ورود."
       }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Jebeer",
+        "fa": "آهوی جبیر"
+      },
+      "text": {
+        "en": "A conservation and CSR platform for the Jebeer gazelle, for a petrochemical company. English, Persian and Arabic.",
+        "fa": "پلتفرم حفاظت و مسئولیت اجتماعی برای آهوی جبیر، برای یک شرکت پتروشیمی. به سه زبان انگلیسی، فارسی و عربی."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Employee platform",
+        "fa": "پلتفرم کارکنان"
+      },
+      "text": {
+        "en": "An internal platform for a petrochemical company’s staff.",
+        "fa": "پلتفرم داخلی برای کارکنان یک شرکت پتروشیمی."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Event ticketing",
+        "fa": "فروش بلیت رویداد"
+      },
+      "text": {
+        "en": "Ticket sales for arts events, theatre and concerts, designed at Gathersa.",
+        "fa": "فروش بلیت رویدادهای هنری، تئاتر و کنسرت؛ طراحی‌شده در گاترسا."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "Dating app",
+        "fa": "اپ دوست‌یابی"
+      },
+      "text": {
+        "en": "A dating app designed at Duniar.",
+        "fa": "اپلیکیشن دوست‌یابی؛ طراحی‌شده در دونیار."
+      }
+    },
+    {
+      "image": "",
+      "title": {
+        "en": "RainJoy",
+        "fa": "رین‌جوی"
+      },
+      "text": {
+        "en": "Designed at Duniar.",
+        "fa": "طراحی‌شده در دونیار."
+      }
     }
   ]
 }

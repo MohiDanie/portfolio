@@ -4,14 +4,43 @@
     "fa": "محدثه دانائی — طراح محصول"
   },
   "summary": {
-    "en": "Product designer since 2019 and Product Manager at Duniar since 2025. Computer engineering, AI focus. Persian, English, German.",
-    "fa": "طراح محصول از ۱۳۹۷ و مدیر محصول دونیار از ۱۴۰۳. مهندسی کامپیوتر، گرایش هوش مصنوعی. فارسی، انگلیسی، آلمانی."
+    "en": "Product designer since 2019; Product Manager at Duniar from 2025 to 2026; freelance since 2026. Computer engineering, AI focus. Persian, English, German.",
+    "fa": "طراح محصول از ۱۳۹۷؛ مدیر محصول دونیار از ۱۴۰۳ تا ۱۴۰۴؛ فریلنس از ۱۴۰۴. مهندسی کامپیوتر، گرایش هوش مصنوعی. فارسی، انگلیسی، آلمانی."
   },
   "jobs": [
     {
       "when": {
-        "en": "Mar 2025 – Present",
-        "fa": "اسفند ۱۴۰۳ – اکنون"
+        "en": "Mar 2026 – Present",
+        "fa": "اسفند ۱۴۰۴ – اکنون"
+      },
+      "title": {
+        "en": "Freelance Product Designer",
+        "fa": "طراح محصول فریلنس"
+      },
+      "org": {
+        "en": "Petrochemical client · Tehran",
+        "fa": "کارفرمای پتروشیمی · تهران"
+      },
+      "summary": {
+        "en": "Two platforms for a petrochemical company: a conservation platform and an internal employee platform.",
+        "fa": "دو پلتفرم برای یک شرکت پتروشیمی: یک پلتفرم حفاظت از حیات‌وحش و یک پلتفرم داخلی برای کارکنان."
+      },
+      "bullets": {
+        "en": [
+          "Designed Jebeer, a conservation and CSR platform for the Jebeer gazelle, in English, Persian and Arabic.",
+          "Designed an internal platform for the company’s employees."
+        ],
+        "fa": [
+          "طراحی «آهوی جبیر»، پلتفرم حفاظت و مسئولیت اجتماعی برای آهوی جبیر، به سه زبان انگلیسی، فارسی و عربی.",
+          "طراحی پلتفرم داخلی برای کارکنان شرکت."
+        ]
+      },
+      "hide_when_published": false
+    },
+    {
+      "when": {
+        "en": "Mar 2025 – Mar 2026",
+        "fa": "اسفند ۱۴۰۳ – اسفند ۱۴۰۴"
       },
       "title": {
         "en": "Product Manager",
@@ -27,13 +56,13 @@
       },
       "bullets": {
         "en": [
-          "Own the roadmap and priorities for web and mobile products, and still design.",
-          "Turn user needs into product solutions that serve both users and business goals.",
+          "Owned the roadmap and priorities for web and mobile products, while continuing to design.",
+          "Turned user needs into product solutions aligned with business goals.",
           "Led three product projects in parallel in under a year, from idea and planning to design and development."
         ],
         "fa": [
-          "مسئول نقشه راه و اولویت‌های محصولات وب و موبایل، در کنار طراحی.",
-          "تبدیل نیازهای کاربران به راهکارهای محصولی هم‌سو با اهداف کسب‌وکار.",
+          "مسئول نقشه راه و اولویت‌بندی محصولات وب و موبایل، در کنار ادامه طراحی.",
+          "تبدیل نیازهای کاربران به راهکارهای محصولی هم‌راستا با اهداف کسب‌وکار.",
           "پیشبرد هم‌زمان سه پروژه محصول در کمتر از یک سال، از ایده و برنامه‌ریزی تا طراحی و توسعه."
         ]
       },
@@ -59,12 +88,14 @@
       "bullets": {
         "en": [
           "Designed Puzzleity, PIAI, Elevate, RainJoy, a dating app and platforms for shipping, recycling and ticketing.",
-          "Built the shared Figma design system.",
+          "Built the shared Figma design system and reviewed the team’s work.",
+          "Defined how projects were tested and drove the resulting fixes.",
           "Led the UI/UX team: one designer and one intern."
         ],
         "fa": [
           "طراحی پازلیتی، پیای، الیویت، رین‌جوی، یک اپ دوست‌یابی و پلتفرم‌های حمل، بازیافت و فروش بلیت.",
-          "ساخت دیزاین سیستم مشترک در فیگما.",
+          "ساخت دیزاین سیستم مشترک در فیگما و بازبینی کار تیم.",
+          "تعریف فرایند تست پروژه‌ها و پیگیری رفع یافته‌ها.",
           "هدایت تیم UI/UX: یک طراح و یک کارآموز."
         ]
       },
@@ -157,15 +188,15 @@
         "fa": "Solution Apps · برلین"
       },
       "summary": {
-        "en": "Business apps for a Berlin software company, in German and English.",
-        "fa": "اپ‌های سازمانی برای یک شرکت نرم‌افزاری در برلین، به آلمانی و انگلیسی."
+        "en": "An all-in-one platform for a Europe-wide cosmetics distributor.",
+        "fa": "پلتفرمی یکپارچه برای یک توزیع‌کننده لوازم آرایشی و بهداشتی در سراسر اروپا."
       },
       "bullets": {
         "en": [
-          "{?Remote, including the Eurotex ordering app.?}"
+          "Designed an all-in-one platform for a Europe-wide cosmetics distributor with a direct-sales network: CRM, payments, online ordering and day-to-day operations."
         ],
         "fa": [
-          "{?دورکاری، از جمله اپ سفارش Eurotex.?}"
+          "طراحی پلتفرمی یکپارچه برای یک توزیع‌کننده لوازم آرایشی و بهداشتی در سراسر اروپا با شبکه فروش مستقیم: CRM، پرداخت، خرید آنلاین و همه عملیات روزانه شرکت."
         ]
       },
       "hide_when_published": false

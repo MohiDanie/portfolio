@@ -21,8 +21,8 @@
         "fa": "سازنده آزمون مهارتی برای کارفرماها، با سؤال‌های برنامه‌نویسی که خودکار تصحیح می‌شوند."
       },
       "highlight": {
-        "en": "Released as TikTalent · used by Shahid Beheshti University",
-        "fa": "منتشرشده با نام تیک‌تلنت · در استفاده دانشگاه شهید بهشتی"
+        "en": "TikTalent · 100+ AI-built assessments · used at Shahid Beheshti University",
+        "fa": "تیک‌تلنت · بیش از ۱۰۰ آزمون ساخته‌شده با هوش مصنوعی · در استفاده دانشگاه شهید بهشتی"
       },
       "summary": {
         "en": "Making a three-level assessment builder feel simple for busy hiring managers.",
@@ -42,8 +42,8 @@
           "fa": "طراح ارشد UI/UX، طراح اصلی محصول"
         },
         "outcome": {
-          "en": "Later released as TikTalent. Sold to a company in Australia and used for exams and hiring at Shahid Beheshti University.",
-          "fa": "بعدها با نام تیک‌تلنت منتشر شد؛ به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود."
+          "en": "Later released as TikTalent. More than 100 assessments built with AI from the question bank; used by dozens of professors at Shahid Beheshti University and sold to a company in Australia.",
+          "fa": "بعدها با نام تیک‌تلنت منتشر شد. بیش از ۱۰۰ آزمون با هوش مصنوعی از بانک سؤال ساخته شده؛ ده‌ها استاد دانشگاه شهید بهشتی از آن استفاده می‌کنند و به شرکتی در استرالیا فروخته شده است."
         }
       },
       "facts": {
@@ -167,6 +167,24 @@
           "gallery": []
         },
         {
+          "id": "testing",
+          "title": {
+            "en": "What testing changed",
+            "fa": "آنچه تست کاربر تغییر داد"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p><strong>Building the first assessment was where people gave up.</strong> In usability tests, hiring managers stalled in the builder and often abandoned it. I grouped tests into categories and designed AI suggestions based on the role and how specialised it is, so a new assessment starts from a relevant draft instead of a blank page.</p><p><strong>Results are only useful if they can be trusted.</strong> I designed anti-cheating into the candidate flow: the webcam stays on, face and gaze direction are recorded, the test ends if the window is minimised or the candidate leaves the page, and keyboard activity is checked.</p>",
+            "fa": "<p><strong>ساخت اولین آزمون همان نقطه‌ای بود که کاربران رها می‌کردند.</strong> در تست کاربردپذیری، مدیران استخدام در سازنده آزمون متوقف می‌شدند و اغلب آن را نیمه‌کاره رها می‌کردند. آزمون‌ها را دسته‌بندی کردم و پیشنهاد آزمون با هوش مصنوعی را بر اساس موقعیت شغلی و میزان تخصصی بودن آن طراحی کردم؛ به این ترتیب هر آزمون جدید از یک پیش‌نویس مرتبط شروع می‌شود، نه از صفحه خالی.</p><p><strong>نتیجه آزمون فقط وقتی ارزش دارد که قابل اعتماد باشد.</strong> جلوگیری از تقلب را در خود فرایند آزمون طراحی کردم: وب‌کم روشن می‌ماند، چهره و جهت نگاه ثبت می‌شود، با کوچک کردن پنجره یا خروج از صفحه آزمون پایان می‌یابد و فعالیت صفحه‌کلید بررسی می‌شود.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": []
+        },
+        {
           "id": "screens",
           "title": {
             "en": "Screens",
@@ -200,8 +218,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>The product was later released as TikTalent (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>). It was sold to a company in Australia and is used for exams and hiring at Shahid Beheshti University.</p><p>Interviews and prototype tests shaped the design along the way; I don’t have figures from them to publish here.</p><p>Next, I would track the time from sign-up to the first assessment sent, the moment that shows whether the builder really is simple.</p>",
-            "fa": "<p>محصول بعدها با نام تیک‌تلنت (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>) منتشر شد. به شرکتی در استرالیا فروخته شد و در آزمون‌ها و استخدام دانشگاه شهید بهشتی استفاده می‌شود.</p><p>مصاحبه‌ها و تست پروتوتایپ در طول کار طراحی را شکل دادند؛ عددی از آن‌ها برای انتشار در اختیار ندارم.</p><p>قدم بعدی: اندازه‌گیری فاصله ثبت‌نام تا ارسال اولین ارزیابی؛ لحظه‌ای که نشان می‌دهد سازنده واقعاً ساده است یا نه.</p>"
+            "en": "<p>The product was later released as TikTalent (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>). More than 100 assessments have been built with AI from its question bank, dozens of professors at Shahid Beheshti University use it to design and run exams, and it was sold to a company in Australia.</p><p>Next, I would track the time from sign-up to the first assessment sent: the moment that shows whether the builder is truly simple.</p>",
+            "fa": "<p>محصول بعدها با نام تیک‌تلنت (<a href=\"https://tiktalent.ir/\" target=\"_blank\" rel=\"noopener\">tiktalent.ir</a>) منتشر شد. بیش از ۱۰۰ آزمون با هوش مصنوعی از بانک سؤال آن ساخته شده، ده‌ها استاد دانشگاه شهید بهشتی برای طراحی و برگزاری آزمون از آن استفاده می‌کنند و به شرکتی در استرالیا فروخته شده است.</p><p>قدم بعدی: سنجش فاصله ثبت‌نام تا ارسال اولین آزمون؛ لحظه‌ای که نشان می‌دهد سازنده واقعاً ساده است یا نه.</p>"
           },
           "note": {
             "en": "",
@@ -233,8 +251,8 @@
         "fa": "وب‌اپی که افراد بدون دانش کدنویسی را از داده خام تا مدل آموزش‌دیده و پیش‌بینی می‌رساند."
       },
       "highlight": {
-        "en": "Released · sold B2B, with contracts in Australia",
-        "fa": "منتشرشده · فروش B2B با قرارداد در استرالیا"
+        "en": "Released · three large Australian companies as early clients",
+        "fa": "منتشرشده · سه شرکت بزرگ استرالیایی، نخستین مشتریان"
       },
       "summary": {
         "en": "Turning a data-science pipeline into one guided path for non-programmers.",
@@ -254,8 +272,8 @@
           "fa": "طراح ارشد UI/UX، طراح اصلی اپ و سایت معرفی"
         },
         "outcome": {
-          "en": "Released and sold B2B, with contracts with companies in Australia.",
-          "fa": "منتشر شد و به‌صورت B2B فروخته شد، با قرارداد با شرکت‌هایی در استرالیا."
+          "en": "Released and sold B2B; three large Australian companies were its early clients.",
+          "fa": "منتشر شد و به‌صورت B2B به فروش رسید؛ سه شرکت بزرگ استرالیایی نخستین مشتریان آن بودند."
         }
       },
       "facts": {
@@ -379,6 +397,24 @@
           "gallery": []
         },
         {
+          "id": "testing",
+          "title": {
+            "en": "What testing changed",
+            "fa": "آنچه تست کاربر تغییر داد"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Tests showed that people without data-science training got stuck on jargon and dense results. I replaced steps that needed specialist knowledge with the simplest available path, explained each technical term where it appears, and simplified the output. Uptake grew among both everyday and expert users.</p>",
+            "fa": "<p>تست‌ها نشان داد کاربرانی که دانش علم داده ندارند، در اصطلاحات تخصصی و خروجی‌های پیچیده گیر می‌کنند. مراحلی را که به دانش تخصصی نیاز داشت با ساده‌ترین مسیر ممکن جایگزین کردم، هر اصطلاح فنی را همان‌جا که ظاهر می‌شود توضیح دادم و خروجی را ساده کردم. استقبال کاربران عادی و متخصص هر دو بیشتر شد.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": []
+        },
+        {
           "id": "workflow",
           "title": {
             "en": "The workflow",
@@ -487,8 +523,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>PIAI was released and sold B2B, with contracts with companies in Australia.</p><p>Looking back, I would:</p><ul><li>Replace ML terms like Classification or Regression with plain questions about what to predict.</li><li>Make the checklist tick only when a field is really complete.</li><li>Use radio buttons for single choices such as the target column.</li><li>Remove the website-style footer left from the UI kit.</li></ul>",
-            "fa": "<p>پیای منتشر شد و به‌صورت B2B فروخته شد، با قرارداد با شرکت‌هایی در استرالیا.</p><p>با نگاه دوباره:</p><ul><li>اصطلاحاتی مثل Classification و Regression را با سؤال ساده «چه چیزی را می‌خواهید پیش‌بینی کنید؟» جایگزین می‌کردم.</li><li>چک‌لیست فقط وقتی تیک بخورد که فیلد واقعاً کامل شده.</li><li>برای انتخاب‌های تکی مثل ستون هدف، دکمه رادیویی می‌گذاشتم.</li><li>فوتر سایت‌گونه‌ای را که از کیت مانده حذف می‌کردم.</li></ul>"
+            "en": "<p>PIAI was released and sold B2B; three large Australian companies were among its first clients.</p><p>Looking back, I would:</p><ul><li>Go further with plain language: ask what to predict instead of offering Classification or Regression.</li><li>Make the checklist tick only when a field is really complete.</li><li>Use radio buttons for single choices such as the target column.</li><li>Remove the website-style footer left from the UI kit.</li></ul>",
+            "fa": "<p>پیای منتشر شد و به‌صورت B2B به فروش رسید؛ سه شرکت بزرگ استرالیایی از نخستین مشتریان آن بودند.</p><p>با نگاه دوباره:</p><ul><li>زبان ساده را یک قدم جلوتر می‌بردم: به‌جای Classification و Regression می‌پرسیدم «چه چیزی را می‌خواهید پیش‌بینی کنید؟»</li><li>چک‌لیست فقط وقتی تیک بخورد که فیلد واقعاً کامل شده.</li><li>برای انتخاب‌های تکی مثل ستون هدف، دکمه رادیویی می‌گذاشتم.</li><li>فوتر سایت‌گونه‌ای را که از کیت مانده حذف می‌کردم.</li></ul>"
           },
           "note": {
             "en": "",
