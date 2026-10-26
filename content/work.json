@@ -1177,6 +1177,188 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "rainjoy",
+      "secondary": true,
+      "title": {
+        "en": "Rainjoy",
+        "fa": "رین‌جوی"
+      },
+      "category": {
+        "en": "Dating · Mobile",
+        "fa": "دوست‌یابی · موبایل"
+      },
+      "year": {
+        "en": "Duniar",
+        "fa": "دونیار"
+      },
+      "cover": "/images/rj_identity.webp",
+      "teaser": {
+        "en": "A club-themed dating app for the LGBTQ+ community, for countries where it is legal.",
+        "fa": "اپ دوست‌یابی با تم کلاب برای جامعه LGBTQ+، در کشورهایی که قانون از آن حمایت می‌کند."
+      },
+      "highlight": {
+        "en": "",
+        "fa": ""
+      },
+      "summary": {
+        "en": "A night-out mood for dating: neon actions, an inclusive setup and messaging that keeps the conversation going.",
+        "fa": "حال‌وهوای یک شب بیرون برای دوست‌یابی: کنش‌های نئونی، فرایند ثبت‌نام فراگیر و پیام‌رسانی که گفتگو را زنده نگه می‌دارد."
+      },
+      "glance": {
+        "problem": {
+          "en": "Mainstream dating apps treat identity as an afterthought.",
+          "fa": "اپ‌های دوست‌یابی رایج هویت کاربر را در حاشیه قرار می‌دهند."
+        },
+        "users": {
+          "en": "LGBTQ+ adults in countries where it is legal.",
+          "fa": "بزرگسالان جامعه LGBTQ+ در کشورهایی که قانون از آن حمایت می‌کند."
+        },
+        "role": {
+          "en": "Senior UI/UX Designer",
+          "fa": "طراح ارشد UI/UX"
+        },
+        "outcome": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "facts": {
+        "role": {
+          "en": "Senior UI/UX Designer",
+          "fa": "طراح ارشد UI/UX"
+        },
+        "team": {
+          "en": "",
+          "fa": ""
+        },
+        "time": {
+          "en": "Duniar",
+          "fa": "دونیار"
+        },
+        "platform": {
+          "en": "Mobile app",
+          "fa": "اپ موبایل"
+        },
+        "status": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "chapters": [
+        {
+          "id": "overview",
+          "title": {
+            "en": "Overview",
+            "fa": "نمای کلی"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Rainjoy is a dating app with a club atmosphere: a deep plum base, magenta accents and glowing neon actions. I designed the brand and the full mobile experience, from the logo and design system to every flow.</p>",
+            "fa": "<p>رین‌جوی یک اپ دوست‌یابی با حال‌وهوای کلاب است: زمینه بنفش تیره، رنگ‌های سرخابی و کنش‌های نئونی درخشان. برند و کل تجربه موبایل را طراحی کردم، از لوگو و دیزاین سیستم تا همه فرایندها.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/rj_identity.webp",
+              "caption": {
+                "en": "Logo, colour, type and the three signature actions.",
+                "fa": "لوگو، رنگ، تایپوگرافی و سه کنش شاخص."
+              }
+            }
+          ]
+        },
+        {
+          "id": "flow",
+          "title": {
+            "en": "User flow",
+            "fa": "جریان کاربر"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Sign-up runs through a phone number and a one-time code, then profile setup and three permission requests, each with its own screen and a reason. After that, three tabs: Match, Messages and Profile.</p>",
+            "fa": "<p>ثبت‌نام با شماره تلفن و کد یک‌بارمصرف انجام می‌شود، سپس تکمیل پروفایل و سه درخواست دسترسی، هر کدام با صفحه و دلیل جداگانه. بعد از آن سه تب اصلی: مَچ، پیام‌ها و پروفایل.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/rj_flow.webp",
+              "caption": {
+                "en": "Simplified user flow.",
+                "fa": "جریان کاربر به‌صورت ساده‌شده."
+              }
+            }
+          ]
+        },
+        {
+          "id": "onboarding",
+          "title": {
+            "en": "Onboarding and setup",
+            "fa": "معرفی و راه‌اندازی"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>Trust first:</strong> onboarding promises a vetting process, so people never match with bots.</li><li><strong>Identity on the user’s terms:</strong> “I am” and “I want to date” offer a wide range of options, and every step can be skipped.</li><li><strong>Permissions with a reason:</strong> location and notifications each get a dedicated screen that explains the benefit before asking.</li><li><strong>Interests as bubbles</strong> that feed matching.</li></ul>",
+            "fa": "<ul><li><strong>اول اعتماد:</strong> صفحه‌های معرفی وعده احراز اعتبار می‌دهند تا هیچ‌کس با بات مَچ نشود.</li><li><strong>هویت به انتخاب کاربر:</strong> «من هستم» و «می‌خواهم با … آشنا شوم» گزینه‌های متنوعی دارند و هر مرحله قابل رد شدن است.</li><li><strong>دسترسی با دلیل:</strong> موقعیت مکانی و اعلان‌ها هر کدام صفحه‌ای دارند که پیش از درخواست، فایده‌اش را توضیح می‌دهد.</li><li><strong>علاقه‌مندی‌ها به‌صورت حباب</strong> که در مَچ شدن نقش دارند.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/rj_onboarding.webp",
+              "caption": {
+                "en": "Splash, onboarding, sign-up and verification code.",
+                "fa": "صفحه آغازین، معرفی، ثبت‌نام و کد تأیید."
+              }
+            },
+            {
+              "image": "/images/rj_setup.webp",
+              "caption": {
+                "en": "Identity, interests, location and notifications.",
+                "fa": "هویت، علاقه‌مندی‌ها، موقعیت مکانی و اعلان‌ها."
+              }
+            }
+          ]
+        },
+        {
+          "id": "app",
+          "title": {
+            "en": "Inside the app",
+            "fa": "درون اپ"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>Three neon actions</strong> on every card, rewind, super like and direct message, so the main choices are always one tap away.</li><li><strong>Full profiles</strong> with basics, interests and a gallery behind each card.</li><li><strong>Messaging that nudges:</strong> a match queue, “your turn” reminders, suggested replies, voice notes and stickers.</li></ul>",
+            "fa": "<ul><li><strong>سه کنش نئونی</strong> روی هر کارت، برگشت، سوپرلایک و پیام مستقیم، تا انتخاب‌های اصلی همیشه با یک لمس در دسترس باشند.</li><li><strong>پروفایل کامل</strong> با اطلاعات پایه، علاقه‌مندی‌ها و گالری پشت هر کارت.</li><li><strong>پیام‌رسانی که گفتگو را پیش می‌برد:</strong> صف مَچ‌ها، یادآور «نوبت شماست»، پاسخ‌های پیشنهادی، پیام صوتی و استیکر.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/rj_app.webp",
+              "caption": {
+                "en": "Match card, profile, messages and chat.",
+                "fa": "کارت مَچ، پروفایل، پیام‌ها و گفتگو."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
