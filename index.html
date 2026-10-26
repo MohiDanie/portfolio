@@ -9,9 +9,9 @@
 <link rel="alternate" hreflang="x-default" href="https://mdanaie.ir/">
 <meta property="og:url" content="https://mdanaie.ir/">
 <title>Mohadese Danaie · Product Designer</title>
-<meta name="description" content="Mohadese Danaie is a product designer in Tehran who has also worked as a product manager. Case studies in recruiting, AI data analytics and education products.">
+<meta name="description" content="Mohadese Danaie is a product and UI/UX designer in Tehran. Case studies in recruiting, AI and data, education, ticketing and conservation.">
 <meta property="og:title" content="Mohadese Danaie · Product Designer">
-<meta property="og:description" content="Product designer with product management experience and a software engineering background. Case studies and résumé.">
+<meta property="og:description" content="Product and UI/UX designer with a computer engineering background. Case studies and résumé.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://mdanaie.ir/images/og.png">
 <meta property="og:image:width" content="1200">
@@ -778,7 +778,7 @@ function render(force){
   applyPublish(main);
   const t=titleFor(cur), name=NAME();
   document.title = t ? `${t} · ${name}` : `${name} · ${en()?"Product Designer":"طراح محصول"}`;
-  const md=document.querySelector('meta[name="description"]'); if(md) md.setAttribute("content", en()?"Mohadese Danaie is a product designer in Tehran who has also worked as a product manager. Case studies in recruiting, AI data analytics and education products.":"محدثه دانائی، طراح محصول در تهران با سابقه مدیریت محصول. کیس‌استادی‌هایی در حوزه استخدام، تحلیل داده با هوش مصنوعی و آموزش.");
+  const md=document.querySelector('meta[name="description"]'); if(md) md.setAttribute("content", en()?"Mohadese Danaie is a product and UI/UX designer in Tehran. Case studies in recruiting, AI and data, education, ticketing and conservation.":"محدثه دانائی، طراح محصول و UI/UX در تهران. کیس‌استادی‌هایی در حوزه استخدام، هوش مصنوعی و داده، آموزش، فروش بلیت و حفاظت محیط زیست.");
   document.querySelectorAll("#navlist a").forEach(a=>{ const on=a.dataset.r===cur.r||(cur.r==="case"&&a.dataset.r==="work"); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current"); });
   wire();
   if(cur.anchor) jump(cur.anchor);

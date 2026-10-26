@@ -5,8 +5,8 @@
       "fa": "طراح محصول"
     },
     {
-      "en": "Former Product Manager at Duniar",
-      "fa": "مدیر محصول پیشین دونیار"
+      "en": "UI/UX Designer",
+      "fa": "طراح UI/UX"
     },
     {
       "en": "Tehran",
@@ -14,12 +14,12 @@
     }
   ],
   "headline": {
-    "en": "Product designer with a *product manager’s* mindset.",
-    "fa": "طراح محصول با *نگاه مدیر محصول.*"
+    "en": "I design *complex products* that feel simple.",
+    "fa": "محصولات *پیچیده* را ساده طراحی می‌کنم."
   },
   "lede": {
-    "en": "I’m <strong>Mohadese Danaie</strong>. I’ve designed web and mobile products since 2019, in recruiting, AI and data, education, ticketing, dating and conservation. As <strong>Product Manager</strong> at Duniar I owned scope, cost and delivery, and I bring that to every design decision. I now work freelance.",
-    "fa": "<strong>محدثه دانائی</strong> هستم. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، هوش مصنوعی و داده، آموزش، فروش بلیت، دوست‌یابی و حفاظت محیط زیست طراحی می‌کنم. به‌عنوان <strong>مدیر محصول</strong> دونیار مسئول دامنه، هزینه و زمان تحویل بودم و همین نگاه را در هر تصمیم طراحی به کار می‌برم. اکنون به‌صورت فریلنس کار می‌کنم."
+    "en": "I’m <strong>Mohadese Danaie</strong>, a product and UI/UX designer. Since 2019 I’ve designed web and mobile products in recruiting, AI and data, education, ticketing, dating and conservation, from research and user flows to the final interface. I now work freelance.",
+    "fa": "<strong>محدثه دانائی</strong> هستم، طراح محصول و UI/UX. از ۱۳۹۷ محصولات وب و موبایل در حوزه‌های استخدام، هوش مصنوعی و داده، آموزش، فروش بلیت، دوست‌یابی و حفاظت محیط زیست طراحی کرده‌ام، از تحقیق و مسیر کاربر تا رابط نهایی. اکنون به‌صورت فریلنس کار می‌کنم."
   },
   "cta_work": {
     "en": "View work",
@@ -49,16 +49,16 @@
     {
       "icon": "compass",
       "title": {
-        "en": "Product strategy",
-        "fa": "استراتژی محصول"
+        "en": "User research",
+        "fa": "تحقیق کاربر"
       },
       "text": {
-        "en": "Setting priorities and planning releases as Product Manager.",
-        "fa": "اولویت‌بندی و برنامه‌ریزی انتشار به‌عنوان مدیر محصول."
+        "en": "Interviews, competitor benchmarks, personas and usability tests that shape the design.",
+        "fa": "مصاحبه، بنچ‌مارک رقبا، پرسونا و تست کاربردپذیری که طراحی را شکل می‌دهند."
       },
       "where": {
-        "en": "Résumé · Duniar",
-        "fa": "رزومه · دونیار"
+        "en": "Puzzleity · PIAI",
+        "fa": "پازلیتی · پیای"
       }
     },
     {
@@ -146,8 +146,8 @@
     "fa": "درباره من"
   },
   "about_text": {
-    "en": "A computer engineer who became a designer, and now a product manager too. I do my best work on complex products that need to feel simple.",
-    "fa": "مهندس کامپیوتری که طراح شد و حالا مدیر محصول هم هست. بهترین کارم را روی محصولات پیچیده‌ای انجام می‌دهم که باید ساده به نظر برسند."
+    "en": "A computer engineer who became a product designer. I do my best work on complex products that need to feel simple.",
+    "fa": "مهندس کامپیوتری که طراح محصول شد. بهترین کارم را روی محصولات پیچیده‌ای انجام می‌دهم که باید ساده به نظر برسند."
   },
   "about_link": {
     "en": "More about me",
