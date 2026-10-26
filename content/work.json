@@ -1281,8 +1281,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Sign-up runs through a phone number and a one-time code, then profile setup and three permission requests, each with its own screen and a reason. After that, three tabs: Match, Messages and Profile.</p>",
-            "fa": "<p>ثبت‌نام با شماره تلفن و کد یک‌بارمصرف انجام می‌شود، سپس تکمیل پروفایل و سه درخواست دسترسی، هر کدام با صفحه و دلیل جداگانه. بعد از آن سه تب اصلی: مَچ، پیام‌ها و پروفایل.</p>"
+            "en": "<p>Sign-up runs through a phone number and a one-time code, then profile setup and three permission requests, each with its own screen and a reason. After that, three tabs: Match, Messages and Profile. I agreed the structure in grayscale wireframes before any visual design.</p>",
+            "fa": "<p>ثبت‌نام با شماره تلفن و کد یک‌بارمصرف انجام می‌شود، سپس تکمیل پروفایل و سه درخواست دسترسی، هر کدام با صفحه و دلیل جداگانه. بعد از آن سه تب اصلی: مَچ، پیام‌ها و پروفایل. ساختار را پیش از هر طراحی بصری، با وایرفریم خاکستری نهایی کردم.</p>"
           },
           "note": {
             "en": "",
@@ -1295,6 +1295,13 @@
               "caption": {
                 "en": "Simplified user flow.",
                 "fa": "جریان کاربر به‌صورت ساده‌شده."
+              }
+            },
+            {
+              "image": "/images/rj_wireframes.webp",
+              "caption": {
+                "en": "Grayscale wireframes before visual design.",
+                "fa": "وایرفریم‌های خاکستری پیش از طراحی بصری."
               }
             }
           ]
@@ -1333,6 +1340,32 @@
           ]
         },
         {
+          "id": "abtest",
+          "title": {
+            "en": "A/B test: first impression",
+            "fa": "تست A/B: اولین برداشت"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>The splash, onboarding and sign-up screens were designed in two versions for an A/B test. Version A uses an abstract neon heart; version B places the same content over a night-street scene, closer to the club mood. Layout, copy and calls to action stay identical, so the background is the only variable.</p>",
+            "fa": "<p>صفحه‌های آغازین، معرفی و ثبت‌نام در دو نسخه برای تست A/B طراحی شد. نسخه A از یک قلب نئونی انتزاعی استفاده می‌کند و نسخه B همان محتوا را روی تصویر یک خیابان شبانه قرار می‌دهد که به حال‌وهوای کلاب نزدیک‌تر است. چیدمان، متن و دکمه‌ها یکسان ماندند تا پس‌زمینه تنها متغیر تست باشد.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/rj_ab.webp",
+              "caption": {
+                "en": "Version A (neon heart) and version B (night street).",
+                "fa": "نسخه A (قلب نئونی) و نسخه B (خیابان شبانه)."
+              }
+            }
+          ]
+        },
+        {
           "id": "app",
           "title": {
             "en": "Inside the app",
@@ -1340,8 +1373,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li><strong>Three neon actions</strong> on every card, rewind, super like and direct message, so the main choices are always one tap away.</li><li><strong>Full profiles</strong> with basics, interests and a gallery behind each card.</li><li><strong>Messaging that nudges:</strong> a match queue, “your turn” reminders, suggested replies, voice notes and stickers.</li></ul>",
-            "fa": "<ul><li><strong>سه کنش نئونی</strong> روی هر کارت، برگشت، سوپرلایک و پیام مستقیم، تا انتخاب‌های اصلی همیشه با یک لمس در دسترس باشند.</li><li><strong>پروفایل کامل</strong> با اطلاعات پایه، علاقه‌مندی‌ها و گالری پشت هر کارت.</li><li><strong>پیام‌رسانی که گفتگو را پیش می‌برد:</strong> صف مَچ‌ها، یادآور «نوبت شماست»، پاسخ‌های پیشنهادی، پیام صوتی و استیکر.</li></ul>"
+            "en": "<ul><li><strong>Three neon actions</strong> on every card, rewind, super like and direct message, so the main choices are always one tap away.</li><li><strong>Full profiles</strong> with basics, interests and a gallery behind each card.</li><li><strong>Messaging that nudges:</strong> a match queue, “your turn” reminders, suggested replies, voice notes and stickers.</li><li><strong>Nudges that earn their place:</strong> a progress banner on Home invites users to finish setup for better matches, a full-screen view lets people send a compliment, and Travel Mode is the premium upsell for matching anywhere.</li></ul>",
+            "fa": "<ul><li><strong>سه کنش نئونی</strong> روی هر کارت، برگشت، سوپرلایک و پیام مستقیم، تا انتخاب‌های اصلی همیشه با یک لمس در دسترس باشند.</li><li><strong>پروفایل کامل</strong> با اطلاعات پایه، علاقه‌مندی‌ها و گالری پشت هر کارت.</li><li><strong>پیام‌رسانی که گفتگو را پیش می‌برد:</strong> صف مَچ‌ها، یادآور «نوبت شماست»، پاسخ‌های پیشنهادی، پیام صوتی و استیکر.</li><li><strong>تشویق‌های بجا:</strong> نوار پیشرفت در خانه کاربر را به تکمیل پروفایل برای مَچ بهتر دعوت می‌کند، نمای تمام‌صفحه امکان فرستادن تعریف را می‌دهد، و حالت سفر پیشنهاد اشتراک ویژه برای مَچ شدن در هر جای دنیاست.</li></ul>"
           },
           "note": {
             "en": "",
@@ -1354,6 +1387,13 @@
               "caption": {
                 "en": "Match card, profile, messages and chat.",
                 "fa": "کارت مَچ، پروفایل، پیام‌ها و گفتگو."
+              }
+            },
+            {
+              "image": "/images/rj_match.webp",
+              "caption": {
+                "en": "Finish-setup banner, sending a compliment, and the Travel Mode upsell.",
+                "fa": "نوار تکمیل پروفایل، فرستادن تعریف و پیشنهاد حالت سفر."
               }
             }
           ]
