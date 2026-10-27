@@ -249,6 +249,13 @@
               }
             },
             {
+              "image": "/images/pz_cards.webp",
+              "caption": {
+                "en": "Puzzleity components: test, candidate and question cards, and the add-question and add-test blocks.",
+                "fa": "کامپوننت‌های پازلیتی: کارت آزمون، داوطلب و سؤال، و بلوک‌های افزودن سؤال و آزمون."
+              }
+            },
+            {
               "image": "/images/ds_charts.webp",
               "caption": {
                 "en": "Chart components used in dashboards and reports.",
@@ -1055,8 +1062,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li></ul>",
-            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li></ul>"
+            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li><li><strong>Product components:</strong> test, question and candidate cards, assessment rows and add blocks, each in light and dark, with states for drag, preview, add and delete.</li></ul>",
+            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li><li><strong>کامپوننت‌های محصول:</strong> کارت آزمون، سؤال و داوطلب، ردیف ارزیابی و بلوک‌های افزودن، هر کدام در تم روشن و تیره، با وضعیت‌های کشیدن، پیش‌نمایش، افزودن و حذف.</li></ul>"
           },
           "note": {
             "en": "",
@@ -1083,6 +1090,13 @@
               "caption": {
                 "en": "The full button set across sizes, with and without icons.",
                 "fa": "مجموعه کامل دکمه‌ها در اندازه‌های مختلف، با آیکون و بدون آیکون."
+              }
+            },
+            {
+              "image": "/images/pz_cards.webp",
+              "caption": {
+                "en": "Puzzleity components: test, candidate and question cards, and the add-question and add-test blocks.",
+                "fa": "کامپوننت‌های پازلیتی: کارت آزمون، داوطلب و سؤال، و بلوک‌های افزودن سؤال و آزمون."
               }
             }
           ]
