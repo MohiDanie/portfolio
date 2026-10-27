@@ -760,8 +760,8 @@
         "fa": "یک هاب برای دانش‌آموزان و پشتیبان‌های یک مجموعه آموزشی سراسری، به‌جای اپ‌های پراکنده."
       },
       "highlight": {
-        "en": "12 apps released, plus two websites",
-        "fa": "۱۲ اپ منتشر شد، همراه دو وب‌سایت"
+        "en": "500,000+ users, students and parents · 12 apps released",
+        "fa": "بیش از ۵۰۰ هزار کاربر، دانش‌آموز و والدین · ۱۲ اپ منتشرشده"
       },
       "summary": {
         "en": "Bringing scattered services into one place for students and advisors with different needs.",
@@ -773,16 +773,16 @@
           "fa": "خدمات در اپ‌های مختلف پخش بود و دانش‌آموز باید می‌دانست هر کار کجاست."
         },
         "users": {
-          "en": "Kanoon students, non-member students and advisors.",
-          "fa": "دانش‌آموزان کانونی، غیرکانونی و پشتیبان‌ها."
+          "en": "Kanoon students, non-member students, parents and advisors: more than 500,000 users.",
+          "fa": "دانش‌آموزان کانونی و غیرکانونی، والدین و پشتیبان‌ها: بیش از ۵۰۰ هزار کاربر."
         },
         "role": {
           "en": "UI/UX Designer",
           "fa": "طراح UI/UX"
         },
         "outcome": {
-          "en": "12 apps released, plus the festival and olympiad websites. The online school was postponed.",
-          "fa": "۱۲ اپلیکیشن منتشر شد، همراه سایت‌های جشنواره و المپیاد. مدرسه آنلاین به بعد موکول شد."
+          "en": "12 apps released to more than 500,000 students and parents, plus the festival and olympiad websites. The online school was postponed.",
+          "fa": "۱۲ اپلیکیشن برای بیش از ۵۰۰ هزار دانش‌آموز و والد منتشر شد، همراه سایت‌های جشنواره و المپیاد. مدرسه آنلاین به بعد موکول شد."
         }
       },
       "facts": {
@@ -803,8 +803,8 @@
           "fa": "موبایل، فارسی (راست‌به‌چپ)"
         },
         "status": {
-          "en": "Partly released: 12 apps and two websites",
-          "fa": "بخشی منتشر شد: ۱۲ اپ و دو سایت"
+          "en": "Released: 12 apps and two websites, 500,000+ users",
+          "fa": "منتشرشده: ۱۲ اپ و دو سایت، بیش از ۵۰۰ هزار کاربر"
         }
       },
       "chapters": [
@@ -967,8 +967,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Twelve apps were released, along with the festival and olympiad websites; the online school was postponed.</p><p>My first large product. Agreeing flows in grayscale kept discussions on structure, not colour. Today I would also design for parents, who shape how students use the app.</p>",
-            "fa": "<p>دوازده اپلیکیشن منتشر شد، همراه سایت‌های جشنواره و المپیاد؛ مدرسه آنلاین به بعد موکول شد.</p><p>اولین محصول بزرگ من بود. توافق روی فرایندها در حالت خاکستری بحث را روی ساختار نگه داشت، نه رنگ. امروز والدین را هم در نظر می‌گرفتم، چون روی استفاده دانش‌آموز اثر دارند.</p>"
+            "en": "<p>Twelve apps were released to more than 500,000 users, students and their parents, along with the festival and olympiad websites; the online school was postponed.</p><p>My first large product. Agreeing flows in grayscale kept discussions on structure, not colour. With parents making up a large part of the audience, today I would give them their own entry point instead of sharing the student view.</p>",
+            "fa": "<p>دوازده اپ برای بیش از ۵۰۰ هزار کاربر، دانش‌آموزان و والدینشان، منتشر شد، همراه سایت‌های جشنواره و المپیاد؛ مدرسه آنلاین به بعد موکول شد.</p><p>اولین محصول بزرگ من. توافق روی فلوها به‌صورت خاکستری باعث شد بحث‌ها روی ساختار بماند، نه رنگ. حالا که می‌دانم بخش بزرگی از مخاطبان والدین بودند، برایشان ورودی جداگانه طراحی می‌کردم به‌جای اشتراک در نمای دانش‌آموز.</p>"
           },
           "note": {
             "en": "",
@@ -1000,8 +1000,8 @@
         "fa": "پلتفرم سینمایی حفاظت و مسئولیت اجتماعی برای آهوی جبیر جزیره هرمز، به سه زبان انگلیسی، فارسی و عربی."
       },
       "highlight": {
-        "en": "",
-        "fa": ""
+        "en": "In use at a refinery · ~1,500 employees",
+        "fa": "در حال استفاده در پالایشگاه · حدود ۱٬۵۰۰ کارمند"
       },
       "summary": {
         "en": "Turning a refinery’s conservation programme into a story people can follow, support and verify.",
@@ -1156,8 +1156,8 @@
         "fa": "دیزاین سیستم مشترک فیگما که پازلیتی روی آن ساخته شد: پایه‌های رنگ و تایپوگرافی، مجموعه کامل دکمه‌ها، توکن‌های قابل تغییر تم و کتابخانه نمودار."
       },
       "highlight": {
-        "en": "",
-        "fa": ""
+        "en": "120+ components · light and dark themes",
+        "fa": "بیش از ۱۲۰ کامپوننت · تم روشن و تیره"
       },
       "summary": {
         "en": "One set of components and tokens that can re-skin a whole product and power its dashboards.",
@@ -1382,8 +1382,8 @@
         "fa": "پلتفرم کتاب‌خوانی دوزبانه که هر کتاب می‌تواند الکترونیک، صوتی یا چاپی باشد."
       },
       "highlight": {
-        "en": "Released for readers outside Iran",
-        "fa": "منتشرشده برای خوانندگان خارج از ایران"
+        "en": "Released for readers outside Iran · ~20,000 downloads",
+        "fa": "منتشرشده برای خوانندگان خارج از ایران · حدود ۲۰ هزار دانلود"
       },
       "summary": {
         "en": "One book page for three formats, in both reading directions.",
@@ -1590,8 +1590,8 @@
         "fa": "اپ موبایل برای اتصال استارتاپ‌ها به سرمایه‌گذاران."
       },
       "highlight": {
-        "en": "",
-        "fa": ""
+        "en": "~80 screens · light and dark themes",
+        "fa": "حدود ۸۰ صفحه · تم روشن و تیره"
       },
       "summary": {
         "en": "Matching startups with investors: a trusted sign-up, a funding-first feed, and messaging built for meetings.",
@@ -1785,8 +1785,8 @@
         "fa": "اپ دوست‌یابی با تم کلاب برای جامعه LGBTQ+، در کشورهایی که قانون از آن حمایت می‌کند."
       },
       "highlight": {
-        "en": "",
-        "fa": ""
+        "en": "Brand and full app · ~60 screens",
+        "fa": "برند و کل اپ · حدود ۶۰ صفحه"
       },
       "summary": {
         "en": "A night-out mood for dating: neon actions, an inclusive setup and messaging that keeps the conversation going.",
@@ -2007,8 +2007,8 @@
         "fa": "فروش بلیت کنسرت و تئاتر، طراحی‌شده برای دسکتاپ و موبایل به‌صورت یک سیستم واحد."
       },
       "highlight": {
-        "en": "",
-        "fa": ""
+        "en": "Buyers, sellers and admin · ~30,000 tickets sold",
+        "fa": "خریدار، فروشنده و ادمین · حدود ۳۰ هزار بلیت فروخته‌شده"
       },
       "summary": {
         "en": "One ticketing product across desktop and mobile, for three audiences: people who buy tickets, sellers who run events, and the team that runs the platform.",
