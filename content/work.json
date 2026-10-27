@@ -167,6 +167,46 @@
           "gallery": []
         },
         {
+          "id": "builder",
+          "title": {
+            "en": "Building an assessment in three steps",
+            "fa": "ساخت آزمون در سه مرحله"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Creating an assessment follows three steps shown as puzzle pieces that lock together, so the employer always sees where they are and what is left.</p><ul><li><strong>Create:</strong> name, position, language and description. Choosing a position suggests the skills to test, such as Excel, SQL or Python for a data analyst.</li><li><strong>Add tests:</strong> pick tests or single questions from the library; selected tests sit in slots at the top, and empty slots invite the next one.</li><li><strong>Settings:</strong> reorder tests by dragging, give each a weight, add a welcome video, and switch on anti-cheating before publishing.</li><li><strong>Share:</strong> a public link with copy and social sharing, or invitations by email from a list, using an editable message template.</li></ul><p>A banner on every step reassures employers that work is saved and can be changed later.</p>",
+            "fa": "<p>ساخت آزمون در سه مرحله انجام می‌شود که مثل قطعه‌های پازل به هم قفل می‌شوند؛ کارفرما همیشه می‌بیند کجاست و چه چیزی باقی مانده.</p><ul><li><strong>ساخت:</strong> نام، موقعیت شغلی، زبان و توضیح. با انتخاب موقعیت، مهارت‌های قابل سنجش پیشنهاد می‌شوند؛ مثلاً Excel، SQL یا Python برای تحلیلگر داده.</li><li><strong>افزودن آزمون:</strong> انتخاب آزمون یا سؤال تکی از کتابخانه؛ آزمون‌های انتخاب‌شده در خانه‌های بالای صفحه قرار می‌گیرند و خانه‌های خالی به افزودن مورد بعدی دعوت می‌کنند.</li><li><strong>تنظیمات:</strong> مرتب‌سازی آزمون‌ها با کشیدن، تعیین وزن هر آزمون، ویدیوی خوشامد و فعال کردن ضدتقلب پیش از انتشار.</li><li><strong>اشتراک‌گذاری:</strong> لینک عمومی با کپی و اشتراک در شبکه‌های اجتماعی، یا دعوت با ایمیل از یک فهرست، با قالب پیام قابل ویرایش.</li></ul><p>در هر مرحله یک پیام به کارفرما اطمینان می‌دهد که کار ذخیره می‌شود و بعداً قابل تغییر است.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/pz_flow.webp",
+              "caption": {
+                "en": "The full flow: create, add tests, settings and share.",
+                "fa": "کل مسیر: ساخت، افزودن آزمون، تنظیمات و اشتراک‌گذاری."
+              }
+            },
+            {
+              "image": "/images/pz_create.webp",
+              "caption": {
+                "en": "Step one, create the assessment, and step two, add tests from the library.",
+                "fa": "مرحله اول، ساخت آزمون، و مرحله دوم، افزودن آزمون از کتابخانه."
+              }
+            },
+            {
+              "image": "/images/pz_publish.webp",
+              "caption": {
+                "en": "Step three, settings and weights, and sharing by link or email.",
+                "fa": "مرحله سوم، تنظیمات و وزن‌دهی، و اشتراک‌گذاری با لینک یا ایمیل."
+              }
+            }
+          ]
+        },
+        {
           "id": "testing",
           "title": {
             "en": "What testing changed",
