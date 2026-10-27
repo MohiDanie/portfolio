@@ -258,8 +258,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "",
-            "fa": ""
+            "en": "The core loop for a hiring team: build a question bank, assemble tests from it, publish an assessment and review candidates in one pipeline.",
+            "fa": "چرخه‌ی اصلی برای تیم استخدام: ساختن بانک سؤال، چیدن آزمون از روی آن، انتشار ارزیابی و بررسی داوطلب‌ها در یک پایپ‌لاین."
           },
           "note": {
             "en": "",
@@ -267,6 +267,55 @@
           },
           "decisions": [],
           "gallery": [
+            {
+              "image": "/images/pz_assessments.webp",
+              "caption": {
+                "en": "Assessment list with active/inactive states, and the first-run empty state that walks a new company through question → test → assessment.",
+                "fa": "فهرست ارزیابی‌ها با وضعیت فعال و غیرفعال، و حالت خالیِ اولین ورود که شرکت تازه‌وارد را قدم‌به‌قدم از سؤال به آزمون و ارزیابی می‌برد."
+              }
+            },
+            {
+              "image": "/images/pz_questions.webp",
+              "caption": {
+                "en": "One question editor, five types: multiple choice, essay, video, file upload and code, where code answers are set up in steps (language, output, code, test).",
+                "fa": "یک ویرایشگر سؤال با پنج نوع: چندگزینه‌ای، تشریحی، ویدیو، آپلود فایل و کد؛ پاسخ کدنویسی در چند مرحله (زبان، خروجی، کد، تست) تعریف می‌شود."
+              }
+            },
+            {
+              "image": "/images/pz_testbuilder.webp",
+              "caption": {
+                "en": "Test builder in two steps: settings first (time, skill, language, difficulty), then structure, where questions are added from the bank and reordered by drag.",
+                "fa": "سازنده‌ی آزمون در دو مرحله: اول تنظیمات (زمان، مهارت، زبان، سختی)، بعد ساختار که سؤال‌ها از بانک اضافه و با کشیدن مرتب می‌شوند."
+              }
+            },
+            {
+              "image": "/images/pz_pipeline.webp",
+              "caption": {
+                "en": "Candidate pipeline with a detail drawer: skills, per-test results and tabs for résumé, interview, history and report, without leaving the board.",
+                "fa": "پایپ‌لاین داوطلب‌ها با پنل جزئیات: مهارت‌ها، نتیجه‌ی هر آزمون و تب‌های رزومه، مصاحبه، تاریخچه و گزارش، بدون ترک صفحه."
+              }
+            },
+            {
+              "image": "/images/pz_views.webp",
+              "caption": {
+                "en": "The same candidates as a pipeline board or a sortable table, with a warning banner for candidates that need a reviewer's attention.",
+                "fa": "همان داوطلب‌ها به‌صورت بورد پایپ‌لاین یا جدول قابل مرتب‌سازی، با هشدار برای داوطلب‌هایی که باید بررسی شوند."
+              }
+            },
+            {
+              "image": "/images/pz_drawer.webp",
+              "caption": {
+                "en": "Candidate drawer tabs: details and scores, team notes with replies, and a timeline of every step the candidate went through.",
+                "fa": "تب‌های پنل داوطلب: جزئیات و نمره‌ها، یادداشت‌های تیم با امکان پاسخ، و تایم‌لاین همه‌ی مراحلی که داوطلب طی کرده."
+              }
+            },
+            {
+              "image": "/images/pz_company.webp",
+              "caption": {
+                "en": "Company workspace: history of assessments and a shared library of tests and questions, filterable by type, category, author and difficulty.",
+                "fa": "فضای کاری شرکت: تاریخچه‌ی ارزیابی‌ها و کتابخانه‌ی مشترک آزمون و سؤال با فیلتر نوع، دسته، نویسنده و سطح سختی."
+              }
+            },
             {
               "image": "/images/puzz.webp",
               "caption": {
