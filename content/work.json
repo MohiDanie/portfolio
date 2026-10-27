@@ -218,8 +218,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<p>Puzzleity was built on the design system I created at Duniar: themeable tokens and a chart library that also power the employer dashboards and reports. <a href=\"#design-system\">See the design system</a>.</p>",
-            "fa": "<p>پازلیتی روی دیزاین سیستمی ساخته شد که در دونیار طراحی کردم: توکن‌های قابل تغییر تم و کتابخانه نمودار که داشبوردها و گزارش‌های سمت کارفرما را هم می‌سازد. <a href=\"#design-system\">دیدن دیزاین سیستم</a>.</p>"
+            "en": "<p>Puzzleity runs on the design system I built at Duniar: a teal colour scale, Poppins and DM Sans type scales, and a full button set with every state, in three corner styles. The same system adds theming and the chart library behind the employer dashboards. <a href=\"#design-system\">See the full design system</a>.</p>",
+            "fa": "<p>پازلیتی روی دیزاین سیستمی ساخته شده که در دونیار طراحی کردم: طیف رنگ فیروزه‌ای، مقیاس تایپوگرافی Poppins و DM Sans، و مجموعه کامل دکمه‌ها با همه وضعیت‌ها در سه سبک گوشه. همین سیستم امکان تغییر تم و کتابخانه نمودار داشبوردهای کارفرما را هم فراهم می‌کند. <a href=\"#design-system\">دیدن کامل دیزاین سیستم</a>.</p>"
           },
           "note": {
             "en": "",
@@ -228,10 +228,24 @@
           "decisions": [],
           "gallery": [
             {
-              "image": "/images/ds_themes.webp",
+              "image": "/images/pz_foundations.webp",
               "caption": {
-                "en": "Theme variants from the shared system.",
-                "fa": "تم‌های مختلف از سیستم مشترک."
+                "en": "Foundations: colour tokens and type scales in Poppins and DM Sans.",
+                "fa": "پایه‌ها: توکن‌های رنگ و مقیاس تایپوگرافی با Poppins و DM Sans."
+              }
+            },
+            {
+              "image": "/images/pz_buttons.webp",
+              "caption": {
+                "en": "Button states in three corner styles: default, hover, click and disabled.",
+                "fa": "وضعیت‌های دکمه در سه سبک گوشه: پیش‌فرض، هاور، کلیک و غیرفعال."
+              }
+            },
+            {
+              "image": "/images/pz_components.webp",
+              "caption": {
+                "en": "The full button set across sizes, with and without icons.",
+                "fa": "مجموعه کامل دکمه‌ها در اندازه‌های مختلف، با آیکون و بدون آیکون."
               }
             },
             {
@@ -979,10 +993,10 @@
         "en": "Duniar",
         "fa": "دونیار"
       },
-      "cover": "/images/ds_themes.webp",
+      "cover": "/images/pz_foundations.webp",
       "teaser": {
-        "en": "A shared Figma design system with themeable tokens and a full chart library, used across products including Puzzleity.",
-        "fa": "دیزاین سیستم مشترک در فیگما با توکن‌های قابل تغییر تم و کتابخانه کامل نمودار، مورد استفاده در محصولات مختلف از جمله پازلیتی."
+        "en": "The shared Figma design system behind Puzzleity: colour and type foundations, a full button set, themeable tokens and a chart library.",
+        "fa": "دیزاین سیستم مشترک فیگما که پازلیتی روی آن ساخته شد: پایه‌های رنگ و تایپوگرافی، مجموعه کامل دکمه‌ها، توکن‌های قابل تغییر تم و کتابخانه نمودار."
       },
       "highlight": {
         "en": "",
@@ -1033,6 +1047,46 @@
         }
       },
       "chapters": [
+        {
+          "id": "foundations",
+          "title": {
+            "en": "Foundations and components",
+            "fa": "پایه‌ها و کامپوننت‌ها"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li></ul>",
+            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li></ul>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/pz_foundations.webp",
+              "caption": {
+                "en": "Foundations: colour tokens and type scales in Poppins and DM Sans.",
+                "fa": "پایه‌ها: توکن‌های رنگ و مقیاس تایپوگرافی با Poppins و DM Sans."
+              }
+            },
+            {
+              "image": "/images/pz_buttons.webp",
+              "caption": {
+                "en": "Button states in three corner styles: default, hover, click and disabled.",
+                "fa": "وضعیت‌های دکمه در سه سبک گوشه: پیش‌فرض، هاور، کلیک و غیرفعال."
+              }
+            },
+            {
+              "image": "/images/pz_components.webp",
+              "caption": {
+                "en": "The full button set across sizes, with and without icons.",
+                "fa": "مجموعه کامل دکمه‌ها در اندازه‌های مختلف، با آیکون و بدون آیکون."
+              }
+            }
+          ]
+        },
         {
           "id": "themes",
           "title": {
