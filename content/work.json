@@ -277,6 +277,20 @@
               }
             },
             {
+              "image": "/images/pz_tables.webp",
+              "caption": {
+                "en": "Tables: toolbar with filters, sorting, density and pagination; row hover actions; and the bordered line type.",
+                "fa": "جدول‌ها: نوار ابزار با فیلتر، مرتب‌سازی، تراکم و صفحه‌بندی؛ اکشن‌های ردیف در حالت هاور؛ و نوع خط‌دار."
+              }
+            },
+            {
+              "image": "/images/pz_controls.webp",
+              "caption": {
+                "en": "Navigation bar, checkboxes, radio buttons, progress, range sliders, ratings and the date picker.",
+                "fa": "نوار ناوبری، چک‌باکس، دکمه رادیویی، نوار پیشرفت، اسلایدر بازه، امتیازدهی و انتخاب تاریخ."
+              }
+            },
+            {
               "image": "/images/ds_charts.webp",
               "caption": {
                 "en": "Chart components used in dashboards and reports.",
@@ -1083,8 +1097,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Layout:</strong> a soft grid on a 4px step (4 to 80px), and documented spacing between headings, content, buttons and sections for desktop, tablet and mobile, including the 24px scrollbar on desktop.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li><li><strong>Forms:</strong> inputs, text areas with counters, number steppers, tag combo boxes and dropdowns, each specified for default, active, hover, filled, disabled, error and error-filled states.</li><li><strong>Upload:</strong> file and image drop zones with drag-over, error, loading and finished states, and a cancel action at every step.</li><li><strong>Product components:</strong> test, question and candidate cards, assessment rows and add blocks, each in light and dark, with states for drag, preview, add and delete.</li></ul>",
-            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>چیدمان:</strong> گرید نرم با گام ۴ پیکسلی (۴ تا ۸۰ پیکسل)، و فاصله‌گذاری مستند بین تیترها، محتوا، دکمه‌ها و بخش‌ها برای دسکتاپ، تبلت و موبایل، با در نظر گرفتن اسکرول‌بار ۲۴ پیکسلی دسکتاپ.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li><li><strong>فرم‌ها:</strong> ورودی، فیلد متن چندخطی با شمارنده، فیلد عدد، کمبوباکس برچسب و فهرست کشویی، هر کدام برای وضعیت‌های پیش‌فرض، فعال، هاور، پرشده، غیرفعال، خطا و خطای پرشده تعریف شده‌اند.</li><li><strong>آپلود:</strong> ناحیه رها کردن فایل و تصویر با وضعیت‌های کشیدن، خطا، بارگذاری و پایان، و امکان لغو در هر مرحله.</li><li><strong>کامپوننت‌های محصول:</strong> کارت آزمون، سؤال و داوطلب، ردیف ارزیابی و بلوک‌های افزودن، هر کدام در تم روشن و تیره، با وضعیت‌های کشیدن، پیش‌نمایش، افزودن و حذف.</li></ul>"
+            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Layout:</strong> a soft grid on a 4px step (4 to 80px), and documented spacing between headings, content, buttons and sections for desktop, tablet and mobile, including the 24px scrollbar on desktop.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li><li><strong>Forms:</strong> inputs, text areas with counters, number steppers, tag combo boxes and dropdowns, each specified for default, active, hover, filled, disabled, error and error-filled states.</li><li><strong>Upload:</strong> file and image drop zones with drag-over, error, loading and finished states, and a cancel action at every step.</li><li><strong>Data tables:</strong> two table types, three densities, 24 cell types, header cells with sorting and filters, hover and inline editing, fixed headers and columns on scroll, and a toolbar for filtering, search, rows per page and settings.</li><li><strong>Controls:</strong> a navigation bar in light and dark with collapsed, tree and badge states, plus checkboxes, radio buttons, progress bars and rings, range sliders, ratings, a date picker and a calendar with day, month, year and range views.</li><li><strong>Product components:</strong> test, question and candidate cards, assessment rows and add blocks, each in light and dark, with states for drag, preview, add and delete.</li></ul>",
+            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>چیدمان:</strong> گرید نرم با گام ۴ پیکسلی (۴ تا ۸۰ پیکسل)، و فاصله‌گذاری مستند بین تیترها، محتوا، دکمه‌ها و بخش‌ها برای دسکتاپ، تبلت و موبایل، با در نظر گرفتن اسکرول‌بار ۲۴ پیکسلی دسکتاپ.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li><li><strong>فرم‌ها:</strong> ورودی، فیلد متن چندخطی با شمارنده، فیلد عدد، کمبوباکس برچسب و فهرست کشویی، هر کدام برای وضعیت‌های پیش‌فرض، فعال، هاور، پرشده، غیرفعال، خطا و خطای پرشده تعریف شده‌اند.</li><li><strong>آپلود:</strong> ناحیه رها کردن فایل و تصویر با وضعیت‌های کشیدن، خطا، بارگذاری و پایان، و امکان لغو در هر مرحله.</li><li><strong>جدول داده:</strong> دو نوع جدول، سه سطح تراکم، ۲۴ نوع سلول، سلول سرستون با مرتب‌سازی و فیلتر، هاور و ویرایش درجا، سرستون و ستون ثابت هنگام اسکرول، و نوار ابزار برای فیلتر، جستجو، تعداد ردیف و تنظیمات.</li><li><strong>کنترل‌ها:</strong> نوار ناوبری در تم روشن و تیره با حالت جمع‌شده، درختی و نشان اعلان، و چک‌باکس، دکمه رادیویی، نوار و حلقه پیشرفت، اسلایدر بازه، امتیازدهی، انتخاب تاریخ و تقویم با نمای روز، ماه، سال و بازه.</li><li><strong>کامپوننت‌های محصول:</strong> کارت آزمون، سؤال و داوطلب، ردیف ارزیابی و بلوک‌های افزودن، هر کدام در تم روشن و تیره، با وضعیت‌های کشیدن، پیش‌نمایش، افزودن و حذف.</li></ul>"
           },
           "note": {
             "en": "",
@@ -1139,6 +1153,27 @@
               "caption": {
                 "en": "File and image upload: drag and drop, error, loading and uploaded files.",
                 "fa": "آپلود فایل و تصویر: کشیدن و رها کردن، خطا، بارگذاری و فایل‌های آپلودشده."
+              }
+            },
+            {
+              "image": "/images/pz_tables.webp",
+              "caption": {
+                "en": "Tables: toolbar with filters, sorting, density and pagination; row hover actions; and the bordered line type.",
+                "fa": "جدول‌ها: نوار ابزار با فیلتر، مرتب‌سازی، تراکم و صفحه‌بندی؛ اکشن‌های ردیف در حالت هاور؛ و نوع خط‌دار."
+              }
+            },
+            {
+              "image": "/images/pz_controls.webp",
+              "caption": {
+                "en": "Navigation bar, checkboxes, radio buttons, progress, range sliders, ratings and the date picker.",
+                "fa": "نوار ناوبری، چک‌باکس، دکمه رادیویی، نوار پیشرفت، اسلایدر بازه، امتیازدهی و انتخاب تاریخ."
+              }
+            },
+            {
+              "image": "/images/pz_calendar.webp",
+              "caption": {
+                "en": "Calendar: day, month and year views, single and double, with selected and range states.",
+                "fa": "تقویم: نمای روز، ماه و سال، تکی و دوتایی، با وضعیت انتخاب و بازه."
               }
             }
           ]
