@@ -211,6 +211,39 @@
           ]
         },
         {
+          "id": "system",
+          "title": {
+            "en": "The design system",
+            "fa": "دیزاین سیستم"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Puzzleity was built on the design system I created at Duniar: themeable tokens and a chart library that also power the employer dashboards and reports. <a href=\"#design-system\">See the design system</a>.</p>",
+            "fa": "<p>پازلیتی روی دیزاین سیستمی ساخته شد که در دونیار طراحی کردم: توکن‌های قابل تغییر تم و کتابخانه نمودار که داشبوردها و گزارش‌های سمت کارفرما را هم می‌سازد. <a href=\"#design-system\">دیدن دیزاین سیستم</a>.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/ds_themes.webp",
+              "caption": {
+                "en": "Theme variants from the shared system.",
+                "fa": "تم‌های مختلف از سیستم مشترک."
+              }
+            },
+            {
+              "image": "/images/ds_charts.webp",
+              "caption": {
+                "en": "Chart components used in dashboards and reports.",
+                "fa": "کامپوننت‌های نمودار در داشبوردها و گزارش‌ها."
+              }
+            }
+          ]
+        },
+        {
           "id": "outcome",
           "title": {
             "en": "Outcome and next steps",
@@ -925,6 +958,136 @@
               "caption": {
                 "en": "Impact dashboard and the donation flow.",
                 "fa": "داشبورد اثر و فرایند حمایت مالی."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "design-system",
+      "secondary": true,
+      "title": {
+        "en": "Design system",
+        "fa": "دیزاین سیستم"
+      },
+      "category": {
+        "en": "Design system · Figma",
+        "fa": "دیزاین سیستم · فیگما"
+      },
+      "year": {
+        "en": "Duniar",
+        "fa": "دونیار"
+      },
+      "cover": "/images/ds_themes.webp",
+      "teaser": {
+        "en": "A shared Figma design system with themeable tokens and a full chart library, used across products including Puzzleity.",
+        "fa": "دیزاین سیستم مشترک در فیگما با توکن‌های قابل تغییر تم و کتابخانه کامل نمودار، مورد استفاده در محصولات مختلف از جمله پازلیتی."
+      },
+      "highlight": {
+        "en": "",
+        "fa": ""
+      },
+      "summary": {
+        "en": "One set of components and tokens that can re-skin a whole product and power its dashboards.",
+        "fa": "یک مجموعه کامپوننت و توکن که می‌تواند ظاهر کل یک محصول را عوض کند و داشبوردهایش را بسازد."
+      },
+      "glance": {
+        "problem": {
+          "en": "Each new product started its UI from scratch, and dashboards looked different in every project.",
+          "fa": "هر محصول جدید رابطش را از صفر شروع می‌کرد و داشبوردها در هر پروژه شکل متفاوتی داشتند."
+        },
+        "users": {
+          "en": "Designers and front-end developers across the company’s products.",
+          "fa": "طراحان و برنامه‌نویسان فرانت‌اند در محصولات مختلف شرکت."
+        },
+        "role": {
+          "en": "Senior UI/UX Designer",
+          "fa": "طراح ارشد UI/UX"
+        },
+        "outcome": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "facts": {
+        "role": {
+          "en": "Senior UI/UX Designer",
+          "fa": "طراح ارشد UI/UX"
+        },
+        "team": {
+          "en": "",
+          "fa": ""
+        },
+        "time": {
+          "en": "Duniar",
+          "fa": "دونیار"
+        },
+        "platform": {
+          "en": "Figma library: web, light and dark",
+          "fa": "کتابخانه فیگما: وب، روشن و تیره"
+        },
+        "status": {
+          "en": "",
+          "fa": ""
+        }
+      },
+      "chapters": [
+        {
+          "id": "themes",
+          "title": {
+            "en": "One system, many themes",
+            "fa": "یک سیستم، چند تم"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Colour, type and spacing live in tokens, so a single change re-skins every component. The same hosting website is shown here in five themes, from magenta to teal, orange and violet, without redesigning a single screen.</p>",
+            "fa": "<p>رنگ، تایپوگرافی و فاصله‌ها در توکن‌ها تعریف شده‌اند، پس با یک تغییر ظاهر همه کامپوننت‌ها عوض می‌شود. اینجا یک وب‌سایت هاستینگ در پنج تم نمایش داده شده، از سرخابی تا فیروزه‌ای، نارنجی و بنفش، بدون بازطراحی حتی یک صفحه.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/ds_themes.webp",
+              "caption": {
+                "en": "Five themes from the same components.",
+                "fa": "پنج تم از یک مجموعه کامپوننت."
+              }
+            },
+            {
+              "image": "/images/ds_detail.webp",
+              "caption": {
+                "en": "A themed page next to dashboard components.",
+                "fa": "یک صفحه با تم، کنار کامپوننت‌های داشبورد."
+              }
+            }
+          ]
+        },
+        {
+          "id": "charts",
+          "title": {
+            "en": "A chart library",
+            "fa": "کتابخانه نمودار"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Dashboards were the hardest part to keep consistent, so the system includes a full chart library: bar, line, pie, donut and gauge charts, with shared cards, legends, tooltips and time filters. Every product’s reports are built from the same pieces.</p>",
+            "fa": "<p>یکدست نگه داشتن داشبوردها سخت‌ترین بخش بود، برای همین سیستم یک کتابخانه کامل نمودار دارد: میله‌ای، خطی، دایره‌ای، دونات و گیج، با کارت‌ها، راهنما، تولتیپ و فیلترهای زمانی مشترک. گزارش‌های همه محصولات از همین قطعه‌ها ساخته می‌شوند.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/ds_charts.webp",
+              "caption": {
+                "en": "Bar, line and pie chart sets.",
+                "fa": "مجموعه نمودارهای میله‌ای، خطی و دایره‌ای."
               }
             }
           ]

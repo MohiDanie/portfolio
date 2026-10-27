@@ -3,17 +3,6 @@
     {
       "image": "",
       "title": {
-        "en": "Design system",
-        "fa": "دیزاین سیستم"
-      },
-      "text": {
-        "en": "A shared Figma design system with variants and adaptive components, used across a portfolio of products.",
-        "fa": "دیزاین سیستم مشترک در فیگما با واریانت‌ها و کامپوننت‌های تطبیق‌پذیر، مورد استفاده در مجموعه‌ای از محصولات."
-      }
-    },
-    {
-      "image": "",
-      "title": {
         "en": "Admin panels and modular CRM",
         "fa": "پنل‌های مدیریتی و CRM ماژولار"
       },
