@@ -256,6 +256,20 @@
               }
             },
             {
+              "image": "/images/pz_inputs.webp",
+              "caption": {
+                "en": "Inputs, text areas, number fields, tag combo boxes and dropdown lists, across seven states.",
+                "fa": "ورودی‌ها، فیلد متن چندخطی، فیلد عدد، کمبوباکس برچسب و فهرست کشویی، در هفت وضعیت."
+              }
+            },
+            {
+              "image": "/images/pz_upload.webp",
+              "caption": {
+                "en": "File and image upload: drag and drop, error, loading and uploaded files.",
+                "fa": "آپلود فایل و تصویر: کشیدن و رها کردن، خطا، بارگذاری و فایل‌های آپلودشده."
+              }
+            },
+            {
               "image": "/images/ds_charts.webp",
               "caption": {
                 "en": "Chart components used in dashboards and reports.",
@@ -1062,8 +1076,8 @@
           },
           "draft_rationale": false,
           "body": {
-            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li><li><strong>Product components:</strong> test, question and candidate cards, assessment rows and add blocks, each in light and dark, with states for drag, preview, add and delete.</li></ul>",
-            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li><li><strong>کامپوننت‌های محصول:</strong> کارت آزمون، سؤال و داوطلب، ردیف ارزیابی و بلوک‌های افزودن، هر کدام در تم روشن و تیره، با وضعیت‌های کشیدن، پیش‌نمایش، افزودن و حذف.</li></ul>"
+            "en": "<ul><li><strong>Colour:</strong> primary and secondary teal scales from 500 to 900, a grey scale for surfaces and borders, and four semantic colours for error, attention, approval and links.</li><li><strong>Type:</strong> Poppins and DM Sans, each with a fixed scale for headings, body text and buttons.</li><li><strong>Buttons:</strong> main, secondary, icon, arrow and text-link buttons in three sizes, each with default, hover, click and disabled states, and in three corner styles (pill, rounded and square) so a product can pick its shape without new components.</li><li><strong>Forms:</strong> inputs, text areas with counters, number steppers, tag combo boxes and dropdowns, each specified for default, active, hover, filled, disabled, error and error-filled states.</li><li><strong>Upload:</strong> file and image drop zones with drag-over, error, loading and finished states, and a cancel action at every step.</li><li><strong>Product components:</strong> test, question and candidate cards, assessment rows and add blocks, each in light and dark, with states for drag, preview, add and delete.</li></ul>",
+            "fa": "<ul><li><strong>رنگ:</strong> طیف‌های فیروزه‌ای اصلی و ثانویه از ۵۰۰ تا ۹۰۰، طیف خاکستری برای سطح‌ها و حاشیه‌ها، و چهار رنگ معنایی برای خطا، هشدار، تأیید و لینک.</li><li><strong>تایپوگرافی:</strong> Poppins و DM Sans، هر کدام با مقیاس ثابت برای تیتر، متن و دکمه.</li><li><strong>دکمه‌ها:</strong> دکمه اصلی، ثانویه، آیکون‌دار، فلش‌دار و لینک متنی در سه اندازه، هر کدام با وضعیت پیش‌فرض، هاور، کلیک و غیرفعال، و در سه سبک گوشه (کپسولی، گرد و مربعی) تا هر محصول بدون کامپوننت جدید شکل خودش را انتخاب کند.</li><li><strong>فرم‌ها:</strong> ورودی، فیلد متن چندخطی با شمارنده، فیلد عدد، کمبوباکس برچسب و فهرست کشویی، هر کدام برای وضعیت‌های پیش‌فرض، فعال، هاور، پرشده، غیرفعال، خطا و خطای پرشده تعریف شده‌اند.</li><li><strong>آپلود:</strong> ناحیه رها کردن فایل و تصویر با وضعیت‌های کشیدن، خطا، بارگذاری و پایان، و امکان لغو در هر مرحله.</li><li><strong>کامپوننت‌های محصول:</strong> کارت آزمون، سؤال و داوطلب، ردیف ارزیابی و بلوک‌های افزودن، هر کدام در تم روشن و تیره، با وضعیت‌های کشیدن، پیش‌نمایش، افزودن و حذف.</li></ul>"
           },
           "note": {
             "en": "",
@@ -1097,6 +1111,20 @@
               "caption": {
                 "en": "Puzzleity components: test, candidate and question cards, and the add-question and add-test blocks.",
                 "fa": "کامپوننت‌های پازلیتی: کارت آزمون، داوطلب و سؤال، و بلوک‌های افزودن سؤال و آزمون."
+              }
+            },
+            {
+              "image": "/images/pz_inputs.webp",
+              "caption": {
+                "en": "Inputs, text areas, number fields, tag combo boxes and dropdown lists, across seven states.",
+                "fa": "ورودی‌ها، فیلد متن چندخطی، فیلد عدد، کمبوباکس برچسب و فهرست کشویی، در هفت وضعیت."
+              }
+            },
+            {
+              "image": "/images/pz_upload.webp",
+              "caption": {
+                "en": "File and image upload: drag and drop, error, loading and uploaded files.",
+                "fa": "آپلود فایل و تصویر: کشیدن و رها کردن، خطا، بارگذاری و فایل‌های آپلودشده."
               }
             }
           ]
