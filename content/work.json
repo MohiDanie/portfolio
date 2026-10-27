@@ -106,6 +106,32 @@
           "gallery": []
         },
         {
+          "id": "map",
+          "title": {
+            "en": "Product map",
+            "fa": "نقشه محصول"
+          },
+          "draft_rationale": false,
+          "body": {
+            "en": "<p>Puzzleity covers the whole hiring loop in seven areas: account setup for owners, members and candidates; creating assessments and their questions; the assessment list and pipeline; interview scheduling; candidate profiles with notes, emails and reports; the company workspace with members, library and templates; and personal settings. Question types include essay, multiple choice, video, file upload and code.</p>",
+            "fa": "<p>پازلیتی کل چرخه استخدام را در هفت بخش پوشش می‌دهد: راه‌اندازی حساب برای مالک، اعضا و داوطلبان؛ ساخت آزمون و سؤال‌ها؛ فهرست و پایپ‌لاین آزمون‌ها؛ زمان‌بندی مصاحبه؛ پروفایل داوطلب با یادداشت، ایمیل و گزارش؛ فضای کاری شرکت با اعضا، کتابخانه و قالب‌ها؛ و تنظیمات شخصی. انواع سؤال شامل تشریحی، چندگزینه‌ای، ویدیویی، آپلود فایل و کدنویسی است.</p>"
+          },
+          "note": {
+            "en": "",
+            "fa": ""
+          },
+          "decisions": [],
+          "gallery": [
+            {
+              "image": "/images/pz_map.webp",
+              "caption": {
+                "en": "Puzzleity product map.",
+                "fa": "نقشه محصول پازلیتی."
+              }
+            }
+          ]
+        },
+        {
           "id": "decisions",
           "title": {
             "en": "Key decisions",
